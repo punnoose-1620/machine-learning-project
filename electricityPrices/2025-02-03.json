@@ -1,0 +1,137 @@
+[
+    {
+        "time": "2025-02-02 21:00:00",
+        "resolution": "PT60M",
+        "price": 52.08
+    },
+    {
+        "time": "2025-02-02 22:00:00",
+        "resolution": "PT60M",
+        "price": 40.3
+    },
+    {
+        "time": "2025-02-02 23:00:00",
+        "resolution": "PT60M",
+        "price": 42.14
+    },
+    {
+        "time": "2025-02-03 00:00:00",
+        "resolution": "PT60M",
+        "price": 35.46
+    },
+    {
+        "time": "2025-02-03 01:00:00",
+        "resolution": "PT60M",
+        "price": 35.49
+    },
+    {
+        "time": "2025-02-03 02:00:00",
+        "resolution": "PT60M",
+        "price": 35.15
+    },
+    {
+        "time": "2025-02-03 03:00:00",
+        "resolution": "PT60M",
+        "price": 37.87
+    },
+    {
+        "time": "2025-02-03 04:00:00",
+        "resolution": "PT60M",
+        "price": 51.56
+    },
+    {
+        "time": "2025-02-03 05:00:00",
+        "resolution": "PT60M",
+        "price": 102.46
+    },
+    {
+        "time": "2025-02-03 06:00:00",
+        "resolution": "PT60M",
+        "price": 148.86
+    },
+    {
+        "time": "2025-02-03 07:00:00",
+        "resolution": "PT60M",
+        "price": 164.29
+    },
+    {
+        "time": "2025-02-03 08:00:00",
+        "resolution": "PT60M",
+        "price": 149.64
+    },
+    {
+        "time": "2025-02-03 09:00:00",
+        "resolution": "PT60M",
+        "price": 149.67
+    },
+    {
+        "time": "2025-02-03 10:00:00",
+        "resolution": "PT60M",
+        "price": 126.22
+    },
+    {
+        "time": "2025-02-03 11:00:00",
+        "resolution": "PT60M",
+        "price": 117.31
+    },
+    {
+        "time": "2025-02-03 12:00:00",
+        "resolution": "PT60M",
+        "price": 115.23
+    },
+    {
+        "time": "2025-02-03 13:00:00",
+        "resolution": "PT60M",
+        "price": 124.31
+    },
+    {
+        "time": "2025-02-03 14:00:00",
+        "resolution": "PT60M",
+        "price": 145.97
+    },
+    {
+        "time": "2025-02-03 15:00:00",
+        "resolution": "PT60M",
+        "price": 169.78
+    },
+    {
+        "time": "2025-02-03 16:00:00",
+        "resolution": "PT60M",
+        "price": 214.84
+    },
+    {
+        "time": "2025-02-03 17:00:00",
+        "resolution": "PT60M",
+        "price": 201.17
+    },
+    {
+        "time": "2025-02-03 18:00:00",
+        "resolution": "PT60M",
+        "price": 200.84
+    },
+    {
+        "time": "2025-02-03 19:00:00",
+        "resolution": "PT60M",
+        "price": 164.21
+    },
+    {
+        "time": "2025-02-03 20:00:00",
+        "resolution": "PT60M",
+        "price": 129.96
+    },
+    {
+        "time": "2025-02-03 21:00:00",
+        "resolution": "PT60M",
+        "price": 108.14
+    },
+    {
+        "time": "2025-02-03 22:00:00",
+        "resolution": "PT60M",
+        "price": 53.07
+    },
+    {
+        "time": "2025-02-03 23:00:00",
+        "resolution": "PT60M",
+        "price": 53.71
+    }
+]
