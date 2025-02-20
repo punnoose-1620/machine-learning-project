@@ -1,6 +1,8 @@
 import json
+import time
 import requests
 import pandas as pd
+from constants import *
 from pathlib import Path
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
@@ -64,6 +66,67 @@ def getElectricityExportedToGermany():
             write_json_to_file(f'./electricityExportAmounts/{year}.json', data=data)
             print(f"Electricity Export Data for {year} written to file....\n")
 
+def getTotalSwedishElectricityExport(startDate: datetime):
+    '''
+    Gets the total hourly Electricity Export from Sweden from the given start datetime to today.\n
+    Expected return format : { date1_hour1 : exportValue1, date1_hour2 : exportValue1 }
+    '''
+    countryCode = 'se'
+    startEpochTime = str(time.mktime(startDate.timetuple())).split('.')[0]
+    endEpochTime = str(time.mktime(datetime.now().timetuple())).split('.')[0]
+    params = {
+        'country': countryCode,
+        'start': startEpochTime,
+        'end': endEpochTime
+    }
+    url = f'https://api.energy-charts.info/cbet?country={countryCode}&start={startEpochTime}&end={endEpochTime}'
+    print(f"Get Electricity Export Params : {params}")
+    try:
+        response = requests.get(url)
+        data = json.loads(response.content)
+        print(f"Get Electricity Export response : {data.keys()}\n")
+        unixSeconds = data['unix_seconds']
+        countries = data['countries']
+        deprecated = data['deprecated']
+        if deprecated==True:
+            return None
+        print(f"\nNo of Entries : {len(unixSeconds)}")
+        countryData = {}
+        for country in countries:
+            key = country['name']
+            value = country['data']
+            refKeys = countryData.keys()
+            if key not in refKeys:
+                countryData[key] = value
+        print(f"Countries : {countryData.keys()}")
+
+        exportSums = []
+        for country in countryData.keys():
+            data = countryData[country]
+            if len(exportSums)==0:
+                exportSums = data
+            else: 
+                if(len(exportSums)==len(data)):
+                    for i in range(len(exportSums)):
+                        exportSums[i] = exportSums[i]+data[i]
+                else:
+                    print("Summing Error")
+        print(f"Export Sums({len(exportSums)})")
+
+        finalData = {}
+        for i in range(len(unixSeconds)):
+            entryDate = datetime.fromtimestamp(unixSeconds[i])
+            exportValue = exportSums[i]
+            # print(f"{entryDate} : {exportValue}")
+            if entryDate in finalData:
+                print("Test Error")
+            finalData[f'{entryDate}'] = exportValue
+        print(f"Final Data : {json.dumps(finalData, indent=4)}")
+        return finalData
+    except Exception as e:
+        print(f"Get Electricity Export error {e}")
+    return None
+
 def getDateBasedElectricityPrice(yyyymmdd: str):
     # Get BZN|SE3
     url = f"https://thingler.io/day-ahead?date={yyyymmdd}&bz=BZN|SE1,BZN|SE2,BZN|SE3,BZN|SE4"
@@ -115,18 +178,6 @@ def getParametersList():
     return None
 
 # Get SMHI Weather Data
-def getch_generic_smhi_weather():
-    base_url = ''
-    try:
-        response = requests.get(base_url)
-        response.raise_for_status()  # Raise an error for bad responses (4xx, 5xx)
-        data = response.json()
-        return data
-    except requests.exceptions.RequestException as e:
-        print(f"Error fetching Generic SMHI Weather data: {e}")
-        return None
-    print()
-
 def fetch_smhi_weather(station_id, parameter_id, period="latest-day"):
     """
     Fetches historical weather data from SMHI for a given station and parameter.
@@ -192,15 +243,17 @@ def getSolarParams():
 # Stockholm, Norrkoping : BioEnergy [98200, 98100, 86360] : 8%
 # Sodermanland, Ostergotland, Vastra Gotaland : Solar [97150, 85180, 84390] : 1%
 
+getTotalSwedishElectricityExport(datetime(year=2025, month=1, day=1))
+
 #Stations and Parameters affecting SE3 Prices {station: parameter}
-stats_and_params = {
-    1: 1,
-    4: 4,
-    1: 6,
-    1: 7,
-    1: 910,
-    1: 22
-}
+# stats_and_params = {
+#     1: 1,
+#     4: 4,
+#     1: 6,
+#     1: 7,
+#     1: 910,
+#     1: 22
+# }
 
 # getElectricityExportedToGermany()
 # getElectricityPrices()
