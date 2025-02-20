@@ -90,7 +90,7 @@ def getTotalSwedishElectricityExport(startDate: datetime):
         deprecated = data['deprecated']
         if deprecated==True:
             return None
-        print(f"\nNo of Entries : {len(unixSeconds)}")
+        # print(f"\nNo of Entries : {len(unixSeconds)}")
         countryData = {}
         for country in countries:
             key = country['name']
@@ -98,7 +98,7 @@ def getTotalSwedishElectricityExport(startDate: datetime):
             refKeys = countryData.keys()
             if key not in refKeys:
                 countryData[key] = value
-        print(f"Countries : {countryData.keys()}")
+        # print(f"Countries : {countryData.keys()}")
 
         exportSums = []
         for country in countryData.keys():
@@ -111,7 +111,7 @@ def getTotalSwedishElectricityExport(startDate: datetime):
                         exportSums[i] = exportSums[i]+data[i]
                 else:
                     print("Summing Error")
-        print(f"Export Sums({len(exportSums)})")
+        # print(f"Export Sums({len(exportSums)})")
 
         finalData = {}
         for i in range(len(unixSeconds)):
@@ -133,24 +133,37 @@ def getDateBasedElectricityPrice(yyyymmdd: str):
     try:
         response = requests.get(url)
         data = json.loads(response.content)
-        print(f"Get Electricity response : {data.keys()} : {'BZN|SE3' in data.keys()}")
+        # print(f"Get Electricity response : {data.keys()}")
         if('BZN|SE3' in data.keys()):
             return data['BZN|SE3']
     except Exception as e:
         print(f"Get Electricity error {e}")
     return None
 
-def getElectricityPrices():
+def getElectricityPrices(startDate: datetime, write: bool):
+    '''
+    Gets hourly electricity prices from given start date to current time.\n
+    Expected output format is { date0_hour0 : price_value0, date0_hour1 : price_value1 }
+    '''
     today = datetime.today().date()
-    start_date = datetime(2025, 1, 1).date()
+    start_date = startDate.date()
     current_date = start_date
+    finalData = {}
     while current_date <= today:
         current_date += timedelta(days=1)
         dateAsString = f'{current_date.strftime("%Y-%m-%d")}'
         data = getDateBasedElectricityPrice(dateAsString)
         if data is not None:
-            write_json_to_file(f'./electricityPrices/{dateAsString}.json', data=data)
-            print(f"Swedish Electricity Price Data for {dateAsString} written to file....\n")
+            for item in data:
+                key = item['time']
+                value = item['price']
+                refKeys = finalData.keys()
+                if key not in refKeys:
+                    finalData[key] = value
+            if write==True:
+                write_json_to_file(f'./electricityPrices/{dateAsString}.json', data=data)
+                print(f"Swedish Electricity Price Data for {dateAsString} written to file....\n")
+    return finalData
 
 def getParametersList():
     url = "https://opendata-download-metobs.smhi.se/api/version/1.0/parameter.json"
@@ -243,7 +256,10 @@ def getSolarParams():
 # Stockholm, Norrkoping : BioEnergy [98200, 98100, 86360] : 8%
 # Sodermanland, Ostergotland, Vastra Gotaland : Solar [97150, 85180, 84390] : 1%
 
-getTotalSwedishElectricityExport(datetime(year=2025, month=1, day=1))
+first_data = getTotalSwedishElectricityExport(datetime(year=2025, month=1, day=1))
+second_data = getElectricityPrices(datetime(year=2025, month=1, day=1), False)
+
+print(f"First Keys({len(first_data.keys())}) : Second Keys({len(second_data.keys())})")
 
 #Stations and Parameters affecting SE3 Prices {station: parameter}
 # stats_and_params = {
