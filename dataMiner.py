@@ -114,6 +114,19 @@ def getParametersList():
         print(f"Get Parameters List error {e}")
     return None
 
+# Get SMHI Weather Data
+def getch_generic_smhi_weather():
+    base_url = ''
+    try:
+        response = requests.get(base_url)
+        response.raise_for_status()  # Raise an error for bad responses (4xx, 5xx)
+        data = response.json()
+        return data
+    except requests.exceptions.RequestException as e:
+        print(f"Error fetching Generic SMHI Weather data: {e}")
+        return None
+    print()
+
 def fetch_smhi_weather(station_id, parameter_id, period="latest-day"):
     """
     Fetches historical weather data from SMHI for a given station and parameter.
@@ -135,7 +148,7 @@ def fetch_smhi_weather(station_id, parameter_id, period="latest-day"):
         data = response.json()
         return data
     except requests.exceptions.RequestException as e:
-        print(f"Error fetching data: {e}")
+        print(f"Error fetching Specific SMHI Weather data: {e}")
         return None
 
 def getHydroParams():
@@ -143,24 +156,36 @@ def getHydroParams():
     start_year = 1800
     # Nearest Station to Hydro Plants affecting SE3 prices along with Keys for Percipitation on different stations
     stats_and_params = {114140: [23, 14, 5, 7]} 
+    # For each station, get all required param values
+    # For each date in both stations, take union of params, take average for common params
+    # Expected Output : { date : { hydro_param0 : value0, hydro_param1 : value1 } }
 
 def getNuclearParams():
     contributionFactor = 0.3
     start_year = 1800
     # Nearest Station to Nuclear Plants affecting SE3 prices along with Keys for Percipitation on different stations
     stats_and_params = {}
+    # For each station, get all required param values
+    # For each date in both stations, take union of params, take average for common params
+    # Expected Output : { date : { nuclear_param0 : value0, nuclear_param1 : value1 } }
 
 def getBioEnergyParams():
     contributionFactor = 0.08
     start_year = 1800
     # Nearest Station to Bio Energy Plants affecting SE3 prices along with Keys for Percipitation on different stations
     stats_and_params = {}
+    # For each station, get all required param values
+    # For each date in both stations, take union of params, take average for common params
+    # Expected Output : { date : { bio_param0 : value0, bio_param1 : value1 } }
 
 def getSolarParams():
     contributionFactor = 0.01
     start_year : 1983
     # Nearest Station to Solar Plants affecting SE3 prices along with Keys for Percipitation on different stations
     stats_and_params = {93235: [], 86655: []}
+    # For each station, get all required param values
+    # For each date in both stations, take union of params, take average for common params
+    # Expected Output : { date : { solar_param0 : value0, solar_param1 : value1 } }
 
 # Dalarna : Hydro [114140] : 40%
 # Uppsala, Haland : Nuclear [108640, 72160] : 30%
@@ -179,5 +204,5 @@ stats_and_params = {
 
 # getElectricityExportedToGermany()
 # getElectricityPrices()
-paramData = getParametersList()
-print(f"Parameters : {json.dumps(paramData, indent=4)}")
+# paramData = getParametersList()
+# print(f"Parameters : {json.dumps(paramData, indent=4)}")
