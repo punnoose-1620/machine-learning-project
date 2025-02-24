@@ -219,10 +219,24 @@ def getHydroParams():
     contributionFactor = 0.4
     start_year = 1800
     # Nearest Station to Hydro Plants affecting SE3 prices along with Keys for Percipitation on different stations
-    stats_and_params = {114140: [23, 14, 5, 7]} 
+    # stats_and_params = {114140: [23, 14, 5, 7], 2396: [], 1906: []} 
+    stats_and_params = {114140: [7]} 
     # For each station, get all required param values
     # For each date in both stations, take union of params, take average for common params
     # Expected Output : { date : { hydro_param0 : value0, hydro_param1 : value1 } }
+    for key in stats_and_params.keys():
+        parameters = list(stats_and_params[key])
+        for param in parameters:
+            data = fetch_smhi_weather(key, param)
+            if data is not None:
+                # print(f"Hydro data response : {json.dumps(data, indent=4)}")
+                # print(f"Hydro data response keys : {data.keys()}")
+                # print(f"Hydro data response parameter({param}) : {json.dumps(data['parameter'], indent=4)}")
+                # print(f"Hydro data response station({key}) : {json.dumps(data['station'], indent=4)}")
+                print(f"Hydro data response period({param}) : {json.dumps(data['period'], indent=4)}")
+                # print(f"Hydro data response value : {json.dumps(data['value'], indent=4)}")
+                print(f"Hydro data response from : {datetime.fromtimestamp(timestamp=float(data['period']['from']))}")
+                print(f"Hydro data response to : {float(data['period']['to'])}")
 
 def getNuclearParams():
     contributionFactor = 0.3
@@ -253,13 +267,8 @@ def getSolarParams():
 
 # Dalarna : Hydro [114140] : 40%
 # Uppsala, Haland : Nuclear [108640, 72160] : 30%
-# Stockholm, Norrkoping : BioEnergy [98200, 98100, 86360] : 8%
-# Sodermanland, Ostergotland, Vastra Gotaland : Solar [97150, 85180, 84390] : 1%
-
-first_data = getTotalSwedishElectricityExport(datetime(year=2025, month=1, day=1))
-second_data = getElectricityPrices(datetime(year=2025, month=1, day=1), False)
-
-print(f"First Keys({len(first_data.keys())}) : Second Keys({len(second_data.keys())})")
+# Stockholm, Norrkoping : BioEnergy s[98200, 98100, 86360] p[]: 8%
+# Sodermanland, Ostergotland, Vastra Gotaland : Solar s[97150, 85180, 84390] p[28, 30, 32, 10] : 1%
 
 #Stations and Parameters affecting SE3 Prices {station: parameter}
 # stats_and_params = {
@@ -270,6 +279,17 @@ print(f"First Keys({len(first_data.keys())}) : Second Keys({len(second_data.keys
 #     1: 910,
 #     1: 22
 # }
+
+# stations = [114140, 108640, 72160, 98200, 98100, 86360]
+stations = [114140]
+for station in stations:
+    params = getParametersList()
+    paramFormatted = []
+    for item in params:
+        paramFormatted.append({item['id']: item['title']})
+    print(f"Params for station {station} : {json.dumps(paramFormatted, indent=4)}")
+    # for item in params:
+        # data = fetch_smhi_weather(station_id=station, parameter_id=)
 
 # getElectricityExportedToGermany()
 # getElectricityPrices()
