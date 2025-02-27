@@ -25,27 +25,27 @@ def mergeSwedishWeatherData(startYear: int, startMonth: int, startDay: int):
     return finalData
 
 def mergeElectricityData(startYear: int, startMonth: int, startDay: int):
-    first_data = getTotalSwedishElectricityExport(datetime(year=startYear, month=startMonth, day=startDay))
-    second_data = getElectricityPrices(datetime(year=startYear, month=startMonth, day=startDay), False)
-    finalData = {}
-    firstKeys = list(first_data.keys())
-    secondKeys = list(second_data.keys())
-    if(first_data is not None and second_data is not None):
-        for key in firstKeys:
-            if key in secondKeys:
-                previousPrice = 0
-                if key!=firstKeys[0]:
-                    index = firstKeys.index(key)
-                    tempKey = firstKeys[index-1]
-                    if tempKey in secondKeys:
-                        previousPrice = second_data[tempKey]
-                finalData[key] = {
-                'exported' : first_data[key],
-                'price' : second_data[key],
-                'previousPrice' : previousPrice
+    exports_data = getTotalSwedishElectricityExport(datetime(year=startYear, month=startMonth, day=startDay))
+    prices_data = getElectricityPrices(datetime(year=startYear, month=startMonth, day=startDay), False)
+    mergedData = {}
+    exportsKeys = list(exports_data.keys())     # List of all date-hour values used as keys in exports data
+    pricesKeys = list(prices_data.keys())       # List of all date-hour values used as keys in prices data
+    if(exports_data is not None and prices_data is not None):
+        for key in exportsKeys:
+            if key in pricesKeys:
+                previousHourPrice = 0
+                if key!=exportsKeys[0]:
+                    index = exportsKeys.index(key)
+                    tempKey = exportsKeys[index-1]
+                    if tempKey in pricesKeys:
+                        previousHourPrice = prices_data[tempKey]
+                mergedData[key] = {
+                'exported' : exports_data[key],
+                'price' : prices_data[key],
+                'previousPrice' : previousHourPrice
             }
-    write_json_to_file('./mergedPricesTest.json', finalData)
-    return finalData
+    write_json_to_file('./mergedPricesTest.json', mergedData)
+    return mergedData
 
 # mergeElectricityData(2025, 2, 1)
 mergeSwedishWeatherData(2025 ,2, 1)
