@@ -26,49 +26,10 @@ def read_json_from_file(file_path):
         return None
 
 # Energy values are represented in Giga Watts (GW)
-def getYearBasedElectricityExportedToGermany(year: str, countryName: str):
-    url = f"https://www.energy-charts.info/charts/power/data/de/year_tcs_saldo_{year}.json"
-    try:
-        response = requests.get(url=url)
-        byteData = response.content
-        jsonData = json.loads(byteData) # Returns array of objects
-        print(f"Fetch Electricity Prices response : {type(response.content)} : {type(jsonData)} : length({len(jsonData)})")
-        for data in jsonData:
-            countryName = data['name'][0]['en']
-            if countryName==countryName:
-                return data
-        print("Country Name not found in dataset")
-    except Exception as e:
-        print(f"Fetch Electricity Prices error : {e}")
-    return None
-
-def getWeekBasedElectricityExportedToGermany(year: str, week: str, countryName: str):
-    url = f"https://www.energy-charts.info/charts/power/data/de/year_tcs_saldo_{year}_{week}.json"
-    try:
-        response = requests.get(url=url)
-        byteData = response.content
-        jsonData = json.loads(byteData) # Returns array of objects
-        print(f"Fetch Electricity Prices response : {type(response.content)} : {type(jsonData)} : length({len(jsonData)})")
-        for data in jsonData:
-            countryName = data['name'][0]['en']
-            if countryName==countryName:
-                return data
-        print("Country Name not found in dataset")
-    except Exception as e:
-        print(f"Fetch Electricity Prices error : {e}")
-    return None
-
-def getElectricityExportedToGermany():
-    years = [2020, 2021, 2022, 2023, 2024, 2025]
-    for year in years:
-        data = getYearBasedElectricityExportedToGermany(year=year, countryName='Sweden')
-        if data is not None:
-            write_json_to_file(f'./electricityExportAmounts/{year}.json', data=data)
-            print(f"Electricity Export Data for {year} written to file....\n")
-
 def getTotalSwedishElectricityExport(startDate: datetime):
     '''
     Gets the total hourly Electricity Export from Sweden from the given start datetime to today.\n
+    Returns amount in Giga Watts\n
     Expected return format : { date1_hour1 : exportValue1, date1_hour2 : exportValue1 }
     '''
     countryCode = 'se'
