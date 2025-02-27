@@ -23,9 +23,9 @@ def mergeSwedishWeatherData():
     print(f"Merged Weather Data : {finalData}")
     return finalData
 
-def mergeElectricityData():
-    first_data = getTotalSwedishElectricityExport(datetime(year=2025, month=1, day=1))
-    second_data = getElectricityPrices(datetime(year=2025, month=1, day=1), False)
+def mergeElectricityData(startYear: int, startMonth: int, startDay: int):
+    first_data = getTotalSwedishElectricityExport(datetime(year=startYear, month=startMonth, day=startDay))
+    second_data = getElectricityPrices(datetime(year=startYear, month=startMonth, day=startDay), False)
     finalData = {}
     firstKeys = list(first_data.keys())
     secondKeys = list(second_data.keys())
@@ -36,7 +36,8 @@ def mergeElectricityData():
                 if key!=firstKeys[0]:
                     index = firstKeys.index(key)
                     tempKey = firstKeys[index-1]
-                    previousPrice = first_data[tempKey]
+                    if tempKey in secondKeys:
+                        previousPrice = second_data[tempKey]
                 finalData[key] = {
                 'exported' : first_data[key],
                 'price' : second_data[key],
@@ -45,4 +46,4 @@ def mergeElectricityData():
     write_json_to_file('./mergedPricesTest.json', finalData)
     return finalData
 
-mergeElectricityData()
+mergeElectricityData(2025, 2, 1)

@@ -121,7 +121,7 @@ def getTotalSwedishElectricityExport(startDate: datetime):
             if entryDate in finalData:
                 print("Test Error")
             finalData[f'{entryDate}'] = exportValue
-        print(f"Final Data : {json.dumps(finalData, indent=4)}")
+        print(f"Total Swedish Export Final Data : {json.dumps(finalData, indent=4)}")
         return finalData
     except Exception as e:
         print(f"Get Electricity Export error {e}")
@@ -163,6 +163,7 @@ def getElectricityPrices(startDate: datetime, write: bool):
             if write==True:
                 write_json_to_file(f'./electricityPrices/{dateAsString}.json', data=data)
                 print(f"Swedish Electricity Price Data for {dateAsString} written to file....\n")
+    print(f"Electricity Prices Final Data : {json.dumps(finalData, indent=4)}")
     return finalData
 
 def getParametersList():
@@ -221,22 +222,18 @@ def getHydroParams():
     # Nearest Station to Hydro Plants affecting SE3 prices along with Keys for Percipitation on different stations
     # stats_and_params = {114140: [23, 14, 5, 7], 2396: [], 1906: []} 
     stats_and_params = {114140: [7]} 
+    stats = [114140]
+    params = [7]
     # For each station, get all required param values
     # For each date in both stations, take union of params, take average for common params
     # Expected Output : { date : { hydro_param0 : value0, hydro_param1 : value1 } }
-    for key in stats_and_params.keys():
-        parameters = list(stats_and_params[key])
-        for param in parameters:
-            data = fetch_smhi_weather(key, param)
-            if data is not None:
-                # print(f"Hydro data response : {json.dumps(data, indent=4)}")
-                # print(f"Hydro data response keys : {data.keys()}")
-                # print(f"Hydro data response parameter({param}) : {json.dumps(data['parameter'], indent=4)}")
-                # print(f"Hydro data response station({key}) : {json.dumps(data['station'], indent=4)}")
-                print(f"Hydro data response period({param}) : {json.dumps(data['period'], indent=4)}")
-                # print(f"Hydro data response value : {json.dumps(data['value'], indent=4)}")
-                print(f"Hydro data response from : {datetime.fromtimestamp(timestamp=float(data['period']['from']))}")
-                print(f"Hydro data response to : {float(data['period']['to'])}")
+    final_data = []
+    for s in stats:
+        stationData = []
+        for p in params:
+            data = fetch_smhi_weather(s,p)
+            print(f"Hydro data station({s}) param({p}) response from : {datetime.fromtimestamp(0)+timedelta(seconds=float(data['period']['from'])/1000)} : {datetime.fromtimestamp(0)+timedelta(seconds=float(data['period']['to'])/1000)}")
+
 
 def getNuclearParams():
     contributionFactor = 0.3
@@ -261,37 +258,20 @@ def getSolarParams():
     start_year : 1983
     # Nearest Station to Solar Plants affecting SE3 prices along with Keys for Percipitation on different stations
     stats_and_params = {93235: [], 86655: []}
+    stats = [93235, 86655]
+    params = [5, 8, 10]
     # For each station, get all required param values
     # For each date in both stations, take union of params, take average for common params
     # Expected Output : { date : { solar_param0 : value0, solar_param1 : value1 } }
 
-# Dalarna : Hydro [114140] : 40%
+# Dalarna : Hydro s[114140] p[2, 5, 8, 10] : 40%
 # Uppsala, Haland : Nuclear [108640, 72160] : 30%
 # Stockholm, Norrkoping : BioEnergy s[98200, 98100, 86360] p[]: 8%
 # Sodermanland, Ostergotland, Vastra Gotaland : Solar s[97150, 85180, 84390] p[28, 30, 32, 10] : 1%
-
-#Stations and Parameters affecting SE3 Prices {station: parameter}
-# stats_and_params = {
-#     1: 1,
-#     4: 4,
-#     1: 6,
-#     1: 7,
-#     1: 910,
-#     1: 22
-# }
-
-# stations = [114140, 108640, 72160, 98200, 98100, 86360]
-stations = [114140]
-for station in stations:
-    params = getParametersList()
-    paramFormatted = []
-    for item in params:
-        paramFormatted.append({item['id']: item['title']})
-    print(f"Params for station {station} : {json.dumps(paramFormatted, indent=4)}")
-    # for item in params:
-        # data = fetch_smhi_weather(station_id=station, parameter_id=)
 
 # getElectricityExportedToGermany()
 # getElectricityPrices()
 # paramData = getParametersList()
 # print(f"Parameters : {json.dumps(paramData, indent=4)}")
+
+getHydroParams()
