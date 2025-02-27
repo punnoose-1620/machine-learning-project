@@ -1,8 +1,9 @@
 from dataMiner import *
 
-def mergeSwedishWeatherData():
-    hydroData = getHydroParams()
-    solarData = getSolarParams()
+def mergeSwedishWeatherData(startYear: int, startMonth: int, startDay: int):
+    hydroData = getHydroParams(startYear, startMonth, startDay)
+    solarData = getSolarParams(startYear, startMonth, startDay)
+    # Weather Format : {datehour : { param : value } }
     hydroDates = hydroData.keys()
     solarDates = solarData.keys()
     finalDates = []     # List of dates common to hydro and solar
@@ -46,4 +47,5 @@ def mergeElectricityData(startYear: int, startMonth: int, startDay: int):
     write_json_to_file('./mergedPricesTest.json', finalData)
     return finalData
 
-mergeElectricityData(2025, 2, 1)
+# mergeElectricityData(2025, 2, 1)
+mergeSwedishWeatherData(2025 ,2, 1)

@@ -213,27 +213,40 @@ def fetch_smhi_weather(station_id, parameter_id, period="latest-day"):
         data = response.json()
         return data
     except requests.exceptions.RequestException as e:
-        print(f"Error fetching Specific SMHI Weather data: {e}")
+        print(f"\nError fetching Specific SMHI Weather data: {e}\n")
         return None
 
-def getHydroParams():
+def getHydroParams(startYear: int, startMonth: int, startDay: int):
     contributionFactor = 0.4
     start_year = 1800
     # Nearest Station to Hydro Plants affecting SE3 prices along with Keys for Percipitation on different stations
     # stats_and_params = {114140: [23, 14, 5, 7], 2396: [], 1906: []} 
-    stats_and_params = {114140: [7]} 
     stats = [114140]
     params = [7]
     # For each station, get all required param values
     # For each date in both stations, take union of params, take average for common params
     # Expected Output : { date : { hydro_param0 : value0, hydro_param1 : value1 } }
-    final_data = []
+    final_data = {}
     for s in stats:
-        stationData = []
         for p in params:
             data = fetch_smhi_weather(s,p)
-            print(f"Hydro data station({s}) param({p}) response from : {datetime.fromtimestamp(0)+timedelta(seconds=float(data['period']['from'])/1000)} : {datetime.fromtimestamp(0)+timedelta(seconds=float(data['period']['to'])/1000)}")
-
+            if data is not None:
+                print(f"Hydro data station({s}) param({p}) response from : {datetime.fromtimestamp(0)+timedelta(seconds=float(data['period']['from'])/1000)} : {datetime.fromtimestamp(0)+timedelta(seconds=float(data['period']['to'])/1000)}")
+                print(f"Params : {data.keys()}")
+                # print(f'Values : {json.dumps(data['value'], indent=4)}')
+                for item in data['value']:
+                    # print(f"Value test : {item} : {type(item)}")
+                    dateTime = float(item['date'])
+                    dateKey = f'{datetime.fromtimestamp(float(dateTime/1000))}'
+                    value = item['value']
+                    if dateKey in final_data.keys():
+                        if p in final_data[dateKey].keys():
+                            final_data[dateKey] = (final_data[dateKey][p]+value)/2
+                        else:
+                            final_data[dateKey][p] = value
+                    else:
+                        final_data[dateKey] = {p: value}
+    print(f"Get Hydro Params Final Data : {json.dumps(final_data, indent=4)}")
 
 def getNuclearParams():
     contributionFactor = 0.3
@@ -253,7 +266,7 @@ def getBioEnergyParams():
     # For each date in both stations, take union of params, take average for common params
     # Expected Output : { date : { bio_param0 : value0, bio_param1 : value1 } }
 
-def getSolarParams():
+def getSolarParams(startYear: int, startMonth: int, startDay: int):
     contributionFactor = 0.01
     start_year : 1983
     # Nearest Station to Solar Plants affecting SE3 prices along with Keys for Percipitation on different stations
@@ -263,6 +276,28 @@ def getSolarParams():
     # For each station, get all required param values
     # For each date in both stations, take union of params, take average for common params
     # Expected Output : { date : { solar_param0 : value0, solar_param1 : value1 } }
+    final_data = {}
+    for s in stats:
+        for p in params:
+            data = fetch_smhi_weather(s,p)
+            print(f"Data : {data}")
+            if data is not None:
+                print(f"Solar data station({s}) param({p}) response from : {datetime.fromtimestamp(0)+timedelta(seconds=float(data['period']['from'])/1000)} : {datetime.fromtimestamp(0)+timedelta(seconds=float(data['period']['to'])/1000)}")
+                print(f"Params : {data.keys()}")
+                # print(f'Values : {json.dumps(data['value'], indent=4)}')
+                for item in data['value']:
+                    # print(f"Value test : {item} : {type(item)}")
+                    dateTime = float(item['date'])
+                    dateKey = f'{datetime.fromtimestamp(float(dateTime/1000))}'
+                    value = int(item['value'])
+                    if dateKey in final_data.keys():
+                        if p in final_data[dateKey].keys():
+                            final_data[dateKey] = (final_data[dateKey][p]+value)/2
+                        else:
+                            final_data[dateKey][p] = value
+                    else:
+                        final_data[dateKey] = {p: value}
+    print(f"Get Solar Params Final Data : {json.dumps(final_data, indent=4)}")
 
 # Dalarna : Hydro s[114140] p[2, 5, 8, 10] : 40%
 # Uppsala, Haland : Nuclear [108640, 72160] : 30%
@@ -274,4 +309,4 @@ def getSolarParams():
 # paramData = getParametersList()
 # print(f"Parameters : {json.dumps(paramData, indent=4)}")
 
-getHydroParams()
+getSolarParams(2025, 2, 1)
