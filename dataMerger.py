@@ -48,4 +48,4 @@ def mergeElectricityData(startYear: int, startMonth: int, startDay: int):
     return mergedData
 
 # mergeElectricityData(2025, 2, 1)
-mergeSwedishWeatherData(2025 ,2, 1)
+mergeSwedishWeatherData(2024 ,2, 1)

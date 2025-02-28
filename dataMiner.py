@@ -51,28 +51,14 @@ def getTotalSwedishElectricityExport(startDate: datetime):
         deprecated = data['deprecated']
         if deprecated==True:
             return None
-        # print(f"\nNo of Entries : {len(unixSeconds)}")
-        countryData = {}
-        for country in countries:
-            key = country['name']
-            value = country['data']
-            refKeys = countryData.keys()
-            if key not in refKeys:
-                countryData[key] = value
-        # print(f"Countries : {countryData.keys()}")
-
-        exportSums = []
-        for country in countryData.keys():
-            data = countryData[country]
-            if len(exportSums)==0:
-                exportSums = data
-            else: 
-                if(len(exportSums)==len(data)):
-                    for i in range(len(exportSums)):
-                        exportSums[i] = exportSums[i]+data[i]
-                else:
-                    print("Summing Error")
-        # print(f"Export Sums({len(exportSums)})")
+        exportSums=[]
+        for country in data['countries']:
+          if country['name'] == 'sum':
+             exportSums = country['data']
+             break
+        #print("Export Sums found jini",exportSums)
+                
+        print(f"Export Sums({len(exportSums)})")
 
         finalData = {}
         for i in range(len(unixSeconds)):
@@ -270,4 +256,6 @@ def getSolarParams(startYear: int, startMonth: int, startDay: int):
 # paramData = getParametersList()
 # print(f"Parameters : {json.dumps(paramData, indent=4)}")
 
-getSolarParams(2025, 2, 1)
+# getSolarParams(2025, 2, 1)
+startDate = datetime(2025, 2, 25, 0, 0)
+getTotalSwedishElectricityExport(startDate)
