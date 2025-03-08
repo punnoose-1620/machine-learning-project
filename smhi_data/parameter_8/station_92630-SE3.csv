@@ -1,0 +1,44 @@
+﻿Stationsnamn;Stationsnummer;Stationsnät;Mäthöjd (meter över marken)
+Kyrkerud;92630;SMHIs stationsnät;0.0
+
+Parameternamn;Beskrivning;Enhet
+Snödjup;momentanvärde, 1 gång/dygn, kl 06;meter
+
+Tidsperiod (fr.o.m);Tidsperiod (t.o.m);Höjd (meter över havet);Latitud (decimalgrader);Longitud (decimalgrader)
+1950-01-01 00:00:00;1969-04-30 23:59:59;110.0;59.3833;12.1166
+
+Datum;Tid (UTC);Snödjup;Kvalitet;;Tidsutsnitt:
+1950-01-31;06:00:00;0.10;G;;Kvalitetskontrollerade historiska data (utom de senaste 3 mån)
+1951-01-06;06:00:00;0.32;G;;Tidsperiod (fr.o.m.) = 1950-01-01 00:00:00 (UTC)
+1954-02-28;06:00:00;0.56;G;;Tidsperiod (t.o.m.) = 1969-04-30 23:59:59 (UTC)
+1955-03-31;06:00:00;0.00;G;;Samplingstid = Ej angivet
+1955-12-19;06:00:00;0.47;G;;
+1956-01-08;06:00:00;0.05;G;;Kvalitetskoderna:
+1956-02-29;06:00:00;0.30;G;;Grön (G) = Kontrollerade och godkända värden.
+1956-10-29;06:00:00;0.12;G;;Gul (Y) = Misstänkta eller aggregerade värden. Grovt kontrollerade arkivdata och okontrollerade realtidsdata (senaste 2 tim).
+1956-12-31;06:00:00;0.03;G;;
+1959-01-20;06:00:00;0.50;G;;Nätinformation:
+1966-02-11;06:00:00;0.57;G;;SMHIs Stationsnät: Data samlas in och lagras i SMHIs databaser. Data kvalitetskontrolleras vilket innebär att felaktiga data korrigeras och att databortfall kompletteras utifrån expertbedömning där det är möjligt. De flesta stationerna övervakas, inspekteras och underhålls löpande av SMHI.
+1968-11-30;06:00:00;0.00;G;;Övriga stationer: Data samlas in och lagras i SMHIs databaser. Datakvaliteten är för SMHI okänd då SMHI varken utför kvalitetskontroll på data eller inspektioner på stationerna.
+1969-01-12;06:00:00;0.17;Y;;
+1969-02-02;06:00:00;0.40;Y;;Möjliga orsaker till saknade data:
+1969-02-25;06:00:00;0.50;Y;;– stationen eller givaren har varit ur funktion.
+1969-03-08;06:00:00;0.43;Y;;– stationen har endast levererat värden med kvalitetskod Röd (R). Dessa levereras ej.
+1969-03-16;06:00:00;0.45;Y
+1969-03-23;06:00:00;0.44;Y
+1969-04-01;06:00:00;0.37;Y
+1969-04-08;06:00:00;0.15;Y
+1969-04-10;06:00:00;0.03;Y
+1969-04-11;06:00:00;0.00;Y
+1969-04-12;06:00:00;0.00;Y
+1969-04-13;06:00:00;0.00;Y
+1969-04-14;06:00:00;0.00;Y
+1969-04-15;06:00:00;0.00;Y
+1969-04-16;06:00:00;0.00;Y
+1969-04-17;06:00:00;0.00;Y
+1969-04-18;06:00:00;0.00;Y
+1969-04-19;06:00:00;0.01;Y
+1969-04-20;06:00:00;0.00;Y
+1969-04-21;06:00:00;0.00;Y
+1969-04-22;06:00:00;0.00;Y
+1969-04-23;06:00:00;0.00;Y

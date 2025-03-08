@@ -257,5 +257,5 @@ def getSolarParams(startYear: int, startMonth: int, startDay: int):
 # print(f"Parameters : {json.dumps(paramData, indent=4)}")
 
 # getSolarParams(2025, 2, 1)
-startDate = datetime(2025, 2, 25, 0, 0)
-getTotalSwedishElectricityExport(startDate)
+# startDate = datetime(2025, 2, 25, 0, 0)
+# getTotalSwedishElectricityExport(startDate)

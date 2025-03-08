@@ -1,3097 +1,3447 @@
 {
     "2025-02-01 21:00:00": {
-        "exported": -8.732,
+        "exported": -4.366,
         "price": 53.25,
         "previousPrice": 0
     },
     "2025-02-01 22:00:00": {
-        "exported": -8.826999999999998,
+        "exported": -4.414,
         "price": 38.15,
         "previousPrice": 53.25
     },
     "2025-02-01 23:00:00": {
-        "exported": -8.574,
+        "exported": -4.287,
         "price": 32.18,
         "previousPrice": 38.15
     },
     "2025-02-02 00:00:00": {
-        "exported": -8.102,
+        "exported": -4.051,
         "price": 30.01,
         "previousPrice": 32.18
     },
     "2025-02-02 01:00:00": {
-        "exported": -7.688,
+        "exported": -3.844,
         "price": 29.95,
         "previousPrice": 30.01
     },
     "2025-02-02 02:00:00": {
-        "exported": -7.4510000000000005,
+        "exported": -3.725,
         "price": 29.84,
         "previousPrice": 29.95
     },
     "2025-02-02 03:00:00": {
-        "exported": -7.043,
+        "exported": -3.522,
         "price": 29.62,
         "previousPrice": 29.84
     },
     "2025-02-02 04:00:00": {
-        "exported": -6.774000000000001,
+        "exported": -3.387,
         "price": 31.34,
         "previousPrice": 29.62
     },
     "2025-02-02 05:00:00": {
-        "exported": -6.57,
+        "exported": -3.285,
         "price": 41.04,
         "previousPrice": 31.34
     },
     "2025-02-02 06:00:00": {
-        "exported": -6.396,
+        "exported": -3.198,
         "price": 67.57,
         "previousPrice": 41.04
     },
     "2025-02-02 07:00:00": {
-        "exported": -5.846,
+        "exported": -2.923,
         "price": 70.99,
         "previousPrice": 67.57
     },
     "2025-02-02 08:00:00": {
-        "exported": -5.385000000000001,
+        "exported": -2.692,
         "price": 71.57,
         "previousPrice": 70.99
     },
     "2025-02-02 09:00:00": {
-        "exported": -4.916,
+        "exported": -2.458,
         "price": 68.14,
         "previousPrice": 71.57
     },
     "2025-02-02 10:00:00": {
-        "exported": -4.848,
+        "exported": -2.424,
         "price": 68.38,
         "previousPrice": 68.14
     },
     "2025-02-02 11:00:00": {
-        "exported": -5.438,
+        "exported": -2.719,
         "price": 65.14,
         "previousPrice": 68.38
     },
     "2025-02-02 12:00:00": {
-        "exported": -5.57,
+        "exported": -2.785,
         "price": 60.02,
         "previousPrice": 65.14
     },
     "2025-02-02 13:00:00": {
-        "exported": -5.657,
+        "exported": -2.828,
         "price": 61.71,
         "previousPrice": 60.02
     },
     "2025-02-02 14:00:00": {
-        "exported": -5.456,
+        "exported": -2.728,
         "price": 67.74,
         "previousPrice": 61.71
     },
     "2025-02-02 15:00:00": {
-        "exported": -5.256,
+        "exported": -2.628,
         "price": 79.78,
         "previousPrice": 67.74
     },
     "2025-02-02 16:00:00": {
-        "exported": -4.698,
+        "exported": -2.349,
         "price": 88.09,
         "previousPrice": 79.78
     },
     "2025-02-02 17:00:00": {
-        "exported": -4.4719999999999995,
+        "exported": -2.236,
         "price": 92.49,
         "previousPrice": 88.09
     },
     "2025-02-02 18:00:00": {
-        "exported": -4.9,
+        "exported": -2.45,
         "price": 99.36,
         "previousPrice": 92.49
     },
     "2025-02-02 19:00:00": {
-        "exported": -5.92,
+        "exported": -2.96,
         "price": 86.8,
         "previousPrice": 99.36
     },
     "2025-02-02 20:00:00": {
-        "exported": -6.008,
+        "exported": -3.004,
         "price": 80.49,
         "previousPrice": 86.8
     },
     "2025-02-02 21:00:00": {
-        "exported": -7.0040000000000004,
+        "exported": -3.502,
         "price": 52.08,
         "previousPrice": 80.49
     },
     "2025-02-02 22:00:00": {
-        "exported": -6.898999999999999,
+        "exported": -3.449,
         "price": 40.3,
         "previousPrice": 52.08
     },
     "2025-02-02 23:00:00": {
-        "exported": -7.086,
+        "exported": -3.543,
         "price": 42.14,
         "previousPrice": 40.3
     },
     "2025-02-03 00:00:00": {
-        "exported": -7.084,
+        "exported": -3.542,
         "price": 35.46,
         "previousPrice": 42.14
     },
     "2025-02-03 01:00:00": {
-        "exported": -7.322000000000001,
+        "exported": -3.661,
         "price": 35.49,
         "previousPrice": 35.46
     },
     "2025-02-03 02:00:00": {
-        "exported": -7.572000000000001,
+        "exported": -3.786,
         "price": 35.15,
         "previousPrice": 35.49
     },
     "2025-02-03 03:00:00": {
-        "exported": -7.672000000000001,
+        "exported": -3.836,
         "price": 37.87,
         "previousPrice": 35.15
     },
     "2025-02-03 04:00:00": {
-        "exported": -7.891,
+        "exported": -3.945,
         "price": 51.56,
         "previousPrice": 37.87
     },
     "2025-02-03 05:00:00": {
-        "exported": -8.033,
+        "exported": -4.016,
         "price": 102.46,
         "previousPrice": 51.56
     },
     "2025-02-03 06:00:00": {
-        "exported": -6.574,
+        "exported": -3.287,
         "price": 148.86,
         "previousPrice": 102.46
     },
     "2025-02-03 07:00:00": {
-        "exported": -4.369,
+        "exported": -2.184,
         "price": 164.29,
         "previousPrice": 148.86
     },
     "2025-02-03 08:00:00": {
-        "exported": -3.517,
+        "exported": -1.758,
         "price": 149.64,
         "previousPrice": 164.29
     },
     "2025-02-03 09:00:00": {
-        "exported": -3.359,
+        "exported": -1.679,
         "price": 149.67,
         "previousPrice": 149.64
     },
     "2025-02-03 10:00:00": {
-        "exported": -3.372,
+        "exported": -1.686,
         "price": 126.22,
         "previousPrice": 149.67
     },
     "2025-02-03 11:00:00": {
-        "exported": -3.745,
+        "exported": -1.873,
         "price": 117.31,
         "previousPrice": 126.22
     },
     "2025-02-03 12:00:00": {
-        "exported": -4.586,
+        "exported": -2.293,
         "price": 115.23,
         "previousPrice": 117.31
     },
     "2025-02-03 13:00:00": {
-        "exported": -4.996,
+        "exported": -2.498,
         "price": 124.31,
         "previousPrice": 115.23
     },
     "2025-02-03 14:00:00": {
-        "exported": -4.880000000000001,
+        "exported": -2.44,
         "price": 145.97,
         "previousPrice": 124.31
     },
     "2025-02-03 15:00:00": {
-        "exported": -4.405,
+        "exported": -2.202,
         "price": 169.78,
         "previousPrice": 145.97
     },
     "2025-02-03 16:00:00": {
-        "exported": -4.025,
+        "exported": -2.013,
         "price": 214.84,
         "previousPrice": 169.78
     },
     "2025-02-03 17:00:00": {
-        "exported": -2.635,
+        "exported": -1.318,
         "price": 201.17,
         "previousPrice": 214.84
     },
     "2025-02-03 18:00:00": {
-        "exported": -3.292,
+        "exported": -1.646,
         "price": 200.84,
         "previousPrice": 201.17
     },
     "2025-02-03 19:00:00": {
-        "exported": -4.274000000000001,
+        "exported": -2.137,
         "price": 164.21,
         "previousPrice": 200.84
     },
     "2025-02-03 20:00:00": {
-        "exported": -5.529999999999999,
+        "exported": -2.765,
         "price": 129.96,
         "previousPrice": 164.21
     },
     "2025-02-03 21:00:00": {
-        "exported": -7.036,
+        "exported": -3.518,
         "price": 108.14,
         "previousPrice": 129.96
     },
     "2025-02-03 22:00:00": {
-        "exported": -7.84,
+        "exported": -3.92,
         "price": 53.07,
         "previousPrice": 108.14
     },
     "2025-02-03 23:00:00": {
-        "exported": -8.937999999999999,
+        "exported": -4.469,
         "price": 53.71,
         "previousPrice": 53.07
     },
     "2025-02-04 00:00:00": {
-        "exported": -9.608,
+        "exported": -4.804,
         "price": 52.89,
         "previousPrice": 53.71
     },
     "2025-02-04 01:00:00": {
-        "exported": -10.27,
+        "exported": -5.135,
         "price": 52.06,
         "previousPrice": 52.89
     },
     "2025-02-04 02:00:00": {
-        "exported": -10.658,
+        "exported": -5.329,
         "price": 52.69,
         "previousPrice": 52.06
     },
     "2025-02-04 03:00:00": {
-        "exported": -10.774000000000001,
+        "exported": -5.387,
         "price": 52.4,
         "previousPrice": 52.69
     },
     "2025-02-04 04:00:00": {
-        "exported": -10.625,
+        "exported": -5.312,
         "price": 53.77,
         "previousPrice": 52.4
     },
     "2025-02-04 05:00:00": {
-        "exported": -10.303999999999998,
+        "exported": -5.152,
         "price": 93.47,
         "previousPrice": 53.77
     },
     "2025-02-04 06:00:00": {
-        "exported": -8.32,
+        "exported": -4.16,
         "price": 164.69,
         "previousPrice": 93.47
     },
     "2025-02-04 07:00:00": {
-        "exported": -5.936,
+        "exported": -2.968,
         "price": 205.98,
         "previousPrice": 164.69
     },
     "2025-02-04 08:00:00": {
-        "exported": -5.41,
+        "exported": -2.705,
         "price": 158.41,
         "previousPrice": 205.98
     },
     "2025-02-04 09:00:00": {
-        "exported": -5.535,
+        "exported": -2.767,
         "price": 133.89,
         "previousPrice": 158.41
     },
     "2025-02-04 10:00:00": {
-        "exported": -5.890000000000001,
+        "exported": -2.945,
         "price": 106.42,
         "previousPrice": 133.89
     },
     "2025-02-04 11:00:00": {
-        "exported": -6.260000000000001,
+        "exported": -3.13,
         "price": 94.05,
         "previousPrice": 106.42
     },
     "2025-02-04 12:00:00": {
-        "exported": -6.372000000000001,
+        "exported": -3.186,
         "price": 72.38,
         "previousPrice": 94.05
     },
     "2025-02-04 13:00:00": {
-        "exported": -6.12,
+        "exported": -3.06,
         "price": 56.39,
         "previousPrice": 72.38
     },
     "2025-02-04 14:00:00": {
-        "exported": -6.177,
+        "exported": -3.089,
         "price": 55.96,
         "previousPrice": 56.39
     },
     "2025-02-04 15:00:00": {
-        "exported": -5.758,
+        "exported": -2.879,
         "price": 39.57,
         "previousPrice": 55.96
     },
     "2025-02-04 16:00:00": {
-        "exported": -5.739,
+        "exported": -2.869,
         "price": 33.68,
         "previousPrice": 39.57
     },
     "2025-02-04 17:00:00": {
-        "exported": -5.087,
+        "exported": -2.544,
         "price": 31.56,
         "previousPrice": 33.68
     },
     "2025-02-04 18:00:00": {
-        "exported": -5.401999999999999,
+        "exported": -2.701,
         "price": 29.71,
         "previousPrice": 31.56
     },
     "2025-02-04 19:00:00": {
-        "exported": -5.936,
+        "exported": -2.968,
         "price": 28.13,
         "previousPrice": 29.71
     },
     "2025-02-04 20:00:00": {
-        "exported": -6.784000000000001,
+        "exported": -3.392,
         "price": 26.88,
         "previousPrice": 28.13
     },
     "2025-02-04 21:00:00": {
-        "exported": -7.927,
+        "exported": -3.964,
         "price": 23.84,
         "previousPrice": 26.88
     },
     "2025-02-04 22:00:00": {
-        "exported": -9.137,
+        "exported": -4.569,
         "price": 22.62,
         "previousPrice": 23.84
     },
     "2025-02-04 23:00:00": {
-        "exported": -10.734,
+        "exported": -5.367,
         "price": 24.58,
         "previousPrice": 22.62
     },
     "2025-02-05 00:00:00": {
-        "exported": -10.931999999999999,
+        "exported": -5.466,
         "price": 24.01,
         "previousPrice": 24.58
     },
     "2025-02-05 01:00:00": {
-        "exported": -11.323999999999998,
+        "exported": -5.662,
         "price": 3.44,
         "previousPrice": 24.01
     },
     "2025-02-05 02:00:00": {
-        "exported": -11.232,
+        "exported": -5.616,
         "price": 2.75,
         "previousPrice": 3.44
     },
     "2025-02-05 03:00:00": {
-        "exported": -11.297999999999998,
+        "exported": -5.649,
         "price": 3,
         "previousPrice": 2.75
     },
     "2025-02-05 04:00:00": {
-        "exported": -11.672,
+        "exported": -5.836,
         "price": 23.43,
         "previousPrice": 3
     },
     "2025-02-05 05:00:00": {
-        "exported": -12.190999999999999,
+        "exported": -6.095,
         "price": 26.17,
         "previousPrice": 23.43
     },
     "2025-02-05 06:00:00": {
-        "exported": -10.154,
+        "exported": -5.077,
         "price": 28.81,
         "previousPrice": 26.17
     },
     "2025-02-05 07:00:00": {
-        "exported": -8.514,
+        "exported": -4.257,
         "price": 29.61,
         "previousPrice": 28.81
     },
     "2025-02-05 08:00:00": {
-        "exported": -7.514000000000001,
+        "exported": -3.757,
         "price": 29.33,
         "previousPrice": 29.61
     },
     "2025-02-05 09:00:00": {
-        "exported": -7.42,
+        "exported": -3.71,
         "price": 29.25,
         "previousPrice": 29.33
     },
     "2025-02-05 10:00:00": {
-        "exported": -7.2330000000000005,
+        "exported": -3.617,
         "price": 28.5,
         "previousPrice": 29.25
     },
     "2025-02-05 11:00:00": {
-        "exported": -7.236,
+        "exported": -3.618,
         "price": 27.99,
         "previousPrice": 28.5
     },
     "2025-02-05 12:00:00": {
-        "exported": -7.364000000000001,
+        "exported": -3.682,
         "price": 27,
         "previousPrice": 27.99
     },
     "2025-02-05 13:00:00": {
-        "exported": -7.6,
+        "exported": -3.8,
         "price": 26.81,
         "previousPrice": 27
     },
     "2025-02-05 14:00:00": {
-        "exported": -7.732000000000001,
+        "exported": -3.866,
         "price": 28.14,
         "previousPrice": 26.81
     },
     "2025-02-05 15:00:00": {
-        "exported": -7.598,
+        "exported": -3.799,
         "price": 32.97,
         "previousPrice": 28.14
     },
     "2025-02-05 16:00:00": {
-        "exported": -7.838,
+        "exported": -3.919,
         "price": 35.7,
         "previousPrice": 32.97
     },
     "2025-02-05 17:00:00": {
-        "exported": -8.341000000000001,
+        "exported": -4.17,
         "price": 36.49,
         "previousPrice": 35.7
     },
     "2025-02-05 18:00:00": {
-        "exported": -9.198,
+        "exported": -4.599,
         "price": 40.53,
         "previousPrice": 36.49
     },
     "2025-02-05 19:00:00": {
-        "exported": -9.742,
+        "exported": -4.871,
         "price": 35.06,
         "previousPrice": 40.53
     },
     "2025-02-05 20:00:00": {
-        "exported": -10.087,
+        "exported": -5.044,
         "price": 40.52,
         "previousPrice": 35.06
     },
     "2025-02-05 21:00:00": {
-        "exported": -11.114,
+        "exported": -5.557,
         "price": 35.16,
         "previousPrice": 40.52
     },
     "2025-02-05 22:00:00": {
-        "exported": -11.597000000000001,
+        "exported": -5.799,
         "price": 28.22,
         "previousPrice": 35.16
     },
     "2025-02-05 23:00:00": {
-        "exported": -11.578,
+        "exported": -5.789,
         "price": 27.89,
         "previousPrice": 28.22
     },
     "2025-02-06 00:00:00": {
-        "exported": -11.67,
+        "exported": -5.835,
         "price": 27.64,
         "previousPrice": 27.89
     },
     "2025-02-06 01:00:00": {
-        "exported": -11.622,
+        "exported": -5.811,
         "price": 27.7,
         "previousPrice": 27.64
     },
     "2025-02-06 02:00:00": {
-        "exported": -11.283,
+        "exported": -5.641,
         "price": 27.79,
         "previousPrice": 27.7
     },
     "2025-02-06 03:00:00": {
-        "exported": -11.082,
+        "exported": -5.541,
         "price": 34.99,
         "previousPrice": 27.79
     },
     "2025-02-06 04:00:00": {
-        "exported": -10.354,
+        "exported": -5.177,
         "price": 52.19,
         "previousPrice": 34.99
     },
     "2025-02-06 05:00:00": {
-        "exported": -9.437999999999999,
+        "exported": -4.719,
         "price": 70.25,
         "previousPrice": 52.19
     },
     "2025-02-06 06:00:00": {
-        "exported": -7.004,
+        "exported": -3.502,
         "price": 149.7,
         "previousPrice": 70.25
     },
     "2025-02-06 07:00:00": {
-        "exported": -5.1579999999999995,
+        "exported": -2.579,
         "price": 200.06,
         "previousPrice": 149.7
     },
     "2025-02-06 08:00:00": {
-        "exported": -4.6129999999999995,
+        "exported": -2.306,
         "price": 177.56,
         "previousPrice": 200.06
     },
     "2025-02-06 09:00:00": {
-        "exported": -4.521,
+        "exported": -2.26,
         "price": 157.84,
         "previousPrice": 177.56
     },
     "2025-02-06 10:00:00": {
-        "exported": -5.0649999999999995,
+        "exported": -2.532,
         "price": 122.53,
         "previousPrice": 157.84
     },
     "2025-02-06 11:00:00": {
-        "exported": -5.7,
+        "exported": -2.85,
         "price": 95.33,
         "previousPrice": 122.53
     },
     "2025-02-06 12:00:00": {
-        "exported": -6.012,
+        "exported": -3.006,
         "price": 80.55,
         "previousPrice": 95.33
     },
     "2025-02-06 13:00:00": {
-        "exported": -6.278,
+        "exported": -3.139,
         "price": 68.81,
         "previousPrice": 80.55
     },
     "2025-02-06 14:00:00": {
-        "exported": -6.176,
+        "exported": -3.088,
         "price": 64.71,
         "previousPrice": 68.81
     },
     "2025-02-06 15:00:00": {
-        "exported": -5.506,
+        "exported": -2.753,
         "price": 78.9,
         "previousPrice": 64.71
     },
     "2025-02-06 16:00:00": {
-        "exported": -4.75,
+        "exported": -2.375,
         "price": 102.37,
         "previousPrice": 78.9
     },
     "2025-02-06 17:00:00": {
-        "exported": -4.137,
+        "exported": -2.069,
         "price": 98.55,
         "previousPrice": 102.37
     },
     "2025-02-06 18:00:00": {
-        "exported": -4.602,
+        "exported": -2.301,
         "price": 83.75,
         "previousPrice": 98.55
     },
     "2025-02-06 19:00:00": {
-        "exported": -5.055,
+        "exported": -2.528,
         "price": 69.91,
         "previousPrice": 83.75
     },
     "2025-02-06 20:00:00": {
-        "exported": -4.098,
+        "exported": -2.049,
         "price": 56.83,
         "previousPrice": 69.91
     },
     "2025-02-06 21:00:00": {
-        "exported": -4.353,
+        "exported": -2.176,
         "price": 38.79,
         "previousPrice": 56.83
     },
     "2025-02-06 22:00:00": {
-        "exported": -4.712,
+        "exported": -2.356,
         "price": 33.98,
         "previousPrice": 38.79
     },
     "2025-02-06 23:00:00": {
-        "exported": -5.087,
+        "exported": -2.543,
         "price": 35.93,
         "previousPrice": 33.98
     },
     "2025-02-07 00:00:00": {
-        "exported": -5.326,
+        "exported": -2.663,
         "price": 33.88,
         "previousPrice": 35.93
     },
     "2025-02-07 01:00:00": {
-        "exported": -4.918,
+        "exported": -2.459,
         "price": 33.53,
         "previousPrice": 33.88
     },
     "2025-02-07 02:00:00": {
-        "exported": -4.788,
+        "exported": -2.394,
         "price": 33.26,
         "previousPrice": 33.53
     },
     "2025-02-07 03:00:00": {
-        "exported": -5.222,
+        "exported": -2.611,
         "price": 33.62,
         "previousPrice": 33.26
     },
     "2025-02-07 04:00:00": {
-        "exported": -5.821,
+        "exported": -2.911,
         "price": 35.55,
         "previousPrice": 33.62
     },
     "2025-02-07 05:00:00": {
-        "exported": -6.08,
+        "exported": -3.04,
         "price": 57.26,
         "previousPrice": 35.55
     },
     "2025-02-07 06:00:00": {
-        "exported": -6.25,
+        "exported": -3.125,
         "price": 72.15,
         "previousPrice": 57.26
     },
     "2025-02-07 07:00:00": {
-        "exported": -5.627000000000001,
+        "exported": -2.814,
         "price": 83.96,
         "previousPrice": 72.15
     },
     "2025-02-07 08:00:00": {
-        "exported": -5.298,
+        "exported": -2.649,
         "price": 78.17,
         "previousPrice": 83.96
     },
     "2025-02-07 09:00:00": {
-        "exported": -5.964,
+        "exported": -2.981,
         "price": 66.75,
         "previousPrice": 78.17
     },
     "2025-02-07 10:00:00": {
-        "exported": -5.354000000000001,
+        "exported": -2.677,
         "price": 50.99,
         "previousPrice": 66.75
     },
     "2025-02-07 11:00:00": {
-        "exported": -5.682,
+        "exported": -2.841,
         "price": 48.69,
         "previousPrice": 50.99
     },
     "2025-02-07 12:00:00": {
-        "exported": -6.189,
+        "exported": -3.094,
         "price": 50.2,
         "previousPrice": 48.69
     },
     "2025-02-07 13:00:00": {
-        "exported": -6.618,
+        "exported": -3.31,
         "price": 50.37,
         "previousPrice": 50.2
     },
     "2025-02-07 14:00:00": {
-        "exported": -6.836,
+        "exported": -3.418,
         "price": 47.79,
         "previousPrice": 50.37
     },
     "2025-02-07 15:00:00": {
-        "exported": -6.882000000000001,
+        "exported": -3.441,
         "price": 52.52,
         "previousPrice": 47.79
     },
     "2025-02-07 16:00:00": {
-        "exported": -6.952,
+        "exported": -3.476,
         "price": 55.99,
         "previousPrice": 52.52
     },
     "2025-02-07 17:00:00": {
-        "exported": -7.495,
+        "exported": -3.747,
         "price": 60.59,
         "previousPrice": 55.99
     },
     "2025-02-07 18:00:00": {
-        "exported": -7.339,
+        "exported": -3.669,
         "price": 52.09,
         "previousPrice": 60.59
     },
     "2025-02-07 19:00:00": {
-        "exported": -8.368000000000002,
+        "exported": -4.184,
         "price": 42.45,
         "previousPrice": 52.09
     },
     "2025-02-07 20:00:00": {
-        "exported": -9.396,
+        "exported": -4.698,
         "price": 36.82,
         "previousPrice": 42.45
     },
     "2025-02-07 21:00:00": {
-        "exported": -10.29,
+        "exported": -5.145,
         "price": 33.74,
         "previousPrice": 36.82
     },
     "2025-02-07 22:00:00": {
-        "exported": -10.87,
+        "exported": -5.435,
         "price": 30.53,
         "previousPrice": 33.74
     },
     "2025-02-07 23:00:00": {
-        "exported": -11.422,
+        "exported": -5.711,
         "price": 29.28,
         "previousPrice": 30.53
     },
     "2025-02-08 00:00:00": {
-        "exported": -12.038,
+        "exported": -6.019,
         "price": 28.42,
         "previousPrice": 29.28
     },
     "2025-02-08 01:00:00": {
-        "exported": -11.975000000000001,
+        "exported": -5.988,
         "price": 27.61,
         "previousPrice": 28.42
     },
     "2025-02-08 02:00:00": {
-        "exported": -12.274,
+        "exported": -6.137,
         "price": 27.27,
         "previousPrice": 27.61
     },
     "2025-02-08 03:00:00": {
-        "exported": -12.685,
+        "exported": -6.343,
         "price": 27.23,
         "previousPrice": 27.27
     },
     "2025-02-08 04:00:00": {
-        "exported": -13.318999999999999,
+        "exported": -6.66,
         "price": 27.66,
         "previousPrice": 27.23
     },
     "2025-02-08 05:00:00": {
-        "exported": -13.746,
+        "exported": -6.873,
         "price": 28.26,
         "previousPrice": 27.66
     },
     "2025-02-08 06:00:00": {
-        "exported": -13.408000000000001,
+        "exported": -6.704,
         "price": 33.5,
         "previousPrice": 28.26
     },
     "2025-02-08 07:00:00": {
-        "exported": -13.098,
+        "exported": -6.549,
         "price": 35.85,
         "previousPrice": 33.5
     },
     "2025-02-08 08:00:00": {
-        "exported": -12.317,
+        "exported": -6.159,
         "price": 41.6,
         "previousPrice": 35.85
     },
     "2025-02-08 09:00:00": {
-        "exported": -11.192,
+        "exported": -5.596,
         "price": 55.15,
         "previousPrice": 41.6
     },
     "2025-02-08 10:00:00": {
-        "exported": -10.428,
+        "exported": -5.214,
         "price": 55.04,
         "previousPrice": 55.15
     },
     "2025-02-08 11:00:00": {
-        "exported": -9.388,
+        "exported": -4.694,
         "price": 56.7,
         "previousPrice": 55.04
     },
     "2025-02-08 12:00:00": {
-        "exported": -9.668000000000001,
+        "exported": -4.834,
         "price": 56.07,
         "previousPrice": 56.7
     },
     "2025-02-08 13:00:00": {
-        "exported": -10.014,
+        "exported": -5.007,
         "price": 56.05,
         "previousPrice": 56.07
     },
     "2025-02-08 14:00:00": {
-        "exported": -9.782,
+        "exported": -4.891,
         "price": 60.52,
         "previousPrice": 56.05
     },
     "2025-02-08 15:00:00": {
-        "exported": -8.891,
+        "exported": -4.445,
         "price": 75.07,
         "previousPrice": 60.52
     },
     "2025-02-08 16:00:00": {
-        "exported": -8.511,
+        "exported": -4.255,
         "price": 98.04,
         "previousPrice": 75.07
     },
     "2025-02-08 17:00:00": {
-        "exported": -7.680999999999999,
+        "exported": -3.84,
         "price": 79.41,
         "previousPrice": 98.04
     },
     "2025-02-08 18:00:00": {
-        "exported": -7.581,
+        "exported": -3.791,
         "price": 69.69,
         "previousPrice": 79.41
     },
     "2025-02-08 19:00:00": {
-        "exported": -7.665000000000001,
+        "exported": -3.833,
         "price": 57.91,
         "previousPrice": 69.69
     },
     "2025-02-08 20:00:00": {
-        "exported": -7.720000000000001,
+        "exported": -3.86,
         "price": 57.99,
         "previousPrice": 57.91
     },
     "2025-02-08 21:00:00": {
-        "exported": -7.9510000000000005,
+        "exported": -3.976,
         "price": 54.4,
         "previousPrice": 57.99
     },
     "2025-02-08 22:00:00": {
-        "exported": -8.635,
+        "exported": -4.317,
         "price": 49.09,
         "previousPrice": 54.4
     },
     "2025-02-08 23:00:00": {
-        "exported": -8.854,
+        "exported": -4.427,
         "price": 42.88,
         "previousPrice": 49.09
     },
     "2025-02-09 00:00:00": {
-        "exported": -9.396,
+        "exported": -4.698,
         "price": 39.26,
         "previousPrice": 42.88
     },
     "2025-02-09 01:00:00": {
-        "exported": -9.597000000000001,
+        "exported": -4.799,
         "price": 33.59,
         "previousPrice": 39.26
     },
     "2025-02-09 02:00:00": {
-        "exported": -9.73,
+        "exported": -4.865,
         "price": 33.51,
         "previousPrice": 33.59
     },
     "2025-02-09 03:00:00": {
-        "exported": -9.722999999999999,
+        "exported": -4.861,
         "price": 33.48,
         "previousPrice": 33.51
     },
     "2025-02-09 04:00:00": {
-        "exported": -9.686,
+        "exported": -4.843,
         "price": 33.68,
         "previousPrice": 33.48
     },
     "2025-02-09 05:00:00": {
-        "exported": -9.54,
+        "exported": -4.77,
         "price": 38.82,
         "previousPrice": 33.68
     },
     "2025-02-09 06:00:00": {
-        "exported": -8.912,
+        "exported": -4.456,
         "price": 45.05,
         "previousPrice": 38.82
     },
     "2025-02-09 07:00:00": {
-        "exported": -8.152,
+        "exported": -4.076,
         "price": 45.43,
         "previousPrice": 45.05
     },
     "2025-02-09 08:00:00": {
-        "exported": -7.688,
+        "exported": -3.844,
         "price": 64.19,
         "previousPrice": 45.43
     },
     "2025-02-09 09:00:00": {
-        "exported": -7.742999999999999,
+        "exported": -3.872,
         "price": 65.83,
         "previousPrice": 64.19
     },
     "2025-02-09 10:00:00": {
-        "exported": -7.584999999999999,
+        "exported": -3.792,
         "price": 60.25,
         "previousPrice": 65.83
     },
     "2025-02-09 11:00:00": {
-        "exported": -7.813000000000001,
+        "exported": -3.907,
         "price": 48.56,
         "previousPrice": 60.25
     },
     "2025-02-09 12:00:00": {
-        "exported": -7.787000000000001,
+        "exported": -3.894,
         "price": 48.69,
         "previousPrice": 48.56
     },
     "2025-02-09 13:00:00": {
-        "exported": -7.808,
+        "exported": -3.904,
         "price": 46.18,
         "previousPrice": 48.69
     },
     "2025-02-09 14:00:00": {
-        "exported": -7.302999999999999,
+        "exported": -3.651,
         "price": 52.59,
         "previousPrice": 46.18
     },
     "2025-02-09 15:00:00": {
-        "exported": -7.218,
+        "exported": -3.609,
         "price": 58.21,
         "previousPrice": 52.59
     },
     "2025-02-09 16:00:00": {
-        "exported": -6.844,
+        "exported": -3.422,
         "price": 62.46,
         "previousPrice": 58.21
     },
     "2025-02-09 17:00:00": {
-        "exported": -5.92,
+        "exported": -2.96,
         "price": 58.58,
         "previousPrice": 62.46
     },
     "2025-02-09 18:00:00": {
-        "exported": -6.518,
+        "exported": -3.259,
         "price": 51.62,
         "previousPrice": 58.58
     },
     "2025-02-09 19:00:00": {
-        "exported": -7.02,
+        "exported": -3.51,
         "price": 42.79,
         "previousPrice": 51.62
     },
     "2025-02-09 20:00:00": {
-        "exported": -7.033,
+        "exported": -3.517,
         "price": 40.61,
         "previousPrice": 42.79
     },
     "2025-02-09 21:00:00": {
-        "exported": -8.012,
+        "exported": -4.006,
         "price": 37.12,
         "previousPrice": 40.61
     },
     "2025-02-09 22:00:00": {
-        "exported": -8.263,
+        "exported": -4.131,
         "price": 32.93,
         "previousPrice": 37.12
     },
     "2025-02-09 23:00:00": {
-        "exported": -8.271,
+        "exported": -4.135,
         "price": 32.19,
         "previousPrice": 32.93
     },
     "2025-02-10 00:00:00": {
-        "exported": -9.373999999999999,
+        "exported": -4.687,
         "price": 31.74,
         "previousPrice": 32.19
     },
     "2025-02-10 01:00:00": {
-        "exported": -9.387,
+        "exported": -4.693,
         "price": 30.96,
         "previousPrice": 31.74
     },
     "2025-02-10 02:00:00": {
-        "exported": -9.659,
+        "exported": -4.83,
         "price": 30.96,
         "previousPrice": 30.96
     },
     "2025-02-10 03:00:00": {
-        "exported": -10.23,
+        "exported": -5.115,
         "price": 31.82,
         "previousPrice": 30.96
     },
     "2025-02-10 04:00:00": {
-        "exported": -10.939,
+        "exported": -5.469,
         "price": 36.5,
         "previousPrice": 31.82
     },
     "2025-02-10 05:00:00": {
-        "exported": -10.934,
+        "exported": -5.467,
         "price": 51.77,
         "previousPrice": 36.5
     },
     "2025-02-10 06:00:00": {
-        "exported": -8.928,
+        "exported": -4.464,
         "price": 100.78,
         "previousPrice": 51.77
     },
     "2025-02-10 07:00:00": {
-        "exported": -8.043,
+        "exported": -4.021,
         "price": 126.16,
         "previousPrice": 100.78
     },
     "2025-02-10 08:00:00": {
-        "exported": -7.818,
+        "exported": -3.909,
         "price": 121.42,
         "previousPrice": 126.16
     },
     "2025-02-10 09:00:00": {
-        "exported": -7.994,
+        "exported": -3.997,
         "price": 105.99,
         "previousPrice": 121.42
     },
     "2025-02-10 10:00:00": {
-        "exported": -8.867,
+        "exported": -4.434,
         "price": 80.15,
         "previousPrice": 105.99
     },
     "2025-02-10 11:00:00": {
-        "exported": -9.966000000000001,
+        "exported": -4.983,
         "price": 70.38,
         "previousPrice": 80.15
     },
     "2025-02-10 12:00:00": {
-        "exported": -10.113,
+        "exported": -5.056,
         "price": 77.96,
         "previousPrice": 70.38
     },
     "2025-02-10 13:00:00": {
-        "exported": -10.332,
+        "exported": -5.166,
         "price": 74.26,
         "previousPrice": 77.96
     },
     "2025-02-10 14:00:00": {
-        "exported": -9.639,
+        "exported": -4.819,
         "price": 77.9,
         "previousPrice": 74.26
     },
     "2025-02-10 15:00:00": {
-        "exported": -9.884,
+        "exported": -4.942,
         "price": 83.2,
         "previousPrice": 77.9
     },
     "2025-02-10 16:00:00": {
-        "exported": -9.382,
+        "exported": -4.691,
         "price": 92.39,
         "previousPrice": 83.2
     },
     "2025-02-10 17:00:00": {
-        "exported": -8.225999999999999,
+        "exported": -4.113,
         "price": 86.44,
         "previousPrice": 92.39
     },
     "2025-02-10 18:00:00": {
-        "exported": -8.148,
+        "exported": -4.074,
         "price": 74.66,
         "previousPrice": 86.44
     },
     "2025-02-10 19:00:00": {
-        "exported": -9.001000000000001,
+        "exported": -4.5,
         "price": 67.57,
         "previousPrice": 74.66
     },
     "2025-02-10 20:00:00": {
-        "exported": -10.554,
+        "exported": -5.277,
         "price": 59.84,
         "previousPrice": 67.57
     },
     "2025-02-10 21:00:00": {
-        "exported": -11.327,
+        "exported": -5.663,
         "price": 44.22,
         "previousPrice": 59.84
     },
     "2025-02-10 22:00:00": {
-        "exported": -11.786,
+        "exported": -5.893,
         "price": 35.37,
         "previousPrice": 44.22
     },
     "2025-02-10 23:00:00": {
-        "exported": -12.019,
+        "exported": -6.01,
         "price": 44.66,
         "previousPrice": 35.37
     },
     "2025-02-11 00:00:00": {
-        "exported": -13.306000000000001,
+        "exported": -6.653,
         "price": 39.72,
         "previousPrice": 44.66
     },
     "2025-02-11 01:00:00": {
-        "exported": -13.408,
+        "exported": -6.704,
         "price": 33.72,
         "previousPrice": 39.72
     },
     "2025-02-11 02:00:00": {
-        "exported": -13.407,
+        "exported": -6.704,
         "price": 31.37,
         "previousPrice": 33.72
     },
     "2025-02-11 03:00:00": {
-        "exported": -13.25,
+        "exported": -6.625,
         "price": 32.5,
         "previousPrice": 31.37
     },
     "2025-02-11 04:00:00": {
-        "exported": -13.092,
+        "exported": -6.546,
         "price": 42.42,
         "previousPrice": 32.5
     },
     "2025-02-11 05:00:00": {
-        "exported": -11.582999999999998,
+        "exported": -5.792,
         "price": 56.06,
         "previousPrice": 42.42
     },
     "2025-02-11 06:00:00": {
-        "exported": -9.349,
+        "exported": -4.674,
         "price": 72.24,
         "previousPrice": 56.06
     },
     "2025-02-11 07:00:00": {
-        "exported": -7.010999999999999,
+        "exported": -3.505,
         "price": 89.56,
         "previousPrice": 72.24
     },
     "2025-02-11 08:00:00": {
-        "exported": -6.913,
+        "exported": -3.457,
         "price": 76.78,
         "previousPrice": 89.56
     },
     "2025-02-11 09:00:00": {
-        "exported": -7.216,
+        "exported": -3.608,
         "price": 72.05,
         "previousPrice": 76.78
     },
     "2025-02-11 10:00:00": {
-        "exported": -7.551,
+        "exported": -3.776,
         "price": 71.6,
         "previousPrice": 72.05
     },
     "2025-02-11 11:00:00": {
-        "exported": -7.598000000000001,
+        "exported": -3.799,
         "price": 68.21,
         "previousPrice": 71.6
     },
     "2025-02-11 12:00:00": {
-        "exported": -8.038,
+        "exported": -4.019,
         "price": 66.04,
         "previousPrice": 68.21
     },
     "2025-02-11 13:00:00": {
-        "exported": -8.456,
+        "exported": -4.228,
         "price": 59.13,
         "previousPrice": 66.04
     },
     "2025-02-11 14:00:00": {
-        "exported": -8.43,
+        "exported": -4.215,
         "price": 50.18,
         "previousPrice": 59.13
     },
     "2025-02-11 15:00:00": {
-        "exported": -7.340999999999999,
+        "exported": -3.671,
         "price": 52.97,
         "previousPrice": 50.18
     },
     "2025-02-11 16:00:00": {
-        "exported": -6.762,
+        "exported": -3.381,
         "price": 64.82,
         "previousPrice": 52.97
     },
     "2025-02-11 17:00:00": {
-        "exported": -6.057,
+        "exported": -3.028,
         "price": 65.94,
         "previousPrice": 64.82
     },
     "2025-02-11 18:00:00": {
-        "exported": -5.8,
+        "exported": -2.9,
         "price": 51.49,
         "previousPrice": 65.94
     },
     "2025-02-11 19:00:00": {
-        "exported": -6.548,
+        "exported": -3.274,
         "price": 41.95,
         "previousPrice": 51.49
     },
     "2025-02-11 20:00:00": {
-        "exported": -7.928,
+        "exported": -3.964,
         "price": 42.18,
         "previousPrice": 41.95
     },
     "2025-02-11 21:00:00": {
-        "exported": -9.081,
+        "exported": -4.541,
         "price": 35.68,
         "previousPrice": 42.18
     },
     "2025-02-11 22:00:00": {
-        "exported": -9.530999999999999,
+        "exported": -4.765,
         "price": 34.53,
         "previousPrice": 35.68
     },
     "2025-02-11 23:00:00": {
-        "exported": -9.251999999999999,
+        "exported": -4.626,
         "price": 36.67,
         "previousPrice": 34.53
     },
     "2025-02-12 00:00:00": {
-        "exported": -8.661999999999999,
+        "exported": -4.331,
         "price": 36.28,
         "previousPrice": 36.67
     },
     "2025-02-12 01:00:00": {
-        "exported": -8.727,
+        "exported": -4.364,
         "price": 36.03,
         "previousPrice": 36.28
     },
     "2025-02-12 02:00:00": {
-        "exported": -8.966000000000001,
+        "exported": -4.483,
         "price": 36.57,
         "previousPrice": 36.03
     },
     "2025-02-12 03:00:00": {
-        "exported": -9.972,
+        "exported": -4.986,
         "price": 37.01,
         "previousPrice": 36.57
     },
     "2025-02-12 04:00:00": {
-        "exported": -11.001999999999999,
+        "exported": -5.501,
         "price": 52.51,
         "previousPrice": 37.01
     },
     "2025-02-12 05:00:00": {
-        "exported": -10.202,
+        "exported": -5.101,
         "price": 85.76,
         "previousPrice": 52.51
     },
     "2025-02-12 06:00:00": {
-        "exported": -8.399999999999999,
+        "exported": -4.2,
         "price": 136.66,
         "previousPrice": 85.76
     },
     "2025-02-12 07:00:00": {
-        "exported": -6.812,
+        "exported": -3.406,
         "price": 170.93,
         "previousPrice": 136.66
     },
     "2025-02-12 08:00:00": {
-        "exported": -6.811999999999999,
+        "exported": -3.406,
         "price": 153.19,
         "previousPrice": 170.93
     },
     "2025-02-12 09:00:00": {
-        "exported": -6.696,
+        "exported": -3.348,
         "price": 133.34,
         "previousPrice": 153.19
     },
     "2025-02-12 10:00:00": {
-        "exported": -6.76,
+        "exported": -3.379,
         "price": 117.28,
         "previousPrice": 133.34
     },
     "2025-02-12 11:00:00": {
-        "exported": -7.517,
+        "exported": -3.758,
         "price": 109.95,
         "previousPrice": 117.28
     },
     "2025-02-12 12:00:00": {
-        "exported": -7.8790000000000004,
+        "exported": -3.939,
         "price": 113.79,
         "previousPrice": 109.95
     },
     "2025-02-12 13:00:00": {
-        "exported": -7.594,
+        "exported": -3.797,
         "price": 120.02,
         "previousPrice": 113.79
     },
     "2025-02-12 14:00:00": {
-        "exported": -7.1290000000000004,
+        "exported": -3.564,
         "price": 118.44,
         "previousPrice": 120.02
     },
     "2025-02-12 15:00:00": {
-        "exported": -6.465,
+        "exported": -3.232,
         "price": 124.61,
         "previousPrice": 118.44
     },
     "2025-02-12 16:00:00": {
-        "exported": -6.145999999999999,
+        "exported": -3.073,
         "price": 132.78,
         "previousPrice": 124.61
     },
     "2025-02-12 17:00:00": {
-        "exported": -5.506,
+        "exported": -2.753,
         "price": 140,
         "previousPrice": 132.78
     },
     "2025-02-12 18:00:00": {
-        "exported": -6.242000000000001,
+        "exported": -3.121,
         "price": 124.26,
         "previousPrice": 140
     },
     "2025-02-12 19:00:00": {
-        "exported": -6.958,
+        "exported": -3.479,
         "price": 110.01,
         "previousPrice": 124.26
     },
     "2025-02-12 20:00:00": {
-        "exported": -7.673,
+        "exported": -3.837,
         "price": 96.77,
         "previousPrice": 110.01
     },
     "2025-02-12 21:00:00": {
-        "exported": -8.619,
+        "exported": -4.309,
         "price": 87.36,
         "previousPrice": 96.77
     },
     "2025-02-12 22:00:00": {
-        "exported": -8.948,
+        "exported": -4.474,
         "price": 56.27,
         "previousPrice": 87.36
     },
     "2025-02-12 23:00:00": {
-        "exported": -9.115000000000002,
+        "exported": -4.557,
         "price": 68.78,
         "previousPrice": 56.27
     },
     "2025-02-13 00:00:00": {
-        "exported": -9.405999999999999,
+        "exported": -4.703,
         "price": 54.79,
         "previousPrice": 68.78
     },
     "2025-02-13 01:00:00": {
-        "exported": -9.386,
+        "exported": -4.693,
         "price": 46.37,
         "previousPrice": 54.79
     },
     "2025-02-13 02:00:00": {
-        "exported": -9.384,
+        "exported": -4.692,
         "price": 45.98,
         "previousPrice": 46.37
     },
     "2025-02-13 03:00:00": {
-        "exported": -9.186,
+        "exported": -4.593,
         "price": 46.02,
         "previousPrice": 45.98
     },
     "2025-02-13 04:00:00": {
-        "exported": -9.549,
+        "exported": -4.774,
         "price": 59.06,
         "previousPrice": 46.02
     },
     "2025-02-13 05:00:00": {
-        "exported": -10.418,
+        "exported": -5.209,
         "price": 93.5,
         "previousPrice": 59.06
     },
     "2025-02-13 06:00:00": {
-        "exported": -9.254999999999999,
+        "exported": -4.627,
         "price": 130.75,
         "previousPrice": 93.5
     },
     "2025-02-13 07:00:00": {
-        "exported": -7.599,
+        "exported": -3.8,
         "price": 150.53,
         "previousPrice": 130.75
     },
     "2025-02-13 08:00:00": {
-        "exported": -7.449,
+        "exported": -3.724,
         "price": 159.2,
         "previousPrice": 150.53
     },
     "2025-02-13 09:00:00": {
-        "exported": -8.386,
+        "exported": -4.193,
         "price": 145.03,
         "previousPrice": 159.2
     },
     "2025-02-13 10:00:00": {
-        "exported": -8.667,
+        "exported": -4.334,
         "price": 133.8,
         "previousPrice": 145.03
     },
     "2025-02-13 11:00:00": {
-        "exported": -9.132000000000001,
+        "exported": -4.566,
         "price": 131.16,
         "previousPrice": 133.8
     },
     "2025-02-13 12:00:00": {
-        "exported": -9.136,
+        "exported": -4.568,
         "price": 103.93,
         "previousPrice": 131.16
     },
     "2025-02-13 13:00:00": {
-        "exported": -9.169999999999998,
+        "exported": -4.585,
         "price": 103.19,
         "previousPrice": 103.93
     },
     "2025-02-13 14:00:00": {
-        "exported": -9.311,
+        "exported": -4.655,
         "price": 103.18,
         "previousPrice": 103.19
     },
     "2025-02-13 15:00:00": {
-        "exported": -9.104,
+        "exported": -4.552,
         "price": 115.81,
         "previousPrice": 103.18
     },
     "2025-02-13 16:00:00": {
-        "exported": -8.672,
+        "exported": -4.336,
         "price": 144.55,
         "previousPrice": 115.81
     },
     "2025-02-13 17:00:00": {
-        "exported": -8.565000000000001,
+        "exported": -4.283,
         "price": 157.15,
         "previousPrice": 144.55
     },
     "2025-02-13 18:00:00": {
-        "exported": -8.912,
+        "exported": -4.456,
         "price": 147.57,
         "previousPrice": 157.15
     },
     "2025-02-13 19:00:00": {
-        "exported": -9.036,
+        "exported": -4.518,
         "price": 129.41,
         "previousPrice": 147.57
     },
     "2025-02-13 20:00:00": {
-        "exported": -9.248999999999999,
+        "exported": -4.624,
         "price": 119.9,
         "previousPrice": 129.41
     },
     "2025-02-13 21:00:00": {
-        "exported": -10.208,
+        "exported": -5.104,
         "price": 98.39,
         "previousPrice": 119.9
     },
     "2025-02-13 22:00:00": {
-        "exported": -10.37,
+        "exported": -5.185,
         "price": 96.25,
         "previousPrice": 98.39
     },
     "2025-02-13 23:00:00": {
-        "exported": -10.57,
+        "exported": -5.285,
         "price": 115.1,
         "previousPrice": 96.25
     },
     "2025-02-14 00:00:00": {
-        "exported": -11.013,
+        "exported": -5.506,
         "price": 114.4,
         "previousPrice": 115.1
     },
     "2025-02-14 01:00:00": {
-        "exported": -11.018,
+        "exported": -5.509,
         "price": 109.42,
         "previousPrice": 114.4
     },
     "2025-02-14 02:00:00": {
-        "exported": -10.736,
+        "exported": -5.368,
         "price": 100.12,
         "previousPrice": 109.42
     },
     "2025-02-14 03:00:00": {
-        "exported": -10.55,
+        "exported": -5.275,
         "price": 106.93,
         "previousPrice": 100.12
     },
     "2025-02-14 04:00:00": {
-        "exported": -10.203,
+        "exported": -5.101,
         "price": 103.22,
         "previousPrice": 106.93
     },
     "2025-02-14 05:00:00": {
-        "exported": -9.024000000000001,
+        "exported": -4.512,
         "price": 163.06,
         "previousPrice": 103.22
     },
     "2025-02-14 06:00:00": {
-        "exported": -6.997,
+        "exported": -3.498,
         "price": 232.43,
         "previousPrice": 163.06
     },
     "2025-02-14 07:00:00": {
-        "exported": -4.667,
+        "exported": -2.333,
         "price": 268.15,
         "previousPrice": 232.43
     },
     "2025-02-14 08:00:00": {
-        "exported": -4.289,
+        "exported": -2.144,
         "price": 215.66,
         "previousPrice": 268.15
     },
     "2025-02-14 09:00:00": {
-        "exported": -5.057,
+        "exported": -2.528,
         "price": 181.69,
         "previousPrice": 215.66
     },
     "2025-02-14 10:00:00": {
-        "exported": -6.365,
+        "exported": -3.183,
         "price": 162.67,
         "previousPrice": 181.69
     },
     "2025-02-14 11:00:00": {
-        "exported": -7.102,
+        "exported": -3.551,
         "price": 146.16,
         "previousPrice": 162.67
     },
     "2025-02-14 12:00:00": {
-        "exported": -7.922,
+        "exported": -3.961,
         "price": 131.53,
         "previousPrice": 146.16
     },
     "2025-02-14 13:00:00": {
-        "exported": -8.349,
+        "exported": -4.175,
         "price": 126.41,
         "previousPrice": 131.53
     },
     "2025-02-14 14:00:00": {
-        "exported": -8.232,
+        "exported": -4.116,
         "price": 130.53,
         "previousPrice": 126.41
     },
     "2025-02-14 15:00:00": {
-        "exported": -7.946,
+        "exported": -3.973,
         "price": 198.44,
         "previousPrice": 130.53
     },
     "2025-02-14 16:00:00": {
-        "exported": -6.648999999999999,
+        "exported": -3.324,
         "price": 291.93,
         "previousPrice": 198.44
     },
     "2025-02-14 17:00:00": {
-        "exported": -5.370000000000001,
+        "exported": -2.685,
         "price": 274.15,
         "previousPrice": 291.93
     },
     "2025-02-14 18:00:00": {
-        "exported": -5.252000000000001,
+        "exported": -2.626,
         "price": 220.37,
         "previousPrice": 274.15
     },
     "2025-02-14 19:00:00": {
-        "exported": -6.247999999999999,
+        "exported": -3.124,
         "price": 149.28,
         "previousPrice": 220.37
     },
     "2025-02-14 20:00:00": {
-        "exported": -7.096,
+        "exported": -3.548,
         "price": 135.84,
         "previousPrice": 149.28
     },
     "2025-02-14 21:00:00": {
-        "exported": -8.122,
+        "exported": -4.061,
         "price": 111.22,
         "previousPrice": 135.84
     },
     "2025-02-14 22:00:00": {
-        "exported": -8.401,
+        "exported": -4.2,
         "price": 70.29,
         "previousPrice": 111.22
     },
     "2025-02-14 23:00:00": {
-        "exported": -9.062,
+        "exported": -4.531,
         "price": 81.27,
         "previousPrice": 70.29
     },
     "2025-02-15 00:00:00": {
-        "exported": -5.222,
+        "exported": -2.611,
         "price": 75.18,
         "previousPrice": 81.27
     },
     "2025-02-15 01:00:00": {
-        "exported": -5.556,
+        "exported": -2.778,
         "price": 67.13,
         "previousPrice": 75.18
     },
     "2025-02-15 02:00:00": {
-        "exported": -5.684,
+        "exported": -2.842,
         "price": 59.47,
         "previousPrice": 67.13
     },
     "2025-02-15 03:00:00": {
-        "exported": -5.632,
+        "exported": -2.816,
         "price": 61.14,
         "previousPrice": 59.47
     },
     "2025-02-15 04:00:00": {
-        "exported": -5.622,
+        "exported": -2.811,
         "price": 63.82,
         "previousPrice": 61.14
     },
     "2025-02-15 05:00:00": {
-        "exported": -5.946,
+        "exported": -2.973,
         "price": 68.25,
         "previousPrice": 63.82
     },
     "2025-02-15 06:00:00": {
-        "exported": -6.086,
+        "exported": -3.043,
         "price": 77.27,
         "previousPrice": 68.25
     },
     "2025-02-15 07:00:00": {
-        "exported": -10.454,
+        "exported": -5.227,
         "price": 84.56,
         "previousPrice": 77.27
     },
     "2025-02-15 08:00:00": {
-        "exported": -6.759,
+        "exported": -3.38,
         "price": 84.26,
         "previousPrice": 84.56
     },
     "2025-02-15 09:00:00": {
-        "exported": -6.402,
+        "exported": -3.201,
         "price": 82.1,
         "previousPrice": 84.26
     },
     "2025-02-15 10:00:00": {
-        "exported": -6.854000000000001,
+        "exported": -3.427,
         "price": 85.19,
         "previousPrice": 82.1
     },
     "2025-02-15 11:00:00": {
-        "exported": -6.911,
+        "exported": -3.456,
         "price": 69.22,
         "previousPrice": 85.19
     },
     "2025-02-15 12:00:00": {
-        "exported": -11.366,
+        "exported": -5.683,
         "price": 72.75,
         "previousPrice": 69.22
     },
     "2025-02-15 13:00:00": {
-        "exported": -11.233999999999998,
+        "exported": -5.617,
         "price": 70.04,
         "previousPrice": 72.75
     },
     "2025-02-15 14:00:00": {
-        "exported": -11.24,
+        "exported": -5.62,
         "price": 91.08,
         "previousPrice": 70.04
     },
     "2025-02-15 15:00:00": {
-        "exported": -11.376,
+        "exported": -5.688,
         "price": 96.18,
         "previousPrice": 91.08
     },
     "2025-02-15 16:00:00": {
-        "exported": -11.494,
+        "exported": -5.747,
         "price": 121.55,
         "previousPrice": 96.18
     },
     "2025-02-15 17:00:00": {
-        "exported": -11.41,
+        "exported": -5.705,
         "price": 137.12,
         "previousPrice": 121.55
     },
     "2025-02-15 18:00:00": {
-        "exported": -11.818,
+        "exported": -5.909,
         "price": 130.06,
         "previousPrice": 137.12
     },
     "2025-02-15 19:00:00": {
-        "exported": -12.437999999999999,
+        "exported": -6.219,
         "price": 124.17,
         "previousPrice": 130.06
     },
     "2025-02-15 20:00:00": {
-        "exported": -12.701999999999998,
+        "exported": -6.351,
         "price": 121.32,
         "previousPrice": 124.17
     },
     "2025-02-15 21:00:00": {
-        "exported": -13.2,
+        "exported": -6.6,
         "price": 105.85,
         "previousPrice": 121.32
     },
     "2025-02-15 22:00:00": {
-        "exported": -12.692,
+        "exported": -6.346,
         "price": 104.33,
         "previousPrice": 105.85
     },
     "2025-02-15 23:00:00": {
-        "exported": -12.522,
+        "exported": -6.261,
         "price": 129.54,
         "previousPrice": 104.33
     },
     "2025-02-16 00:00:00": {
-        "exported": -7.194,
+        "exported": -3.597,
         "price": 127.8,
         "previousPrice": 129.54
     },
     "2025-02-16 01:00:00": {
-        "exported": -6.998000000000001,
+        "exported": -3.499,
         "price": 123.35,
         "previousPrice": 127.8
     },
     "2025-02-16 02:00:00": {
-        "exported": -6.88,
+        "exported": -3.44,
         "price": 117.89,
         "previousPrice": 123.35
     },
     "2025-02-16 03:00:00": {
-        "exported": -10.396,
+        "exported": -5.198,
         "price": 117.73,
         "previousPrice": 117.89
     },
     "2025-02-16 04:00:00": {
-        "exported": -10.097000000000001,
+        "exported": -5.049,
         "price": 118.32,
         "previousPrice": 117.73
     },
     "2025-02-16 05:00:00": {
-        "exported": -10.207,
+        "exported": -5.104,
         "price": 118.73,
         "previousPrice": 118.32
     },
     "2025-02-16 06:00:00": {
-        "exported": -9.852,
+        "exported": -4.926,
         "price": 119.15,
         "previousPrice": 118.73
     },
     "2025-02-16 07:00:00": {
-        "exported": -8.8,
+        "exported": -4.4,
         "price": 119.78,
         "previousPrice": 119.15
     },
     "2025-02-16 08:00:00": {
-        "exported": -8.056999999999999,
+        "exported": -4.029,
         "price": 105.32,
         "previousPrice": 119.78
     },
     "2025-02-16 09:00:00": {
-        "exported": -8.261,
+        "exported": -4.13,
         "price": 115.54,
         "previousPrice": 105.32
     },
     "2025-02-16 10:00:00": {
-        "exported": -8.886,
+        "exported": -4.443,
         "price": 114,
         "previousPrice": 115.54
     },
     "2025-02-16 11:00:00": {
-        "exported": -9.038,
+        "exported": -4.519,
         "price": 99.54,
         "previousPrice": 114
     },
     "2025-02-16 12:00:00": {
-        "exported": -8.648,
+        "exported": -4.324,
         "price": 108.48,
         "previousPrice": 99.54
     },
     "2025-02-16 13:00:00": {
-        "exported": -8.693999999999999,
+        "exported": -4.347,
         "price": 114.34,
         "previousPrice": 108.48
     },
     "2025-02-16 14:00:00": {
-        "exported": -8.674,
+        "exported": -4.337,
         "price": 117.64,
         "previousPrice": 114.34
     },
     "2025-02-16 15:00:00": {
-        "exported": -9.041999999999998,
+        "exported": -4.521,
         "price": 131.14,
         "previousPrice": 117.64
     },
     "2025-02-16 16:00:00": {
-        "exported": -7.918,
+        "exported": -3.959,
         "price": 146.5,
         "previousPrice": 131.14
     },
     "2025-02-16 17:00:00": {
-        "exported": -7.414,
+        "exported": -3.707,
         "price": 159.34,
         "previousPrice": 146.5
     },
     "2025-02-16 18:00:00": {
-        "exported": -7.687,
+        "exported": -3.844,
         "price": 143.43,
         "previousPrice": 159.34
     },
     "2025-02-16 19:00:00": {
-        "exported": -8.350999999999999,
+        "exported": -4.175,
         "price": 132.94,
         "previousPrice": 143.43
     },
     "2025-02-16 20:00:00": {
-        "exported": -9.119,
+        "exported": -4.559,
         "price": 126.67,
         "previousPrice": 132.94
     },
     "2025-02-16 21:00:00": {
-        "exported": -10.155000000000001,
+        "exported": -5.078,
         "price": 125.21,
         "previousPrice": 126.67
     },
     "2025-02-16 22:00:00": {
-        "exported": -6.002,
+        "exported": -3.001,
         "price": 92.61,
         "previousPrice": 125.21
     },
     "2025-02-16 23:00:00": {
-        "exported": -6.056000000000001,
+        "exported": -3.028,
         "price": 113.73,
         "previousPrice": 92.61
     },
     "2025-02-17 00:00:00": {
-        "exported": -11.434,
+        "exported": -5.717,
         "price": 99.99,
         "previousPrice": 113.73
     },
     "2025-02-17 01:00:00": {
-        "exported": -11.77,
+        "exported": -5.885,
         "price": 97.65,
         "previousPrice": 99.99
     },
     "2025-02-17 02:00:00": {
-        "exported": -11.863,
+        "exported": -5.931,
         "price": 91.62,
         "previousPrice": 97.65
     },
     "2025-02-17 03:00:00": {
-        "exported": -11.946,
+        "exported": -5.973,
         "price": 106.08,
         "previousPrice": 91.62
     },
     "2025-02-17 04:00:00": {
-        "exported": -11.506,
+        "exported": -5.753,
         "price": 119.51,
         "previousPrice": 106.08
     },
     "2025-02-17 05:00:00": {
-        "exported": -11.064,
+        "exported": -5.532,
         "price": 150.16,
         "previousPrice": 119.51
     },
     "2025-02-17 06:00:00": {
-        "exported": -8.702,
+        "exported": -4.351,
         "price": 207.89,
         "previousPrice": 150.16
     },
     "2025-02-17 07:00:00": {
-        "exported": -6.156,
+        "exported": -3.078,
         "price": 216.75,
         "previousPrice": 207.89
     },
     "2025-02-17 08:00:00": {
-        "exported": -6.470000000000001,
+        "exported": -3.235,
         "price": 171.49,
         "previousPrice": 216.75
     },
     "2025-02-17 09:00:00": {
-        "exported": -7.308,
+        "exported": -3.654,
         "price": 139.82,
         "previousPrice": 171.49
     },
     "2025-02-17 10:00:00": {
-        "exported": -7.9,
+        "exported": -3.95,
         "price": 117.31,
         "previousPrice": 139.82
     },
     "2025-02-17 11:00:00": {
-        "exported": -7.958,
+        "exported": -3.979,
         "price": 108.94,
         "previousPrice": 117.31
     },
     "2025-02-17 12:00:00": {
-        "exported": -8.212,
+        "exported": -4.106,
         "price": 106.85,
         "previousPrice": 108.94
     },
     "2025-02-17 13:00:00": {
-        "exported": -8.14,
+        "exported": -4.07,
         "price": 111.99,
         "previousPrice": 106.85
     },
     "2025-02-17 14:00:00": {
-        "exported": -8.142,
+        "exported": -4.071,
         "price": 132.5,
         "previousPrice": 111.99
     },
     "2025-02-17 15:00:00": {
-        "exported": -7.456000000000001,
+        "exported": -3.728,
         "price": 156.9,
         "previousPrice": 132.5
     },
     "2025-02-17 16:00:00": {
-        "exported": -7.442,
+        "exported": -3.721,
         "price": 215.08,
         "previousPrice": 156.9
     },
     "2025-02-17 17:00:00": {
-        "exported": -6.725,
+        "exported": -3.363,
         "price": 240.73,
         "previousPrice": 215.08
     },
     "2025-02-17 18:00:00": {
-        "exported": -5.715,
+        "exported": -2.857,
         "price": 183.82,
         "previousPrice": 240.73
     },
     "2025-02-17 19:00:00": {
-        "exported": -6.8100000000000005,
+        "exported": -3.405,
         "price": 151.84,
         "previousPrice": 183.82
     },
     "2025-02-17 20:00:00": {
-        "exported": -6.678000000000001,
+        "exported": -3.339,
         "price": 131.24,
         "previousPrice": 151.84
     },
     "2025-02-17 21:00:00": {
-        "exported": -7.098000000000001,
+        "exported": -3.549,
         "price": 114.99,
         "previousPrice": 131.24
     },
     "2025-02-17 22:00:00": {
-        "exported": -7.741999999999999,
+        "exported": -3.871,
         "price": 96.99,
         "previousPrice": 114.99
     },
     "2025-02-17 23:00:00": {
-        "exported": -7.7589999999999995,
+        "exported": -3.88,
         "price": 72.47,
         "previousPrice": 96.99
     },
     "2025-02-18 00:00:00": {
-        "exported": -9.826,
+        "exported": -4.913,
         "price": 54.92,
         "previousPrice": 72.47
     },
     "2025-02-18 01:00:00": {
-        "exported": -10.007,
+        "exported": -5.004,
         "price": 52.96,
         "previousPrice": 54.92
     },
     "2025-02-18 02:00:00": {
-        "exported": -9.850999999999999,
+        "exported": -4.925,
         "price": 57.29,
         "previousPrice": 52.96
     },
     "2025-02-18 03:00:00": {
-        "exported": -9.674,
+        "exported": -4.837,
         "price": 54.2,
         "previousPrice": 57.29
     },
     "2025-02-18 04:00:00": {
-        "exported": -9.870999999999999,
+        "exported": -4.936,
         "price": 60.47,
         "previousPrice": 54.2
     },
     "2025-02-18 05:00:00": {
-        "exported": -8.983,
+        "exported": -4.491,
         "price": 79.82,
         "previousPrice": 60.47
     },
     "2025-02-18 06:00:00": {
-        "exported": -7.313000000000001,
+        "exported": -3.656,
         "price": 109.33,
         "previousPrice": 79.82
     },
     "2025-02-18 07:00:00": {
-        "exported": -6.656,
+        "exported": -3.328,
         "price": 111.53,
         "previousPrice": 109.33
     },
     "2025-02-18 08:00:00": {
-        "exported": -7.081999999999999,
+        "exported": -3.541,
         "price": 84.75,
         "previousPrice": 111.53
     },
     "2025-02-18 09:00:00": {
-        "exported": -7.808999999999999,
+        "exported": -3.904,
         "price": 73.15,
         "previousPrice": 84.75
     },
     "2025-02-18 10:00:00": {
-        "exported": -8.832,
+        "exported": -4.416,
         "price": 66.38,
         "previousPrice": 73.15
     },
     "2025-02-18 11:00:00": {
-        "exported": -9.74,
+        "exported": -4.87,
         "price": 61.15,
         "previousPrice": 66.38
     },
     "2025-02-18 12:00:00": {
-        "exported": -10.123999999999999,
+        "exported": -5.062,
         "price": 56.01,
         "previousPrice": 61.15
     },
     "2025-02-18 13:00:00": {
-        "exported": -10.68,
+        "exported": -5.34,
         "price": 57.8,
         "previousPrice": 56.01
     },
     "2025-02-18 14:00:00": {
-        "exported": -10.29,
+        "exported": -5.145,
         "price": 62.39,
         "previousPrice": 57.8
     },
     "2025-02-18 15:00:00": {
-        "exported": -9.36,
+        "exported": -4.68,
         "price": 71.73,
         "previousPrice": 62.39
     },
     "2025-02-18 16:00:00": {
-        "exported": -8.777000000000001,
+        "exported": -4.389,
         "price": 103.1,
         "previousPrice": 71.73
     },
     "2025-02-18 17:00:00": {
-        "exported": -8.39,
+        "exported": -4.195,
         "price": 105.64,
         "previousPrice": 103.1
     },
     "2025-02-18 18:00:00": {
-        "exported": -7.849,
+        "exported": -3.925,
         "price": 91.77,
         "previousPrice": 105.64
     },
     "2025-02-18 19:00:00": {
-        "exported": -8.28,
+        "exported": -4.14,
         "price": 78.77,
         "previousPrice": 91.77
     },
     "2025-02-18 20:00:00": {
-        "exported": -8.146999999999998,
+        "exported": -4.074,
         "price": 77.68,
         "previousPrice": 78.77
     },
     "2025-02-18 21:00:00": {
-        "exported": -8.285,
+        "exported": -4.142,
         "price": 71.37,
         "previousPrice": 77.68
     },
     "2025-02-18 22:00:00": {
-        "exported": -8.356,
+        "exported": -4.178,
         "price": 70.27,
         "previousPrice": 71.37
     },
     "2025-02-18 23:00:00": {
-        "exported": -8.894000000000002,
+        "exported": -4.447,
         "price": 72.71,
         "previousPrice": 70.27
     },
     "2025-02-19 00:00:00": {
-        "exported": -8.774999999999999,
+        "exported": -4.387,
         "price": 70.13,
         "previousPrice": 72.71
     },
     "2025-02-19 01:00:00": {
-        "exported": -8.995999999999999,
+        "exported": -4.498,
         "price": 66.84,
         "previousPrice": 70.13
     },
     "2025-02-19 02:00:00": {
-        "exported": -8.926,
+        "exported": -4.463,
         "price": 68.21,
         "previousPrice": 66.84
     },
     "2025-02-19 03:00:00": {
-        "exported": -8.378,
+        "exported": -4.189,
         "price": 69.99,
         "previousPrice": 68.21
     },
     "2025-02-19 04:00:00": {
-        "exported": -8.348,
+        "exported": -4.174,
         "price": 86.95,
         "previousPrice": 69.99
     },
     "2025-02-19 05:00:00": {
-        "exported": -7.661,
+        "exported": -3.83,
         "price": 114.53,
         "previousPrice": 86.95
     },
     "2025-02-19 06:00:00": {
-        "exported": -4.773,
+        "exported": -2.387,
         "price": 148.76,
         "previousPrice": 114.53
     },
     "2025-02-19 07:00:00": {
-        "exported": -2.975,
+        "exported": -1.488,
         "price": 165.41,
         "previousPrice": 148.76
     },
     "2025-02-19 08:00:00": {
-        "exported": -2.8149999999999995,
+        "exported": -1.408,
         "price": 125.12,
         "previousPrice": 165.41
     },
     "2025-02-19 09:00:00": {
-        "exported": -3.439,
+        "exported": -1.72,
         "price": 104.53,
         "previousPrice": 125.12
     },
     "2025-02-19 10:00:00": {
-        "exported": -4.657,
+        "exported": -2.328,
         "price": 89.15,
         "previousPrice": 104.53
     },
     "2025-02-19 11:00:00": {
-        "exported": -5.658,
+        "exported": -2.829,
         "price": 81.46,
         "previousPrice": 89.15
     },
     "2025-02-19 12:00:00": {
-        "exported": -6.333,
+        "exported": -3.166,
         "price": 79.18,
         "previousPrice": 81.46
     },
     "2025-02-19 13:00:00": {
-        "exported": -6.988,
+        "exported": -3.494,
         "price": 70,
         "previousPrice": 79.18
     },
     "2025-02-19 14:00:00": {
-        "exported": -6.460000000000001,
+        "exported": -3.23,
         "price": 72.53,
         "previousPrice": 70
     },
     "2025-02-19 15:00:00": {
-        "exported": -6.286,
+        "exported": -3.143,
         "price": 85.04,
         "previousPrice": 72.53
     },
     "2025-02-19 16:00:00": {
-        "exported": -5.708,
+        "exported": -2.854,
         "price": 94.71,
         "previousPrice": 85.04
     },
     "2025-02-19 17:00:00": {
-        "exported": -4.304,
+        "exported": -2.152,
         "price": 94.11,
         "previousPrice": 94.71
     },
     "2025-02-19 18:00:00": {
-        "exported": -4.353,
+        "exported": -2.177,
         "price": 88.56,
         "previousPrice": 94.11
     },
     "2025-02-19 19:00:00": {
-        "exported": -4.3420000000000005,
+        "exported": -2.171,
         "price": 69.28,
         "previousPrice": 88.56
     },
     "2025-02-19 20:00:00": {
-        "exported": -4.452,
+        "exported": -2.226,
         "price": 58.39,
         "previousPrice": 69.28
     },
     "2025-02-19 21:00:00": {
-        "exported": -5.583,
+        "exported": -2.792,
         "price": 47.14,
         "previousPrice": 58.39
     },
     "2025-02-19 22:00:00": {
-        "exported": -6.340999999999999,
+        "exported": -3.17,
         "price": 43.28,
         "previousPrice": 47.14
     },
     "2025-02-19 23:00:00": {
-        "exported": -6.741,
+        "exported": -3.37,
         "price": 38.81,
         "previousPrice": 43.28
     },
     "2025-02-20 00:00:00": {
-        "exported": -7.007999999999999,
+        "exported": -3.504,
         "price": 37.49,
         "previousPrice": 38.81
     },
     "2025-02-20 01:00:00": {
-        "exported": -7.353,
+        "exported": -3.677,
         "price": 37.2,
         "previousPrice": 37.49
     },
     "2025-02-20 02:00:00": {
-        "exported": -7.640000000000001,
+        "exported": -3.82,
         "price": 36.65,
         "previousPrice": 37.2
     },
     "2025-02-20 03:00:00": {
-        "exported": -8.701999999999998,
+        "exported": -4.351,
         "price": 36.73,
         "previousPrice": 36.65
     },
     "2025-02-20 04:00:00": {
-        "exported": -9.288,
+        "exported": -4.644,
         "price": 39.02,
         "previousPrice": 36.73
     },
     "2025-02-20 05:00:00": {
-        "exported": -9.126,
+        "exported": -4.563,
         "price": 56.25,
         "previousPrice": 39.02
     },
     "2025-02-20 06:00:00": {
-        "exported": -6.708,
+        "exported": -3.354,
         "price": 80.28,
         "previousPrice": 56.25
     },
     "2025-02-20 07:00:00": {
-        "exported": -4.976,
+        "exported": -2.488,
         "price": 87.79,
         "previousPrice": 80.28
     },
     "2025-02-20 08:00:00": {
-        "exported": -5.142000000000001,
+        "exported": -2.571,
         "price": 63.48,
         "previousPrice": 87.79
     },
     "2025-02-20 09:00:00": {
-        "exported": -6.401,
+        "exported": -3.201,
         "price": 61.93,
         "previousPrice": 63.48
     },
     "2025-02-20 10:00:00": {
-        "exported": -7.225999999999999,
+        "exported": -3.613,
         "price": 55.07,
         "previousPrice": 61.93
     },
     "2025-02-20 11:00:00": {
-        "exported": -8.405999999999999,
+        "exported": -4.203,
         "price": 50.11,
         "previousPrice": 55.07
     },
     "2025-02-20 12:00:00": {
-        "exported": -9.732,
+        "exported": -4.866,
         "price": 44.91,
         "previousPrice": 50.11
     },
     "2025-02-20 13:00:00": {
-        "exported": -11.315999999999999,
+        "exported": -5.658,
         "price": 42.52,
         "previousPrice": 44.91
     },
     "2025-02-20 14:00:00": {
-        "exported": -10.984,
+        "exported": -5.492,
         "price": 38.66,
         "previousPrice": 42.52
     },
     "2025-02-20 15:00:00": {
-        "exported": -10.134,
+        "exported": -5.067,
         "price": 36.25,
         "previousPrice": 38.66
     },
     "2025-02-20 16:00:00": {
-        "exported": -9.16,
+        "exported": -4.58,
         "price": 37.95,
         "previousPrice": 36.25
     },
     "2025-02-20 17:00:00": {
-        "exported": -8.295,
+        "exported": -4.148,
         "price": 35.36,
         "previousPrice": 37.95
     },
     "2025-02-20 18:00:00": {
-        "exported": -8.369,
+        "exported": -4.184,
         "price": 31.82,
         "previousPrice": 35.36
     },
     "2025-02-20 19:00:00": {
-        "exported": -9.855,
+        "exported": -4.928,
         "price": 30,
         "previousPrice": 31.82
     },
     "2025-02-20 20:00:00": {
-        "exported": -10.822,
+        "exported": -5.411,
         "price": 26.68,
         "previousPrice": 30
     },
     "2025-02-20 21:00:00": {
-        "exported": -12.309,
+        "exported": -6.154,
         "price": 23.87,
         "previousPrice": 26.68
     },
     "2025-02-20 22:00:00": {
-        "exported": -12.911999999999999,
+        "exported": -6.456,
         "price": 10,
         "previousPrice": 23.87
     },
     "2025-02-20 23:00:00": {
-        "exported": -12.507,
+        "exported": -6.253,
         "price": 20.44,
         "previousPrice": 10
     },
     "2025-02-21 00:00:00": {
-        "exported": -12.155,
+        "exported": -6.077,
         "price": 11.9,
         "previousPrice": 20.44
     },
     "2025-02-21 01:00:00": {
-        "exported": -12.014,
+        "exported": -6.007,
         "price": 10.04,
         "previousPrice": 11.9
     },
     "2025-02-21 02:00:00": {
-        "exported": -11.886,
+        "exported": -5.943,
         "price": 10.04,
         "previousPrice": 10.04
     },
     "2025-02-21 03:00:00": {
-        "exported": -11.783999999999999,
+        "exported": -5.892,
         "price": 10.01,
         "previousPrice": 10.04
     },
     "2025-02-21 04:00:00": {
-        "exported": -10.917,
+        "exported": -5.458,
         "price": 28.49,
         "previousPrice": 10.01
     },
     "2025-02-21 05:00:00": {
-        "exported": -10.811,
+        "exported": -5.405,
         "price": 33.11,
         "previousPrice": 28.49
     },
     "2025-02-21 06:00:00": {
-        "exported": -7.464,
+        "exported": -3.732,
         "price": 47.37,
         "previousPrice": 33.11
     },
     "2025-02-21 07:00:00": {
-        "exported": -5.973,
+        "exported": -2.986,
         "price": 72.08,
         "previousPrice": 47.37
     },
     "2025-02-21 08:00:00": {
-        "exported": -5.393000000000001,
+        "exported": -2.697,
         "price": 55.84,
         "previousPrice": 72.08
     },
     "2025-02-21 09:00:00": {
-        "exported": -4.592999999999999,
+        "exported": -2.296,
         "price": 47.24,
         "previousPrice": 55.84
     },
     "2025-02-21 10:00:00": {
-        "exported": -3.126,
+        "exported": -1.563,
         "price": 39.92,
         "previousPrice": 47.24
     },
     "2025-02-21 11:00:00": {
-        "exported": -2.6580000000000004,
+        "exported": -1.329,
         "price": 38.24,
         "previousPrice": 39.92
     },
     "2025-02-21 12:00:00": {
-        "exported": -3.0509999999999997,
+        "exported": -1.525,
         "price": 37.29,
         "previousPrice": 38.24
     },
     "2025-02-21 13:00:00": {
-        "exported": -2.8890000000000002,
+        "exported": -1.445,
         "price": 37.21,
         "previousPrice": 37.29
     },
     "2025-02-21 14:00:00": {
-        "exported": -2.4480000000000004,
+        "exported": -1.224,
         "price": 39.09,
         "previousPrice": 37.21
     },
     "2025-02-21 15:00:00": {
-        "exported": -2.6319999999999997,
+        "exported": -1.316,
         "price": 39.05,
         "previousPrice": 39.09
     },
     "2025-02-21 16:00:00": {
-        "exported": -3.25,
+        "exported": -1.625,
         "price": 41.34,
         "previousPrice": 39.05
     },
     "2025-02-21 17:00:00": {
-        "exported": -3.628,
+        "exported": -1.814,
         "price": 38.77,
         "previousPrice": 41.34
     },
     "2025-02-21 18:00:00": {
-        "exported": -5.083,
+        "exported": -2.542,
         "price": 32.48,
         "previousPrice": 38.77
     },
     "2025-02-21 19:00:00": {
-        "exported": -6.78,
+        "exported": -3.39,
         "price": 29.55,
         "previousPrice": 32.48
     },
     "2025-02-21 20:00:00": {
-        "exported": -9.182,
+        "exported": -4.591,
         "price": 27.9,
         "previousPrice": 29.55
     },
     "2025-02-21 21:00:00": {
-        "exported": -11.875,
+        "exported": -5.938,
         "price": 26.41,
         "previousPrice": 27.9
     },
     "2025-02-21 22:00:00": {
-        "exported": -13.008,
+        "exported": -6.504,
         "price": 25.7,
         "previousPrice": 26.41
     },
     "2025-02-21 23:00:00": {
-        "exported": -13.116,
+        "exported": -6.558,
         "price": 23.43,
         "previousPrice": 25.7
     },
     "2025-02-22 00:00:00": {
-        "exported": -13.386,
+        "exported": -6.693,
         "price": 19.96,
         "previousPrice": 23.43
     },
     "2025-02-22 01:00:00": {
-        "exported": -13.427,
+        "exported": -6.714,
         "price": 4.91,
         "previousPrice": 19.96
     },
     "2025-02-22 02:00:00": {
-        "exported": -13.655999999999999,
+        "exported": -6.828,
         "price": 8.03,
         "previousPrice": 4.91
     },
     "2025-02-22 03:00:00": {
-        "exported": -13.69,
+        "exported": -6.845,
         "price": 7.99,
         "previousPrice": 8.03
     },
     "2025-02-22 04:00:00": {
-        "exported": -13.777999999999999,
+        "exported": -6.889,
         "price": 10.01,
         "previousPrice": 7.99
     },
     "2025-02-22 05:00:00": {
-        "exported": -13.648,
+        "exported": -6.824,
         "price": 18.21,
         "previousPrice": 10.01
     },
     "2025-02-22 06:00:00": {
-        "exported": -12.977,
+        "exported": -6.489,
         "price": 29.19,
         "previousPrice": 18.21
     },
     "2025-02-22 07:00:00": {
-        "exported": -12.732,
+        "exported": -6.366,
         "price": 30.62,
         "previousPrice": 29.19
     },
     "2025-02-22 08:00:00": {
-        "exported": -11.216000000000001,
+        "exported": -5.608,
         "price": 31.86,
         "previousPrice": 30.62
     },
     "2025-02-22 09:00:00": {
-        "exported": -10.876000000000001,
+        "exported": -5.438,
         "price": 30.26,
         "previousPrice": 31.86
     },
     "2025-02-22 10:00:00": {
-        "exported": -11.087,
+        "exported": -5.544,
         "price": 19.69,
         "previousPrice": 30.26
     },
     "2025-02-22 11:00:00": {
-        "exported": -11.171,
+        "exported": -5.585,
         "price": 17.33,
         "previousPrice": 19.69
     },
     "2025-02-22 12:00:00": {
-        "exported": -11.291,
+        "exported": -5.645,
         "price": 29.63,
         "previousPrice": 17.33
     },
     "2025-02-22 13:00:00": {
-        "exported": -11.68,
+        "exported": -5.84,
         "price": 31.81,
         "previousPrice": 29.63
     },
     "2025-02-22 14:00:00": {
-        "exported": -10.359,
+        "exported": -5.18,
         "price": 31.72,
         "previousPrice": 31.81
     },
     "2025-02-22 15:00:00": {
-        "exported": -10.802,
+        "exported": -5.401,
         "price": 32.74,
         "previousPrice": 31.72
     },
     "2025-02-22 16:00:00": {
-        "exported": -10.449,
+        "exported": -5.225,
         "price": 34.74,
         "previousPrice": 32.74
     },
     "2025-02-22 17:00:00": {
-        "exported": -9.699,
+        "exported": -4.849,
         "price": 34.52,
         "previousPrice": 34.74
     },
     "2025-02-22 18:00:00": {
-        "exported": -10.308,
+        "exported": -5.154,
         "price": 34.24,
         "previousPrice": 34.52
     },
     "2025-02-22 19:00:00": {
-        "exported": -10.777999999999999,
+        "exported": -5.389,
         "price": 33.44,
         "previousPrice": 34.24
     },
     "2025-02-22 20:00:00": {
-        "exported": -10.718,
+        "exported": -5.359,
         "price": 32.46,
         "previousPrice": 33.44
     },
     "2025-02-22 21:00:00": {
-        "exported": -11.374,
+        "exported": -5.687,
         "price": 33.18,
         "previousPrice": 32.46
     },
     "2025-02-22 22:00:00": {
-        "exported": -11.828999999999999,
+        "exported": -5.914,
         "price": 31.2,
         "previousPrice": 33.18
     },
     "2025-02-22 23:00:00": {
-        "exported": -11.446,
+        "exported": -5.723,
         "price": 29.96,
         "previousPrice": 31.2
     },
     "2025-02-23 00:00:00": {
-        "exported": -11.883,
+        "exported": -5.941,
         "price": 30.07,
         "previousPrice": 29.96
     },
     "2025-02-23 01:00:00": {
-        "exported": -11.957,
+        "exported": -5.979,
         "price": 29.95,
         "previousPrice": 30.07
     },
     "2025-02-23 02:00:00": {
-        "exported": -11.65,
+        "exported": -5.825,
         "price": 29.95,
         "previousPrice": 29.95
     },
     "2025-02-23 03:00:00": {
-        "exported": -11.124,
+        "exported": -5.562,
         "price": 29.99,
         "previousPrice": 29.95
     },
     "2025-02-23 04:00:00": {
-        "exported": -10.203,
+        "exported": -5.102,
         "price": 30.43,
         "previousPrice": 29.99
     },
     "2025-02-23 05:00:00": {
-        "exported": -8.894,
+        "exported": -4.447,
         "price": 30.66,
         "previousPrice": 30.43
     },
     "2025-02-23 06:00:00": {
-        "exported": -7.922,
+        "exported": -3.961,
         "price": 31.2,
         "previousPrice": 30.66
     },
     "2025-02-23 07:00:00": {
-        "exported": -6.709,
+        "exported": -3.355,
         "price": 33.8,
         "previousPrice": 31.2
     },
     "2025-02-23 08:00:00": {
-        "exported": -6.14,
+        "exported": -3.07,
         "price": 35.13,
         "previousPrice": 33.8
     },
     "2025-02-23 09:00:00": {
-        "exported": -6.142,
+        "exported": -3.071,
         "price": 34.97,
         "previousPrice": 35.13
     },
     "2025-02-23 10:00:00": {
-        "exported": -6.3,
+        "exported": -3.15,
         "price": 34.66,
         "previousPrice": 34.97
     },
     "2025-02-23 11:00:00": {
-        "exported": -6.116,
+        "exported": -3.058,
         "price": 30.91,
         "previousPrice": 34.66
     },
     "2025-02-23 12:00:00": {
-        "exported": -6.134,
+        "exported": -3.067,
         "price": 30.76,
         "previousPrice": 30.91
     },
     "2025-02-23 13:00:00": {
-        "exported": -6.67,
+        "exported": -3.335,
         "price": 30.79,
         "previousPrice": 30.76
     },
     "2025-02-23 14:00:00": {
-        "exported": -6.634,
+        "exported": -3.317,
         "price": 34.38,
         "previousPrice": 30.79
     },
     "2025-02-23 15:00:00": {
-        "exported": -6.539,
+        "exported": -3.269,
         "price": 35.91,
         "previousPrice": 34.38
     },
     "2025-02-23 16:00:00": {
-        "exported": -6.2620000000000005,
+        "exported": -3.131,
         "price": 38.48,
         "previousPrice": 35.91
     },
     "2025-02-23 17:00:00": {
-        "exported": -6.336,
+        "exported": -3.168,
         "price": 38.27,
         "previousPrice": 38.48
     },
     "2025-02-23 18:00:00": {
-        "exported": -7.001,
+        "exported": -3.501,
         "price": 37.82,
         "previousPrice": 38.27
     },
     "2025-02-23 19:00:00": {
-        "exported": -7.569000000000001,
+        "exported": -3.785,
         "price": 36.1,
         "previousPrice": 37.82
     },
     "2025-02-23 20:00:00": {
-        "exported": -8.715999999999998,
+        "exported": -4.358,
         "price": 31.59,
         "previousPrice": 36.1
     },
     "2025-02-23 21:00:00": {
-        "exported": -10.574,
+        "exported": -5.287,
         "price": 30.33,
         "previousPrice": 31.59
     },
     "2025-02-23 22:00:00": {
-        "exported": -11.587,
+        "exported": -5.794,
         "price": 28.97,
         "previousPrice": 30.33
     },
     "2025-02-23 23:00:00": {
-        "exported": -11.804,
+        "exported": -5.902,
         "price": 7.07,
         "previousPrice": 28.97
     },
     "2025-02-24 00:00:00": {
-        "exported": -12.361,
+        "exported": -6.18,
         "price": 9.46,
         "previousPrice": 7.07
     },
     "2025-02-24 01:00:00": {
-        "exported": -12.93,
+        "exported": -6.465,
         "price": 6.07,
         "previousPrice": 9.46
     },
     "2025-02-24 02:00:00": {
-        "exported": -13.569,
+        "exported": -6.785,
         "price": 1.55,
         "previousPrice": 6.07
     },
     "2025-02-24 03:00:00": {
-        "exported": -12.846,
+        "exported": -6.423,
         "price": 1.85,
         "previousPrice": 1.55
     },
     "2025-02-24 04:00:00": {
-        "exported": -13.07,
+        "exported": -6.535,
         "price": 3.19,
         "previousPrice": 1.85
     },
     "2025-02-24 05:00:00": {
-        "exported": -13.979,
+        "exported": -6.989,
         "price": 20.12,
         "previousPrice": 3.19
     },
     "2025-02-24 06:00:00": {
-        "exported": -13.882000000000001,
+        "exported": -6.941,
         "price": 28.92,
         "previousPrice": 20.12
     },
     "2025-02-24 07:00:00": {
-        "exported": -11.908999999999999,
+        "exported": -5.954,
         "price": 31.25,
         "previousPrice": 28.92
     },
     "2025-02-24 08:00:00": {
-        "exported": -11.321000000000002,
+        "exported": -5.66,
         "price": 30.45,
         "previousPrice": 31.25
     },
     "2025-02-24 09:00:00": {
-        "exported": -12.343,
+        "exported": -6.172,
         "price": 30.07,
         "previousPrice": 30.45
     },
     "2025-02-24 10:00:00": {
-        "exported": -12.389,
+        "exported": -6.194,
         "price": 26.97,
         "previousPrice": 30.07
     },
     "2025-02-24 11:00:00": {
-        "exported": -12.669,
+        "exported": -6.335,
         "price": 25.03,
         "previousPrice": 26.97
     },
     "2025-02-24 12:00:00": {
-        "exported": -12.728,
+        "exported": -6.364,
         "price": 23.83,
         "previousPrice": 25.03
     },
     "2025-02-24 13:00:00": {
-        "exported": -12.126999999999999,
+        "exported": -6.063,
         "price": 23.81,
         "previousPrice": 23.83
     },
     "2025-02-24 14:00:00": {
-        "exported": -11.864,
+        "exported": -5.932,
         "price": 25.13,
         "previousPrice": 23.81
     },
     "2025-02-24 15:00:00": {
-        "exported": -11.142,
+        "exported": -5.571,
         "price": 29.16,
         "previousPrice": 25.13
     },
     "2025-02-24 16:00:00": {
-        "exported": -10.925,
+        "exported": -5.462,
         "price": 32.62,
         "previousPrice": 29.16
     },
     "2025-02-24 17:00:00": {
-        "exported": -9.411999999999999,
+        "exported": -4.706,
         "price": 32.66,
         "previousPrice": 32.62
     },
     "2025-02-24 18:00:00": {
-        "exported": -9.242,
+        "exported": -4.621,
         "price": 30.58,
         "previousPrice": 32.66
     },
     "2025-02-24 19:00:00": {
-        "exported": -10.062999999999999,
+        "exported": -5.031,
         "price": 28.79,
         "previousPrice": 30.58
     },
     "2025-02-24 20:00:00": {
-        "exported": -10.178,
+        "exported": -5.089,
         "price": 19.96,
         "previousPrice": 28.79
     },
     "2025-02-24 21:00:00": {
-        "exported": -10.626,
+        "exported": -5.313,
         "price": 10,
         "previousPrice": 19.96
     },
     "2025-02-24 22:00:00": {
-        "exported": -10.256,
+        "exported": -5.128,
         "price": 3.51,
         "previousPrice": 10
     },
     "2025-02-24 23:00:00": {
-        "exported": -9.538,
+        "exported": -4.769,
         "price": 0.9,
         "previousPrice": 3.51
     },
     "2025-02-25 00:00:00": {
-        "exported": -8.98,
+        "exported": -4.49,
         "price": 0.65,
         "previousPrice": 0.9
     },
     "2025-02-25 01:00:00": {
-        "exported": -8.83,
+        "exported": -4.415,
         "price": 0.83,
         "previousPrice": 0.65
     },
     "2025-02-25 02:00:00": {
-        "exported": -8.7,
+        "exported": -4.35,
         "price": 2.82,
         "previousPrice": 0.83
     },
     "2025-02-25 03:00:00": {
-        "exported": -9.283,
+        "exported": -4.641,
         "price": 16.22,
         "previousPrice": 2.82
     },
     "2025-02-25 04:00:00": {
-        "exported": -9.496,
+        "exported": -4.748,
         "price": 28.82,
         "previousPrice": 16.22
     },
     "2025-02-25 05:00:00": {
-        "exported": -8.736,
+        "exported": -4.368,
         "price": 34.76,
         "previousPrice": 28.82
     },
     "2025-02-25 06:00:00": {
-        "exported": -7.676,
+        "exported": -3.838,
         "price": 37.08,
         "previousPrice": 34.76
     },
     "2025-02-25 07:00:00": {
-        "exported": -5.734,
+        "exported": -2.867,
         "price": 37.66,
         "previousPrice": 37.08
     },
     "2025-02-25 08:00:00": {
-        "exported": -5.702,
+        "exported": -2.851,
         "price": 37.5,
         "previousPrice": 37.66
     },
     "2025-02-25 09:00:00": {
-        "exported": -5.27,
+        "exported": -2.635,
         "price": 38.47,
         "previousPrice": 37.5
     },
     "2025-02-25 10:00:00": {
-        "exported": -5.312,
+        "exported": -2.656,
         "price": 37.34,
         "previousPrice": 38.47
     },
     "2025-02-25 11:00:00": {
-        "exported": -5.471,
+        "exported": -2.736,
         "price": 36.23,
         "previousPrice": 37.34
     },
     "2025-02-25 12:00:00": {
-        "exported": -5.469,
+        "exported": -2.735,
         "price": 35.94,
         "previousPrice": 36.23
     },
     "2025-02-25 13:00:00": {
-        "exported": -5.606,
+        "exported": -2.803,
         "price": 36.29,
         "previousPrice": 35.94
     },
     "2025-02-25 14:00:00": {
-        "exported": -5.918,
+        "exported": -2.959,
         "price": 36.55,
         "previousPrice": 36.29
     },
     "2025-02-25 15:00:00": {
-        "exported": -5.496,
+        "exported": -2.748,
         "price": 36.74,
         "previousPrice": 36.55
     },
     "2025-02-25 16:00:00": {
-        "exported": -5.662,
+        "exported": -2.831,
         "price": 39.38,
         "previousPrice": 36.74
     },
     "2025-02-25 17:00:00": {
-        "exported": -5.38,
+        "exported": -2.69,
         "price": 39.85,
         "previousPrice": 39.38
     },
     "2025-02-25 18:00:00": {
-        "exported": -6.042,
+        "exported": -3.021,
         "price": 37.94,
         "previousPrice": 39.85
     },
     "2025-02-25 19:00:00": {
-        "exported": -7.088000000000001,
+        "exported": -3.544,
         "price": 36.91,
         "previousPrice": 37.94
     },
     "2025-02-25 20:00:00": {
-        "exported": -8.99,
+        "exported": -4.495,
         "price": 35.23,
         "previousPrice": 36.91
     },
     "2025-02-25 21:00:00": {
-        "exported": -10.836,
+        "exported": -5.418,
         "price": 31.95,
         "previousPrice": 35.23
     },
     "2025-02-25 22:00:00": {
-        "exported": -12.204999999999998,
+        "exported": -6.103,
         "price": 30.85,
         "previousPrice": 31.95
     },
     "2025-02-25 23:00:00": {
-        "exported": -13.388000000000002,
+        "exported": -6.694,
         "price": 27.31,
         "previousPrice": 30.85
     },
     "2025-02-26 00:00:00": {
-        "exported": -13.073,
+        "exported": -6.536,
         "price": 25.96,
         "previousPrice": 27.31
     },
     "2025-02-26 01:00:00": {
-        "exported": -13.225000000000001,
+        "exported": -6.612,
         "price": 25.48,
         "previousPrice": 25.96
     },
     "2025-02-26 02:00:00": {
-        "exported": -13.172,
+        "exported": -6.586,
         "price": 25.17,
         "previousPrice": 25.48
     },
     "2025-02-26 03:00:00": {
-        "exported": -13.333,
+        "exported": -6.666,
         "price": 25.49,
         "previousPrice": 25.17
     },
     "2025-02-26 04:00:00": {
-        "exported": -13.712,
+        "exported": -6.856,
         "price": 29.6,
         "previousPrice": 25.49
     },
     "2025-02-26 05:00:00": {
-        "exported": -12.826,
+        "exported": -6.413,
         "price": 50.58,
         "previousPrice": 29.6
     },
     "2025-02-26 06:00:00": {
-        "exported": -10.185,
+        "exported": -5.093,
         "price": 71.58,
         "previousPrice": 50.58
     },
     "2025-02-26 07:00:00": {
-        "exported": -7.264,
+        "exported": -3.632,
         "price": 91.39,
         "previousPrice": 71.58
     },
     "2025-02-26 08:00:00": {
-        "exported": -6.838000000000001,
+        "exported": -3.419,
         "price": 79.89,
         "previousPrice": 91.39
     },
     "2025-02-26 09:00:00": {
-        "exported": -7.138,
+        "exported": -3.569,
         "price": 55.96,
         "previousPrice": 79.89
     },
     "2025-02-26 10:00:00": {
-        "exported": -7.314,
+        "exported": -3.657,
         "price": 53.04,
         "previousPrice": 55.96
     },
     "2025-02-26 11:00:00": {
-        "exported": -8.096,
+        "exported": -4.048,
         "price": 54.39,
         "previousPrice": 53.04
     },
     "2025-02-26 12:00:00": {
-        "exported": -8.338,
+        "exported": -4.169,
         "price": 50.67,
         "previousPrice": 54.39
     },
     "2025-02-26 13:00:00": {
-        "exported": -8.373,
+        "exported": -4.187,
         "price": 48.72,
         "previousPrice": 50.67
     },
     "2025-02-26 14:00:00": {
-        "exported": -8.116,
+        "exported": -4.058,
         "price": 45.74,
         "previousPrice": 48.72
     },
     "2025-02-26 15:00:00": {
-        "exported": -7.9239999999999995,
+        "exported": -3.962,
         "price": 50.19,
         "previousPrice": 45.74
     },
     "2025-02-26 16:00:00": {
-        "exported": -7.237,
+        "exported": -3.618,
         "price": 63.58,
         "previousPrice": 50.19
     },
     "2025-02-26 17:00:00": {
-        "exported": -6.342,
+        "exported": -3.171,
         "price": 67.31,
         "previousPrice": 63.58
     },
     "2025-02-26 18:00:00": {
-        "exported": -6.41,
+        "exported": -3.205,
         "price": 49.5,
         "previousPrice": 67.31
     },
     "2025-02-26 19:00:00": {
-        "exported": -7.046000000000001,
+        "exported": -3.523,
         "price": 39.37,
         "previousPrice": 49.5
     },
     "2025-02-26 20:00:00": {
-        "exported": -7.775,
+        "exported": -3.887,
         "price": 38.73,
         "previousPrice": 39.37
     },
     "2025-02-26 21:00:00": {
-        "exported": -9.102,
+        "exported": -4.551,
         "price": 36.71,
         "previousPrice": 38.73
     },
     "2025-02-26 22:00:00": {
-        "exported": -9.398,
+        "exported": -4.699,
         "price": 34.61,
         "previousPrice": 36.71
     },
     "2025-02-26 23:00:00": {
-        "exported": -9.779,
+        "exported": -4.889,
         "price": 29.45,
         "previousPrice": 34.61
     },
     "2025-02-27 00:00:00": {
-        "exported": -9.725999999999999,
+        "exported": -4.863,
         "price": 29.29,
         "previousPrice": 29.45
     },
     "2025-02-27 01:00:00": {
-        "exported": -9.805,
+        "exported": -4.902,
         "price": 29.38,
         "previousPrice": 29.29
     },
     "2025-02-27 02:00:00": {
-        "exported": -10.153,
+        "exported": -5.077,
         "price": 29.76,
         "previousPrice": 29.38
     },
     "2025-02-27 03:00:00": {
-        "exported": -10.364,
+        "exported": -5.182,
         "price": 31.28,
         "previousPrice": 29.76
     },
     "2025-02-27 04:00:00": {
-        "exported": -10.426,
+        "exported": -5.213,
         "price": 34.2,
         "previousPrice": 31.28
     },
     "2025-02-27 05:00:00": {
-        "exported": -9.946,
+        "exported": -4.973,
         "price": 42.62,
         "previousPrice": 34.2
     },
     "2025-02-27 06:00:00": {
-        "exported": -7.848,
+        "exported": -3.924,
         "price": 79.59,
         "previousPrice": 42.62
     },
     "2025-02-27 07:00:00": {
-        "exported": -6.906,
+        "exported": -3.453,
         "price": 89.76,
         "previousPrice": 79.59
     },
     "2025-02-27 08:00:00": {
-        "exported": -6.588,
+        "exported": -3.294,
         "price": 113.48,
         "previousPrice": 89.76
     },
     "2025-02-27 09:00:00": {
-        "exported": -6.892,
+        "exported": -3.446,
         "price": 70.39,
         "previousPrice": 113.48
     },
     "2025-02-27 10:00:00": {
-        "exported": -6.77,
+        "exported": -3.385,
         "price": 63.98,
         "previousPrice": 70.39
     },
     "2025-02-27 11:00:00": {
-        "exported": -6.77,
+        "exported": -3.385,
         "price": 65.66,
         "previousPrice": 63.98
     },
     "2025-02-27 12:00:00": {
-        "exported": -6.964,
+        "exported": -3.482,
         "price": 56.01,
         "previousPrice": 65.66
     },
     "2025-02-27 13:00:00": {
-        "exported": -7.2780000000000005,
+        "exported": -3.639,
         "price": 52.16,
         "previousPrice": 56.01
     },
     "2025-02-27 14:00:00": {
-        "exported": -6.838000000000001,
+        "exported": -3.42,
         "price": 48.11,
         "previousPrice": 52.16
     },
     "2025-02-27 15:00:00": {
-        "exported": -6.39,
+        "exported": -3.195,
         "price": 49.47,
         "previousPrice": 48.11
+    },
+    "2025-02-27 16:00:00": {
+        "exported": -3.076,
+        "price": 80.4,
+        "previousPrice": 49.47
+    },
+    "2025-02-27 17:00:00": {
+        "exported": -2.66,
+        "price": 93.09,
+        "previousPrice": 80.4
+    },
+    "2025-02-27 18:00:00": {
+        "exported": -2.723,
+        "price": 70.39,
+        "previousPrice": 93.09
+    },
+    "2025-02-27 19:00:00": {
+        "exported": -3.004,
+        "price": 50.18,
+        "previousPrice": 70.39
+    },
+    "2025-02-27 20:00:00": {
+        "exported": -3.3,
+        "price": 52.78,
+        "previousPrice": 50.18
+    },
+    "2025-02-27 21:00:00": {
+        "exported": -3.822,
+        "price": 47.26,
+        "previousPrice": 52.78
+    },
+    "2025-02-27 22:00:00": {
+        "exported": -4.189,
+        "price": 40.59,
+        "previousPrice": 47.26
+    },
+    "2025-02-27 23:00:00": {
+        "exported": -4.656,
+        "price": 27.88,
+        "previousPrice": 40.59
+    },
+    "2025-02-28 00:00:00": {
+        "exported": -4.647,
+        "price": 26.99,
+        "previousPrice": 27.88
+    },
+    "2025-02-28 01:00:00": {
+        "exported": -4.94,
+        "price": 26.89,
+        "previousPrice": 26.99
+    },
+    "2025-02-28 02:00:00": {
+        "exported": -5.039,
+        "price": 26.85,
+        "previousPrice": 26.89
+    },
+    "2025-02-28 03:00:00": {
+        "exported": -5.138,
+        "price": 26.81,
+        "previousPrice": 26.85
+    },
+    "2025-02-28 04:00:00": {
+        "exported": -5.027,
+        "price": 35.97,
+        "previousPrice": 26.81
+    },
+    "2025-02-28 05:00:00": {
+        "exported": -4.671,
+        "price": 47.3,
+        "previousPrice": 35.97
+    },
+    "2025-02-28 06:00:00": {
+        "exported": -3.645,
+        "price": 103.32,
+        "previousPrice": 47.3
+    },
+    "2025-02-28 07:00:00": {
+        "exported": -2.718,
+        "price": 157.55,
+        "previousPrice": 103.32
+    },
+    "2025-02-28 08:00:00": {
+        "exported": -2.59,
+        "price": 140.12,
+        "previousPrice": 157.55
+    },
+    "2025-02-28 09:00:00": {
+        "exported": -2.808,
+        "price": 125.95,
+        "previousPrice": 140.12
+    },
+    "2025-02-28 10:00:00": {
+        "exported": -2.916,
+        "price": 75.63,
+        "previousPrice": 125.95
+    },
+    "2025-02-28 11:00:00": {
+        "exported": -3.216,
+        "price": 66.56,
+        "previousPrice": 75.63
+    },
+    "2025-02-28 12:00:00": {
+        "exported": -3.575,
+        "price": 48.65,
+        "previousPrice": 66.56
+    },
+    "2025-02-28 13:00:00": {
+        "exported": -4.101,
+        "price": 44.88,
+        "previousPrice": 48.65
+    },
+    "2025-02-28 14:00:00": {
+        "exported": -4.187,
+        "price": 42.07,
+        "previousPrice": 44.88
+    },
+    "2025-02-28 15:00:00": {
+        "exported": -4.229,
+        "price": 51.14,
+        "previousPrice": 42.07
+    },
+    "2025-02-28 16:00:00": {
+        "exported": -3.673,
+        "price": 102.93,
+        "previousPrice": 51.14
+    },
+    "2025-02-28 17:00:00": {
+        "exported": -2.722,
+        "price": 138.35,
+        "previousPrice": 102.93
+    },
+    "2025-02-28 18:00:00": {
+        "exported": -2.756,
+        "price": 65.44,
+        "previousPrice": 138.35
+    },
+    "2025-02-28 19:00:00": {
+        "exported": -3.334,
+        "price": 57.77,
+        "previousPrice": 65.44
+    },
+    "2025-02-28 20:00:00": {
+        "exported": -3.94,
+        "price": 51.66,
+        "previousPrice": 57.77
+    },
+    "2025-02-28 21:00:00": {
+        "exported": -4.487,
+        "price": 45.25,
+        "previousPrice": 51.66
+    },
+    "2025-02-28 22:00:00": {
+        "exported": -4.804,
+        "price": 40.24,
+        "previousPrice": 45.25
+    },
+    "2025-02-28 23:00:00": {
+        "exported": -5.241,
+        "price": 36.85,
+        "previousPrice": 40.24
+    },
+    "2025-03-01 00:00:00": {
+        "exported": -5.447,
+        "price": 38.94,
+        "previousPrice": 36.85
+    },
+    "2025-03-01 01:00:00": {
+        "exported": -5.86,
+        "price": 34.22,
+        "previousPrice": 38.94
+    },
+    "2025-03-01 02:00:00": {
+        "exported": -5.949,
+        "price": 38.06,
+        "previousPrice": 34.22
+    },
+    "2025-03-01 03:00:00": {
+        "exported": -5.93,
+        "price": 33.96,
+        "previousPrice": 38.06
+    },
+    "2025-03-01 04:00:00": {
+        "exported": -5.952,
+        "price": 33.56,
+        "previousPrice": 33.96
+    },
+    "2025-03-01 05:00:00": {
+        "exported": -5.75,
+        "price": 46.79,
+        "previousPrice": 33.56
+    },
+    "2025-03-01 06:00:00": {
+        "exported": -5.443,
+        "price": 51.41,
+        "previousPrice": 46.79
+    },
+    "2025-03-01 07:00:00": {
+        "exported": -5.119,
+        "price": 67.6,
+        "previousPrice": 51.41
+    },
+    "2025-03-01 08:00:00": {
+        "exported": -4.67,
+        "price": 67.76,
+        "previousPrice": 67.6
+    },
+    "2025-03-01 09:00:00": {
+        "exported": -4.713,
+        "price": 34.3,
+        "previousPrice": 67.76
+    },
+    "2025-03-01 10:00:00": {
+        "exported": -5.19,
+        "price": 26.94,
+        "previousPrice": 34.3
+    },
+    "2025-03-01 11:00:00": {
+        "exported": -5.68,
+        "price": 38.05,
+        "previousPrice": 26.94
+    },
+    "2025-03-01 12:00:00": {
+        "exported": -6.276,
+        "price": 26.83,
+        "previousPrice": 38.05
+    },
+    "2025-03-01 13:00:00": {
+        "exported": -6.959,
+        "price": 27.48,
+        "previousPrice": 26.83
+    },
+    "2025-03-01 14:00:00": {
+        "exported": -7.093,
+        "price": 30.97,
+        "previousPrice": 27.48
+    },
+    "2025-03-01 15:00:00": {
+        "exported": -7.277,
+        "price": 39.89,
+        "previousPrice": 30.97
+    },
+    "2025-03-01 16:00:00": {
+        "exported": -7.023,
+        "price": 43.48,
+        "previousPrice": 39.89
+    },
+    "2025-03-01 17:00:00": {
+        "exported": -6.528,
+        "price": 43.21,
+        "previousPrice": 43.48
+    },
+    "2025-03-01 18:00:00": {
+        "exported": -6.742,
+        "price": 36.74,
+        "previousPrice": 43.21
+    },
+    "2025-03-01 19:00:00": {
+        "exported": -7.573,
+        "price": 23.99,
+        "previousPrice": 36.74
+    },
+    "2025-03-01 20:00:00": {
+        "exported": -8.105,
+        "price": 14.58,
+        "previousPrice": 23.99
+    },
+    "2025-03-01 21:00:00": {
+        "exported": -8.393,
+        "price": 4.58,
+        "previousPrice": 14.58
+    },
+    "2025-03-01 22:00:00": {
+        "exported": -8.365,
+        "price": 3.58,
+        "previousPrice": 4.58
+    },
+    "2025-03-01 23:00:00": {
+        "exported": -7.965,
+        "price": 8.02,
+        "previousPrice": 3.58
+    },
+    "2025-03-02 00:00:00": {
+        "exported": -7.399,
+        "price": 4.7,
+        "previousPrice": 8.02
+    },
+    "2025-03-02 01:00:00": {
+        "exported": -7.265,
+        "price": 3.11,
+        "previousPrice": 4.7
+    },
+    "2025-03-02 02:00:00": {
+        "exported": -7.291,
+        "price": 1.31,
+        "previousPrice": 3.11
+    },
+    "2025-03-02 03:00:00": {
+        "exported": -7.265,
+        "price": 1.46,
+        "previousPrice": 1.31
+    },
+    "2025-03-02 04:00:00": {
+        "exported": -7.266,
+        "price": 1.48,
+        "previousPrice": 1.46
+    },
+    "2025-03-02 05:00:00": {
+        "exported": -7.255,
+        "price": 2.66,
+        "previousPrice": 1.48
+    },
+    "2025-03-02 06:00:00": {
+        "exported": -6.999,
+        "price": 3.02,
+        "previousPrice": 2.66
+    },
+    "2025-03-02 07:00:00": {
+        "exported": -6.988,
+        "price": 2.81,
+        "previousPrice": 3.02
+    },
+    "2025-03-02 08:00:00": {
+        "exported": -6.857,
+        "price": 2.02,
+        "previousPrice": 2.81
+    },
+    "2025-03-02 09:00:00": {
+        "exported": -6.691,
+        "price": 1.46,
+        "previousPrice": 2.02
+    },
+    "2025-03-02 10:00:00": {
+        "exported": -6.768,
+        "price": 1.01,
+        "previousPrice": 1.46
+    },
+    "2025-03-02 11:00:00": {
+        "exported": -6.781,
+        "price": 0.05,
+        "previousPrice": 1.01
+    },
+    "2025-03-02 12:00:00": {
+        "exported": -6.419,
+        "price": 0.2,
+        "previousPrice": 0.05
+    },
+    "2025-03-02 13:00:00": {
+        "exported": -6.592,
+        "price": 0.58,
+        "previousPrice": 0.2
     }
 }

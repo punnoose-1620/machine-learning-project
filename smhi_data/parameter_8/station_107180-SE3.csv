@@ -1,0 +1,72 @@
+﻿Stationsnamn;Stationsnummer;Stationsnät;Mäthöjd (meter över marken)
+Väsby;107180;SMHIs stationsnät;0.0
+
+Parameternamn;Beskrivning;Enhet
+Snödjup;momentanvärde, 1 gång/dygn, kl 06;meter
+
+Tidsperiod (fr.o.m);Tidsperiod (t.o.m);Höjd (meter över havet);Latitud (decimalgrader);Longitud (decimalgrader)
+1945-01-01 00:00:00;1973-01-31 23:59:59;35.0;60.3000;17.4333
+
+Datum;Tid (UTC);Snödjup;Kvalitet;;Tidsutsnitt:
+1947-03-09;06:00:00;0.38;G;;Kvalitetskontrollerade historiska data (utom de senaste 3 mån)
+1963-01-30;06:00:00;0.50;G;;Tidsperiod (fr.o.m.) = 1945-01-01 00:00:00 (UTC)
+1963-02-05;06:00:00;0.53;G;;Tidsperiod (t.o.m.) = 1973-01-31 23:59:59 (UTC)
+1965-11-13;06:00:00;0.04;G;;Samplingstid = Ej angivet
+1965-11-14;06:00:00;0.08;G;;
+1965-11-15;06:00:00;0.10;G;;Kvalitetskoderna:
+1965-11-16;06:00:00;0.10;G;;Grön (G) = Kontrollerade och godkända värden.
+1965-11-17;06:00:00;0.10;G;;Gul (Y) = Misstänkta eller aggregerade värden. Grovt kontrollerade arkivdata och okontrollerade realtidsdata (senaste 2 tim).
+1965-11-18;06:00:00;0.10;G;;
+1965-11-19;06:00:00;0.16;G;;Nätinformation:
+1965-11-20;06:00:00;0.20;G;;SMHIs Stationsnät: Data samlas in och lagras i SMHIs databaser. Data kvalitetskontrolleras vilket innebär att felaktiga data korrigeras och att databortfall kompletteras utifrån expertbedömning där det är möjligt. De flesta stationerna övervakas, inspekteras och underhålls löpande av SMHI.
+1965-11-21;06:00:00;0.30;G;;Övriga stationer: Data samlas in och lagras i SMHIs databaser. Datakvaliteten är för SMHI okänd då SMHI varken utför kvalitetskontroll på data eller inspektioner på stationerna.
+1965-11-22;06:00:00;0.36;Y;;
+1965-11-23;06:00:00;0.28;Y;;Möjliga orsaker till saknade data:
+1965-11-24;06:00:00;0.25;G;;– stationen eller givaren har varit ur funktion.
+1965-11-25;06:00:00;0.25;G;;– stationen har endast levererat värden med kvalitetskod Röd (R). Dessa levereras ej.
+1966-01-13;06:00:00;0.65;G
+1966-01-31;06:00:00;0.55;G
+1966-02-09;06:00:00;0.75;Y
+1966-02-23;06:00:00;0.90;G
+1969-02-08;06:00:00;0.25;Y
+1969-02-15;06:00:00;0.30;Y
+1969-02-19;06:00:00;0.35;Y
+1969-02-23;06:00:00;0.48;Y
+1969-03-09;06:00:00;0.40;G
+1969-03-13;06:00:00;0.38;G
+1969-03-22;06:00:00;0.36;G
+1969-03-27;06:00:00;0.34;G
+1970-02-10;06:00:00;0.35;Y
+1970-02-15;06:00:00;0.35;Y
+1970-02-25;06:00:00;0.38;Y
+1971-11-08;06:00:00;0.10;Y
+1971-11-16;06:00:00;0.16;Y
+1971-11-20;06:00:00;0.20;Y
+1971-11-22;06:00:00;0.25;Y
+1971-11-25;06:00:00;0.27;Y
+1971-11-30;06:00:00;0.00;Y
+1972-01-05;06:00:00;0.02;Y
+1972-01-13;06:00:00;0.02;Y
+1972-01-19;06:00:00;0.02;Y
+1972-01-22;06:00:00;0.05;Y
+1972-01-30;06:00:00;0.10;Y
+1972-01-31;06:00:00;0.15;Y
+1972-02-04;06:00:00;0.12;Y
+1972-02-05;06:00:00;0.12;Y
+1972-02-15;06:00:00;0.15;Y
+1972-02-29;06:00:00;0.26;Y
+1973-01-17;06:00:00;0.00;Y
+1973-01-18;06:00:00;0.05;Y
+1973-01-19;06:00:00;0.10;Y
+1973-01-20;06:00:00;0.10;Y
+1973-01-21;06:00:00;0.15;Y
+1973-01-22;06:00:00;0.17;Y
+1973-01-23;06:00:00;0.20;Y
+1973-01-24;06:00:00;0.17;Y
+1973-01-25;06:00:00;0.12;Y
+1973-01-26;06:00:00;0.10;Y
+1973-01-27;06:00:00;0.08;Y
+1973-01-28;06:00:00;0.19;Y
+1973-01-29;06:00:00;0.20;Y
+1973-01-30;06:00:00;0.15;Y
+1973-01-31;06:00:00;0.12;Y

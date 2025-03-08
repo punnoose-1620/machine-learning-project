@@ -1,0 +1,46 @@
+﻿Stationsnamn;Stationsnummer;Stationsnät;Mäthöjd (meter över marken)
+Fagerviken;107330;SMHIs stationsnät;0.0
+
+Parameternamn;Beskrivning;Enhet
+Snödjup;momentanvärde, 1 gång/dygn, kl 06;meter
+
+Tidsperiod (fr.o.m);Tidsperiod (t.o.m);Höjd (meter över havet);Latitud (decimalgrader);Longitud (decimalgrader)
+1973-11-01 00:00:00;1978-12-31 23:59:59;5.0;60.5420;17.7478
+
+Datum;Tid (UTC);Snödjup;Kvalitet;;Tidsutsnitt:
+1973-11-15;06:00:00;0.07;Y;;Kvalitetskontrollerade historiska data (utom de senaste 3 mån)
+1973-11-30;06:00:00;0.11;Y;;Tidsperiod (fr.o.m.) = 1973-11-01 00:00:00 (UTC)
+1973-12-15;06:00:00;0.32;Y;;Tidsperiod (t.o.m.) = 1978-12-31 23:59:59 (UTC)
+1973-12-30;06:00:00;0.18;Y;;Samplingstid = Ej angivet
+1974-01-15;06:00:00;0.13;Y;;
+1974-01-30;06:00:00;0.08;Y;;Kvalitetskoderna:
+1974-02-15;06:00:00;0.05;Y;;Grön (G) = Kontrollerade och godkända värden.
+1974-02-28;06:00:00;0.00;Y;;Gul (Y) = Misstänkta eller aggregerade värden. Grovt kontrollerade arkivdata och okontrollerade realtidsdata (senaste 2 tim).
+1974-03-15;06:00:00;0.00;Y;;
+1974-11-07;06:00:00;0.03;Y;;Nätinformation:
+1974-11-09;06:00:00;0.00;Y;;SMHIs Stationsnät: Data samlas in och lagras i SMHIs databaser. Data kvalitetskontrolleras vilket innebär att felaktiga data korrigeras och att databortfall kompletteras utifrån expertbedömning där det är möjligt. De flesta stationerna övervakas, inspekteras och underhålls löpande av SMHI.
+1974-12-31;06:00:00;0.00;Y;;Övriga stationer: Data samlas in och lagras i SMHIs databaser. Datakvaliteten är för SMHI okänd då SMHI varken utför kvalitetskontroll på data eller inspektioner på stationerna.
+1975-01-09;06:00:00;0.14;Y;;
+1975-01-15;06:00:00;0.00;Y;;Möjliga orsaker till saknade data:
+1975-02-15;06:00:00;0.09;Y;;– stationen eller givaren har varit ur funktion.
+1975-02-28;06:00:00;0.04;Y;;– stationen har endast levererat värden med kvalitetskod Röd (R). Dessa levereras ej.
+1975-03-31;06:00:00;0.10;Y
+1975-12-15;06:00:00;0.00;Y
+1976-01-15;06:00:00;0.11;Y
+1976-01-30;06:00:00;0.26;Y
+1976-02-15;06:00:00;0.24;Y
+1976-03-15;06:00:00;0.26;Y
+1976-03-30;06:00:00;0.00;Y
+1976-12-30;06:00:00;0.28;Y
+1977-01-15;06:00:00;0.38;Y
+1977-02-15;06:00:00;0.48;Y
+1977-02-28;06:00:00;0.72;Y
+1977-03-15;06:00:00;0.35;Y
+1977-12-30;06:00:00;0.02;Y
+1978-01-30;06:00:00;0.12;Y
+1978-02-15;06:00:00;0.25;Y
+1978-02-28;06:00:00;0.14;Y
+1978-03-15;06:00:00;0.16;Y
+1978-11-30;06:00:00;0.27;Y
+1978-12-15;06:00:00;0.29;Y
+1978-12-30;06:00:00;0.33;Y

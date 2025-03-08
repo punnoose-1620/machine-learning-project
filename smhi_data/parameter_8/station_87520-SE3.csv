@@ -1,0 +1,62 @@
+﻿Stationsnamn;Stationsnummer;Stationsnät;Mäthöjd (meter över marken)
+Ökna;87520;SMHIs stationsnät;0.0
+
+Parameternamn;Beskrivning;Enhet
+Snödjup;momentanvärde, 1 gång/dygn, kl 06;meter
+
+Tidsperiod (fr.o.m);Tidsperiod (t.o.m);Höjd (meter över havet);Latitud (decimalgrader);Longitud (decimalgrader)
+1957-12-01 00:00:00;1960-01-31 23:59:59;35.0;59.0833;16.3167
+
+Datum;Tid (UTC);Snödjup;Kvalitet;;Tidsutsnitt:
+1957-12-01;06:00:00;0.00;G;;Kvalitetskontrollerade historiska data (utom de senaste 3 mån)
+1957-12-02;06:00:00;0.00;G;;Tidsperiod (fr.o.m.) = 1957-12-01 00:00:00 (UTC)
+1957-12-03;06:00:00;0.00;G;;Tidsperiod (t.o.m.) = 1960-01-31 23:59:59 (UTC)
+1957-12-04;06:00:00;0.00;G;;Samplingstid = Ej angivet
+1957-12-05;06:00:00;0.00;G;;
+1957-12-06;06:00:00;0.00;G;;Kvalitetskoderna:
+1957-12-07;06:00:00;0.00;G;;Grön (G) = Kontrollerade och godkända värden.
+1957-12-17;06:00:00;0.00;G;;Gul (Y) = Misstänkta eller aggregerade värden. Grovt kontrollerade arkivdata och okontrollerade realtidsdata (senaste 2 tim).
+1957-12-18;06:00:00;0.00;G;;
+1957-12-19;06:00:00;0.00;G;;Nätinformation:
+1957-12-20;06:00:00;0.00;G;;SMHIs Stationsnät: Data samlas in och lagras i SMHIs databaser. Data kvalitetskontrolleras vilket innebär att felaktiga data korrigeras och att databortfall kompletteras utifrån expertbedömning där det är möjligt. De flesta stationerna övervakas, inspekteras och underhålls löpande av SMHI.
+1957-12-21;06:00:00;0.00;G;;Övriga stationer: Data samlas in och lagras i SMHIs databaser. Datakvaliteten är för SMHI okänd då SMHI varken utför kvalitetskontroll på data eller inspektioner på stationerna.
+1957-12-22;06:00:00;0.00;G;;
+1957-12-23;06:00:00;0.00;G;;Möjliga orsaker till saknade data:
+1957-12-24;06:00:00;0.00;G;;– stationen eller givaren har varit ur funktion.
+1957-12-26;06:00:00;0.00;G;;– stationen har endast levererat värden med kvalitetskod Röd (R). Dessa levereras ej.
+1957-12-27;06:00:00;0.00;G
+1957-12-28;06:00:00;0.00;G
+1957-12-29;06:00:00;0.00;G
+1958-01-14;06:00:00;0.00;G
+1958-01-15;06:00:00;0.00;G
+1958-01-16;06:00:00;0.00;G
+1958-01-17;06:00:00;0.00;G
+1958-01-18;06:00:00;0.00;G
+1958-01-19;06:00:00;0.00;G
+1958-01-20;06:00:00;0.00;G
+1958-01-21;06:00:00;0.00;G
+1958-01-22;06:00:00;0.00;G
+1958-01-23;06:00:00;0.00;G
+1958-01-27;06:00:00;0.00;G
+1958-01-28;06:00:00;0.00;G
+1958-01-29;06:00:00;0.00;G
+1958-01-30;06:00:00;0.00;G
+1958-01-31;06:00:00;0.00;G
+1958-12-17;06:00:00;0.00;G
+1958-12-18;06:00:00;0.00;G
+1958-12-19;06:00:00;0.00;G
+1958-12-20;06:00:00;0.00;G
+1958-12-21;06:00:00;0.00;G
+1958-12-22;06:00:00;0.00;G
+1958-12-23;06:00:00;0.00;G
+1958-12-24;06:00:00;0.00;G
+1958-12-25;06:00:00;0.00;G
+1960-01-01;06:00:00;0.00;G
+1960-01-02;06:00:00;0.00;G
+1960-01-03;06:00:00;0.00;G
+1960-01-04;06:00:00;0.00;G
+1960-01-05;06:00:00;0.00;G
+1960-01-06;06:00:00;0.00;G
+1960-01-07;06:00:00;0.00;G
+1960-01-08;06:00:00;0.00;G
+1960-01-09;06:00:00;0.00;G

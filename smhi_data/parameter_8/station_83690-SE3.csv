@@ -1,0 +1,26 @@
+﻿Stationsnamn;Stationsnummer;Stationsnät;Mäthöjd (meter över marken)
+Sjötorp;83690;SMHIs stationsnät;0.0
+
+Parameternamn;Beskrivning;Enhet
+Snödjup;momentanvärde, 1 gång/dygn, kl 06;meter
+
+Tidsperiod (fr.o.m);Tidsperiod (t.o.m);Höjd (meter över havet);Latitud (decimalgrader);Longitud (decimalgrader)
+1945-01-01 00:00:00;1950-03-31 23:59:59;50.0;58.8388;13.9854
+
+Datum;Tid (UTC);Snödjup;Kvalitet;;Tidsutsnitt:
+1947-01-30;06:00:00;0.02;G;;Kvalitetskontrollerade historiska data (utom de senaste 3 mån)
+1947-02-28;06:00:00;0.06;G;;Tidsperiod (fr.o.m.) = 1945-01-01 00:00:00 (UTC)
+1947-03-09;06:00:00;0.20;G;;Tidsperiod (t.o.m.) = 1950-03-31 23:59:59 (UTC)
+1947-03-30;06:00:00;0.00;G;;Samplingstid = Ej angivet
+1947-12-04;06:00:00;0.23;G;;
+1948-01-07;06:00:00;0.23;G;;Kvalitetskoderna:
+1948-01-21;06:00:00;0.22;G;;Grön (G) = Kontrollerade och godkända värden.
+1948-02-29;06:00:00;0.05;G;;Gul (Y) = Misstänkta eller aggregerade värden. Grovt kontrollerade arkivdata och okontrollerade realtidsdata (senaste 2 tim).
+1949-01-31;06:00:00;0.00;G;;
+1949-02-28;06:00:00;0.00;G;;Nätinformation:
+1949-03-31;06:00:00;0.00;G;;SMHIs Stationsnät: Data samlas in och lagras i SMHIs databaser. Data kvalitetskontrolleras vilket innebär att felaktiga data korrigeras och att databortfall kompletteras utifrån expertbedömning där det är möjligt. De flesta stationerna övervakas, inspekteras och underhålls löpande av SMHI.
+1950-01-11;06:00:00;0.14;G;;Övriga stationer: Data samlas in och lagras i SMHIs databaser. Datakvaliteten är för SMHI okänd då SMHI varken utför kvalitetskontroll på data eller inspektioner på stationerna.
+1950-01-12;06:00:00;0.25;G;;
+1950-02-13;06:00:00;0.23;G;;Möjliga orsaker till saknade data:
+1950-03-15;06:00:00;0.00;G;;– stationen eller givaren har varit ur funktion.
+;;;;;– stationen har endast levererat värden med kvalitetskod Röd (R). Dessa levereras ej.

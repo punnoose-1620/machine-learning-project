@@ -1,0 +1,61 @@
+﻿Stationsnamn;Stationsnummer;Stationsnät;Mäthöjd (meter över marken)
+Åstafors;73680;SMHIs stationsnät;0.0
+
+Parameternamn;Beskrivning;Enhet
+Snödjup;momentanvärde, 1 gång/dygn, kl 06;meter
+
+Tidsperiod (fr.o.m);Tidsperiod (t.o.m);Höjd (meter över havet);Latitud (decimalgrader);Longitud (decimalgrader)
+1945-01-01 00:00:00;1950-11-30 23:59:59;155.0;57.4666;13.2139
+
+Datum;Tid (UTC);Snödjup;Kvalitet;;Tidsutsnitt:
+1947-01-17;06:00:00;0.00;G;;Kvalitetskontrollerade historiska data (utom de senaste 3 mån)
+1947-02-01;06:00:00;0.00;G;;Tidsperiod (fr.o.m.) = 1945-01-01 00:00:00 (UTC)
+1947-03-28;06:00:00;0.00;G;;Tidsperiod (t.o.m.) = 1950-11-30 23:59:59 (UTC)
+1947-04-01;06:00:00;0.00;G;;Samplingstid = Ej angivet
+1947-04-07;06:00:00;0.00;G;;
+1947-05-01;06:00:00;0.00;G;;Kvalitetskoderna:
+1947-11-01;06:00:00;0.00;G;;Grön (G) = Kontrollerade och godkända värden.
+1947-11-11;06:00:00;0.00;G;;Gul (Y) = Misstänkta eller aggregerade värden. Grovt kontrollerade arkivdata och okontrollerade realtidsdata (senaste 2 tim).
+1947-11-12;06:00:00;0.00;G;;
+1947-11-21;06:00:00;0.00;G;;Nätinformation:
+1947-11-22;06:00:00;0.00;G;;SMHIs Stationsnät: Data samlas in och lagras i SMHIs databaser. Data kvalitetskontrolleras vilket innebär att felaktiga data korrigeras och att databortfall kompletteras utifrån expertbedömning där det är möjligt. De flesta stationerna övervakas, inspekteras och underhålls löpande av SMHI.
+1947-12-26;06:00:00;0.00;G;;Övriga stationer: Data samlas in och lagras i SMHIs databaser. Datakvaliteten är för SMHI okänd då SMHI varken utför kvalitetskontroll på data eller inspektioner på stationerna.
+1948-03-09;06:00:00;0.00;G;;
+1948-03-21;06:00:00;0.00;G;;Möjliga orsaker till saknade data:
+1948-04-01;06:00:00;0.00;G;;– stationen eller givaren har varit ur funktion.
+1948-11-01;06:00:00;0.00;G;;– stationen har endast levererat värden med kvalitetskod Röd (R). Dessa levereras ej.
+1948-11-07;06:00:00;0.00;G
+1948-11-10;06:00:00;0.00;G
+1948-11-14;06:00:00;0.00;G
+1948-11-15;06:00:00;0.00;G
+1948-12-01;06:00:00;0.00;G
+1948-12-30;06:00:00;0.00;G
+1949-01-01;06:00:00;0.00;G
+1949-01-06;06:00:00;0.00;G
+1949-01-07;06:00:00;0.00;G
+1949-01-11;06:00:00;0.00;G
+1949-01-12;06:00:00;0.00;G
+1949-01-14;06:00:00;0.00;G
+1949-01-17;06:00:00;0.00;G
+1949-01-19;06:00:00;0.00;G
+1949-01-21;06:00:00;0.00;G
+1949-01-24;06:00:00;0.00;G
+1949-02-01;06:00:00;0.00;G
+1949-02-09;06:00:00;0.00;G
+1949-02-14;06:00:00;0.00;G
+1949-02-15;06:00:00;0.00;G
+1949-03-01;06:00:00;0.00;G
+1949-03-11;06:00:00;0.00;G
+1949-03-15;06:00:00;0.00;G
+1949-03-16;06:00:00;0.00;G
+1949-04-01;06:00:00;0.00;G
+1949-04-08;06:00:00;0.00;G
+1949-04-10;06:00:00;0.00;G
+1949-04-11;06:00:00;0.00;G
+1949-05-01;06:00:00;0.00;G
+1949-11-01;06:00:00;0.00;G
+1950-01-16;06:00:00;0.00;G
+1950-02-01;06:00:00;0.00;G
+1950-02-17;06:00:00;0.00;G
+1950-03-01;06:00:00;0.00;G
+1950-11-23;06:00:00;0.00;G

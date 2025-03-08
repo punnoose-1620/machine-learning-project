@@ -1,0 +1,26 @@
+﻿Stationsnamn;Stationsnummer;Stationsnät;Mäthöjd (meter över marken)
+Kvarntorp;95660;SMHIs stationsnät;0.0
+
+Parameternamn;Beskrivning;Enhet
+Snödjup;momentanvärde, 1 gång/dygn, kl 06;meter
+
+Tidsperiod (fr.o.m);Tidsperiod (t.o.m);Höjd (meter över havet);Latitud (decimalgrader);Longitud (decimalgrader)
+1961-01-01 00:00:00;1961-12-31 23:59:59;60.0;59.1164;15.2636
+
+Datum;Tid (UTC);Snödjup;Kvalitet;;Tidsutsnitt:
+1961-01-04;06:00:00;0.04;G;;Kvalitetskontrollerade historiska data (utom de senaste 3 mån)
+1961-01-10;06:00:00;0.11;G;;Tidsperiod (fr.o.m.) = 1961-01-01 00:00:00 (UTC)
+1961-01-13;06:00:00;0.13;G;;Tidsperiod (t.o.m.) = 1961-12-31 23:59:59 (UTC)
+1961-01-28;06:00:00;0.00;G;;Samplingstid = Ej angivet
+1961-02-04;06:00:00;0.05;G;;
+1961-02-07;06:00:00;0.00;G;;Kvalitetskoderna:
+1961-12-05;06:00:00;0.04;G;;Grön (G) = Kontrollerade och godkända värden.
+1961-12-06;06:00:00;0.05;G;;Gul (Y) = Misstänkta eller aggregerade värden. Grovt kontrollerade arkivdata och okontrollerade realtidsdata (senaste 2 tim).
+1961-12-07;06:00:00;0.00;G;;
+1961-12-28;06:00:00;0.03;G;;Nätinformation:
+;;;;;SMHIs Stationsnät: Data samlas in och lagras i SMHIs databaser. Data kvalitetskontrolleras vilket innebär att felaktiga data korrigeras och att databortfall kompletteras utifrån expertbedömning där det är möjligt. De flesta stationerna övervakas, inspekteras och underhålls löpande av SMHI.
+;;;;;Övriga stationer: Data samlas in och lagras i SMHIs databaser. Datakvaliteten är för SMHI okänd då SMHI varken utför kvalitetskontroll på data eller inspektioner på stationerna.
+;;;;;
+;;;;;Möjliga orsaker till saknade data:
+;;;;;– stationen eller givaren har varit ur funktion.
+;;;;;– stationen har endast levererat värden med kvalitetskod Röd (R). Dessa levereras ej.

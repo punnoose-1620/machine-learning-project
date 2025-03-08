@@ -1,0 +1,26 @@
+﻿Stationsnamn;Stationsnummer;Stationsnät;Mäthöjd (meter över marken)
+Vedum;83150;SMHIs stationsnät;2.0
+
+Parameternamn;Beskrivning;Enhet
+Lufttemperatur;medelvärde 1 dygn, 1 gång/dygn, kl 00;celsius
+
+Tidsperiod (fr.o.m);Tidsperiod (t.o.m);Höjd (meter över havet);Latitud (decimalgrader);Longitud (decimalgrader)
+1946-09-01 00:00:00;1950-01-31 23:59:59;110.0;58.1722;12.9944
+
+Från Datum Tid (UTC);Till Datum Tid (UTC);Representativt dygn;Lufttemperatur;Kvalitet;;Tidsutsnitt:
+1946-08-31 00:00:01;1946-09-01 00:00:00;1946-08-31;14.1;Y;;Kvalitetskontrollerade historiska data (utom de senaste 3 mån)
+1949-12-23 00:00:01;1949-12-24 00:00:00;1949-12-23;-1.2;Y;;Tidsperiod (fr.o.m.) = 1946-09-01 00:00:00 (UTC)
+1949-12-27 00:00:01;1949-12-28 00:00:00;1949-12-27;3.0;Y;;Tidsperiod (t.o.m.) = 1950-01-31 23:59:59 (UTC)
+1949-12-28 00:00:01;1949-12-29 00:00:00;1949-12-28;2.1;Y;;Medelvärdet är beräknat för = 24 timmar
+1949-12-31 00:00:01;1950-01-01 00:00:00;1949-12-31;-3.9;Y;;
+;;;;;;Kvalitetskoderna:
+;;;;;;Grön (G) = Kontrollerade och godkända värden.
+;;;;;;Gul (Y) = Misstänkta eller aggregerade värden. Grovt kontrollerade arkivdata och okontrollerade realtidsdata (senaste 2 tim).
+;;;;;;
+;;;;;;Nätinformation:
+;;;;;;SMHIs Stationsnät: Data samlas in och lagras i SMHIs databaser. Data kvalitetskontrolleras vilket innebär att felaktiga data korrigeras och att databortfall kompletteras utifrån expertbedömning där det är möjligt. De flesta stationerna övervakas, inspekteras och underhålls löpande av SMHI.
+;;;;;;Övriga stationer: Data samlas in och lagras i SMHIs databaser. Datakvaliteten är för SMHI okänd då SMHI varken utför kvalitetskontroll på data eller inspektioner på stationerna.
+;;;;;;
+;;;;;;Möjliga orsaker till saknade data:
+;;;;;;– stationen eller givaren har varit ur funktion.
+;;;;;;– stationen har endast levererat värden med kvalitetskod Röd (R). Dessa levereras ej.

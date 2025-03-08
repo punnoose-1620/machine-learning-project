@@ -1,0 +1,26 @@
+﻿Stationsnamn;Stationsnummer;Stationsnät;Mäthöjd (meter över marken)
+Ekskogen;98630;SMHIs stationsnät;0.0
+
+Parameternamn;Beskrivning;Enhet
+Snödjup;momentanvärde, 1 gång/dygn, kl 06;meter
+
+Tidsperiod (fr.o.m);Tidsperiod (t.o.m);Höjd (meter över havet);Latitud (decimalgrader);Longitud (decimalgrader)
+1947-03-01 00:00:00;1948-01-31 23:59:59;4.0;59.6330;18.2298
+
+Datum;Tid (UTC);Snödjup;Kvalitet;;Tidsutsnitt:
+1947-03-10;06:00:00;0.25;G;;Kvalitetskontrollerade historiska data (utom de senaste 3 mån)
+1948-01-07;06:00:00;0.15;G;;Tidsperiod (fr.o.m.) = 1947-03-01 00:00:00 (UTC)
+1948-01-21;06:00:00;0.43;G;;Tidsperiod (t.o.m.) = 1948-01-31 23:59:59 (UTC)
+;;;;;Samplingstid = Ej angivet
+;;;;;
+;;;;;Kvalitetskoderna:
+;;;;;Grön (G) = Kontrollerade och godkända värden.
+;;;;;Gul (Y) = Misstänkta eller aggregerade värden. Grovt kontrollerade arkivdata och okontrollerade realtidsdata (senaste 2 tim).
+;;;;;
+;;;;;Nätinformation:
+;;;;;SMHIs Stationsnät: Data samlas in och lagras i SMHIs databaser. Data kvalitetskontrolleras vilket innebär att felaktiga data korrigeras och att databortfall kompletteras utifrån expertbedömning där det är möjligt. De flesta stationerna övervakas, inspekteras och underhålls löpande av SMHI.
+;;;;;Övriga stationer: Data samlas in och lagras i SMHIs databaser. Datakvaliteten är för SMHI okänd då SMHI varken utför kvalitetskontroll på data eller inspektioner på stationerna.
+;;;;;
+;;;;;Möjliga orsaker till saknade data:
+;;;;;– stationen eller givaren har varit ur funktion.
+;;;;;– stationen har endast levererat värden med kvalitetskod Röd (R). Dessa levereras ej.

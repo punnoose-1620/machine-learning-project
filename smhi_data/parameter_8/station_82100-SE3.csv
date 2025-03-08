@@ -1,0 +1,26 @@
+﻿Stationsnamn;Stationsnummer;Stationsnät;Mäthöjd (meter över marken)
+Koberg;82100;SMHIs stationsnät;0.0
+
+Parameternamn;Beskrivning;Enhet
+Snödjup;momentanvärde, 1 gång/dygn, kl 06;meter
+
+Tidsperiod (fr.o.m);Tidsperiod (t.o.m);Höjd (meter över havet);Latitud (decimalgrader);Longitud (decimalgrader)
+1945-01-01 00:00:00;1952-02-29 23:59:59;78.0;58.1666;12.4166
+
+Datum;Tid (UTC);Snödjup;Kvalitet;;Tidsutsnitt:
+1950-01-11;06:00:00;0.05;G;;Kvalitetskontrollerade historiska data (utom de senaste 3 mån)
+1950-01-12;06:00:00;0.12;G;;Tidsperiod (fr.o.m.) = 1945-01-01 00:00:00 (UTC)
+1950-02-09;06:00:00;0.05;G;;Tidsperiod (t.o.m.) = 1952-02-29 23:59:59 (UTC)
+1950-02-10;06:00:00;0.10;G;;Samplingstid = Ej angivet
+1950-02-11;06:00:00;0.13;G;;
+1950-02-14;06:00:00;0.09;G;;Kvalitetskoderna:
+1950-02-15;06:00:00;0.25;G;;Grön (G) = Kontrollerade och godkända värden.
+1950-12-31;06:00:00;0.34;G;;Gul (Y) = Misstänkta eller aggregerade värden. Grovt kontrollerade arkivdata och okontrollerade realtidsdata (senaste 2 tim).
+1951-01-11;06:00:00;0.70;G;;
+1952-01-31;06:00:00;0.20;G;;Nätinformation:
+1952-02-29;06:00:00;0.10;G;;SMHIs Stationsnät: Data samlas in och lagras i SMHIs databaser. Data kvalitetskontrolleras vilket innebär att felaktiga data korrigeras och att databortfall kompletteras utifrån expertbedömning där det är möjligt. De flesta stationerna övervakas, inspekteras och underhålls löpande av SMHI.
+;;;;;Övriga stationer: Data samlas in och lagras i SMHIs databaser. Datakvaliteten är för SMHI okänd då SMHI varken utför kvalitetskontroll på data eller inspektioner på stationerna.
+;;;;;
+;;;;;Möjliga orsaker till saknade data:
+;;;;;– stationen eller givaren har varit ur funktion.
+;;;;;– stationen har endast levererat värden med kvalitetskod Röd (R). Dessa levereras ej.

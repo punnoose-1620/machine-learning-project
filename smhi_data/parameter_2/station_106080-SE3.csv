@@ -1,0 +1,40 @@
+﻿Stationsnamn;Stationsnummer;Stationsnät;Mäthöjd (meter över marken)
+Bjurfors;106080;SMHIs stationsnät;2.0
+
+Parameternamn;Beskrivning;Enhet
+Lufttemperatur;medelvärde 1 dygn, 1 gång/dygn, kl 00;celsius
+
+Tidsperiod (fr.o.m);Tidsperiod (t.o.m);Höjd (meter över havet);Latitud (decimalgrader);Longitud (decimalgrader)
+1961-09-01 00:00:00;1961-10-31 23:59:59;125.0;60.1316;16.1282
+
+Från Datum Tid (UTC);Till Datum Tid (UTC);Representativt dygn;Lufttemperatur;Kvalitet;;Tidsutsnitt:
+1961-09-01 00:00:01;1961-09-02 00:00:00;1961-09-01;15.9;Y;;Kvalitetskontrollerade historiska data (utom de senaste 3 mån)
+1961-09-02 00:00:01;1961-09-03 00:00:00;1961-09-02;16.8;Y;;Tidsperiod (fr.o.m.) = 1961-09-01 00:00:00 (UTC)
+1961-09-03 00:00:01;1961-09-04 00:00:00;1961-09-03;16.4;Y;;Tidsperiod (t.o.m.) = 1961-10-31 23:59:59 (UTC)
+1961-09-04 00:00:01;1961-09-05 00:00:00;1961-09-04;14.6;Y;;Medelvärdet är beräknat för = 24 timmar
+1961-09-05 00:00:01;1961-09-06 00:00:00;1961-09-05;15.5;Y;;
+1961-09-06 00:00:01;1961-09-07 00:00:00;1961-09-06;13.6;Y;;Kvalitetskoderna:
+1961-09-07 00:00:01;1961-09-08 00:00:00;1961-09-07;12.9;Y;;Grön (G) = Kontrollerade och godkända värden.
+1961-09-08 00:00:01;1961-09-09 00:00:00;1961-09-08;12.2;Y;;Gul (Y) = Misstänkta eller aggregerade värden. Grovt kontrollerade arkivdata och okontrollerade realtidsdata (senaste 2 tim).
+1961-09-09 00:00:01;1961-09-10 00:00:00;1961-09-09;11.8;Y;;
+1961-09-10 00:00:01;1961-09-11 00:00:00;1961-09-10;11.5;Y;;Nätinformation:
+1961-09-11 00:00:01;1961-09-12 00:00:00;1961-09-11;12.9;Y;;SMHIs Stationsnät: Data samlas in och lagras i SMHIs databaser. Data kvalitetskontrolleras vilket innebär att felaktiga data korrigeras och att databortfall kompletteras utifrån expertbedömning där det är möjligt. De flesta stationerna övervakas, inspekteras och underhålls löpande av SMHI.
+1961-09-12 00:00:01;1961-09-13 00:00:00;1961-09-12;13.3;Y;;Övriga stationer: Data samlas in och lagras i SMHIs databaser. Datakvaliteten är för SMHI okänd då SMHI varken utför kvalitetskontroll på data eller inspektioner på stationerna.
+1961-09-13 00:00:01;1961-09-14 00:00:00;1961-09-13;13.8;Y;;
+1961-09-14 00:00:01;1961-09-15 00:00:00;1961-09-14;14.2;Y;;Möjliga orsaker till saknade data:
+1961-09-15 00:00:01;1961-09-16 00:00:00;1961-09-15;15.0;Y;;– stationen eller givaren har varit ur funktion.
+1961-09-16 00:00:01;1961-09-17 00:00:00;1961-09-16;14.9;Y;;– stationen har endast levererat värden med kvalitetskod Röd (R). Dessa levereras ej.
+1961-09-17 00:00:01;1961-09-18 00:00:00;1961-09-17;14.9;Y
+1961-09-18 00:00:01;1961-09-19 00:00:00;1961-09-18;14.7;Y
+1961-09-19 00:00:01;1961-09-20 00:00:00;1961-09-19;11.7;Y
+1961-09-20 00:00:01;1961-09-21 00:00:00;1961-09-20;12.3;Y
+1961-09-21 00:00:01;1961-09-22 00:00:00;1961-09-21;10.2;Y
+1961-09-22 00:00:01;1961-09-23 00:00:00;1961-09-22;10.5;Y
+1961-09-23 00:00:01;1961-09-24 00:00:00;1961-09-23;11.8;Y
+1961-09-24 00:00:01;1961-09-25 00:00:00;1961-09-24;11.9;Y
+1961-09-25 00:00:01;1961-09-26 00:00:00;1961-09-25;12.5;Y
+1961-09-26 00:00:01;1961-09-27 00:00:00;1961-09-26;9.9;Y
+1961-09-27 00:00:01;1961-09-28 00:00:00;1961-09-27;10.6;Y
+1961-09-28 00:00:01;1961-09-29 00:00:00;1961-09-28;13.6;Y
+1961-09-29 00:00:01;1961-09-30 00:00:00;1961-09-29;14.8;Y
+1961-09-30 00:00:01;1961-10-01 00:00:00;1961-09-30;12.8;Y

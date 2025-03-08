@@ -1,0 +1,45 @@
+﻿Stationsnamn;Stationsnummer;Stationsnät;Mäthöjd (meter över marken)
+Västra Ny;85630;SMHIs stationsnät;0.0
+
+Parameternamn;Beskrivning;Enhet
+Snödjup;momentanvärde, 1 gång/dygn, kl 06;meter
+
+Tidsperiod (fr.o.m);Tidsperiod (t.o.m);Höjd (meter över havet);Latitud (decimalgrader);Longitud (decimalgrader)
+1962-11-01 00:00:00;1965-12-31 23:59:59;120.0;58.6500;15.0500
+
+Datum;Tid (UTC);Snödjup;Kvalitet;;Tidsutsnitt:
+1962-11-16;06:00:00;0.00;G;;Kvalitetskontrollerade historiska data (utom de senaste 3 mån)
+1962-11-30;06:00:00;0.12;Y;;Tidsperiod (fr.o.m.) = 1962-11-01 00:00:00 (UTC)
+1962-12-09;06:00:00;0.00;G;;Tidsperiod (t.o.m.) = 1965-12-31 23:59:59 (UTC)
+1962-12-13;06:00:00;0.00;G;;Samplingstid = Ej angivet
+1962-12-29;06:00:00;0.24;Y;;
+1963-01-31;06:00:00;0.32;G;;Kvalitetskoderna:
+1963-02-26;06:00:00;0.35;Y;;Grön (G) = Kontrollerade och godkända värden.
+1963-04-05;06:00:00;0.00;G;;Gul (Y) = Misstänkta eller aggregerade värden. Grovt kontrollerade arkivdata och okontrollerade realtidsdata (senaste 2 tim).
+1963-04-10;06:00:00;0.00;G;;
+1963-04-19;06:00:00;0.00;G;;Nätinformation:
+1963-11-18;06:00:00;0.02;Y;;SMHIs Stationsnät: Data samlas in och lagras i SMHIs databaser. Data kvalitetskontrolleras vilket innebär att felaktiga data korrigeras och att databortfall kompletteras utifrån expertbedömning där det är möjligt. De flesta stationerna övervakas, inspekteras och underhålls löpande av SMHI.
+1963-11-19;06:00:00;0.00;G;;Övriga stationer: Data samlas in och lagras i SMHIs databaser. Datakvaliteten är för SMHI okänd då SMHI varken utför kvalitetskontroll på data eller inspektioner på stationerna.
+1963-11-25;06:00:00;0.07;Y;;
+1963-11-27;06:00:00;0.00;G;;Möjliga orsaker till saknade data:
+1963-11-28;06:00:00;0.00;G;;– stationen eller givaren har varit ur funktion.
+1963-11-30;06:00:00;0.00;G;;– stationen har endast levererat värden med kvalitetskod Röd (R). Dessa levereras ej.
+1963-12-19;06:00:00;0.00;G
+1963-12-22;06:00:00;0.03;G
+1963-12-24;06:00:00;0.00;G
+1963-12-25;06:00:00;0.00;G
+1963-12-26;06:00:00;0.00;G
+1964-01-27;06:00:00;0.00;G
+1964-01-31;06:00:00;0.00;G
+1964-02-01;06:00:00;0.05;Y
+1964-02-17;06:00:00;0.14;Y
+1964-03-31;06:00:00;0.00;G
+1964-11-20;06:00:00;0.00;G
+1964-11-22;06:00:00;0.00;G
+1964-12-30;06:00:00;0.00;G
+1964-12-31;06:00:00;0.00;G
+1965-01-31;06:00:00;0.29;Y
+1965-02-27;06:00:00;0.39;Y
+1965-03-24;06:00:00;0.00;G
+1965-03-31;06:00:00;0.00;G
+1965-12-31;06:00:00;0.78;Y

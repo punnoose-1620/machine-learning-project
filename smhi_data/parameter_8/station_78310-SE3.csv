@@ -1,0 +1,55 @@
+﻿Stationsnamn;Stationsnummer;Stationsnät;Mäthöjd (meter över marken)
+Roma;78310;SMHIs stationsnät;0.0
+
+Parameternamn;Beskrivning;Enhet
+Snödjup;momentanvärde, 1 gång/dygn, kl 06;meter
+
+Tidsperiod (fr.o.m);Tidsperiod (t.o.m);Höjd (meter över havet);Latitud (decimalgrader);Longitud (decimalgrader)
+1946-02-01 00:00:00;1969-02-28 23:59:59;32.0;57.5069;18.4539
+
+Datum;Tid (UTC);Snödjup;Kvalitet;;Tidsutsnitt:
+1947-01-12;06:00:00;0.25;G;;Kvalitetskontrollerade historiska data (utom de senaste 3 mån)
+1947-01-14;06:00:00;0.25;G;;Tidsperiod (fr.o.m.) = 1946-02-01 00:00:00 (UTC)
+1947-01-15;06:00:00;0.19;G;;Tidsperiod (t.o.m.) = 1969-02-28 23:59:59 (UTC)
+1947-01-16;06:00:00;0.12;G;;Samplingstid = Ej angivet
+1947-01-21;06:00:00;0.07;G;;
+1947-01-22;06:00:00;0.08;G;;Kvalitetskoderna:
+1947-01-24;06:00:00;0.11;G;;Grön (G) = Kontrollerade och godkända värden.
+1947-01-25;06:00:00;0.12;G;;Gul (Y) = Misstänkta eller aggregerade värden. Grovt kontrollerade arkivdata och okontrollerade realtidsdata (senaste 2 tim).
+1947-01-27;06:00:00;0.09;G;;
+1947-01-30;06:00:00;0.06;G;;Nätinformation:
+1947-02-01;06:00:00;0.08;G;;SMHIs Stationsnät: Data samlas in och lagras i SMHIs databaser. Data kvalitetskontrolleras vilket innebär att felaktiga data korrigeras och att databortfall kompletteras utifrån expertbedömning där det är möjligt. De flesta stationerna övervakas, inspekteras och underhålls löpande av SMHI.
+1947-02-05;06:00:00;0.13;G;;Övriga stationer: Data samlas in och lagras i SMHIs databaser. Datakvaliteten är för SMHI okänd då SMHI varken utför kvalitetskontroll på data eller inspektioner på stationerna.
+1947-02-08;06:00:00;0.12;G;;
+1947-02-22;06:00:00;0.18;G;;Möjliga orsaker till saknade data:
+1947-02-23;06:00:00;0.23;G;;– stationen eller givaren har varit ur funktion.
+1947-02-26;06:00:00;0.26;G;;– stationen har endast levererat värden med kvalitetskod Röd (R). Dessa levereras ej.
+1947-03-02;06:00:00;0.18;G
+1947-03-08;06:00:00;0.28;G
+1947-03-21;06:00:00;0.30;G
+1947-11-18;06:00:00;0.09;G
+1947-11-19;06:00:00;0.11;G
+1947-11-21;06:00:00;0.06;G
+1947-11-22;06:00:00;0.00;G
+1947-12-16;06:00:00;0.03;G
+1947-12-19;06:00:00;0.06;G
+1947-12-27;06:00:00;0.10;G
+1948-01-01;06:00:00;0.15;G
+1948-01-03;06:00:00;0.20;G
+1948-01-06;06:00:00;0.25;G
+1948-01-07;06:00:00;0.40;G
+1948-01-11;06:00:00;0.42;G
+1948-01-31;06:00:00;0.00;G
+1949-01-18;06:00:00;0.06;G
+1949-03-08;06:00:00;0.06;G
+1950-01-06;06:00:00;0.25;G
+1950-01-12;06:00:00;0.37;G
+1950-01-17;06:00:00;0.06;G
+1950-01-28;06:00:00;0.04;G
+1950-01-31;06:00:00;0.05;G
+1950-12-31;06:00:00;0.22;G
+1951-01-01;06:00:00;0.21;G
+1951-01-31;06:00:00;0.24;G
+1969-02-12;06:00:00;0.19;Y
+1969-02-21;06:00:00;0.25;Y
+1969-02-26;06:00:00;0.22;Y

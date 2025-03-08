@@ -1,0 +1,26 @@
+﻿Stationsnamn;Stationsnummer;Stationsnät;Mäthöjd (meter över marken)
+Hörnsjöfors;96501;SMHIs stationsnät;0.0
+
+Parameternamn;Beskrivning;Enhet
+Snödjup;momentanvärde, 1 gång/dygn, kl 06;meter
+
+Tidsperiod (fr.o.m);Tidsperiod (t.o.m);Höjd (meter över havet);Latitud (decimalgrader);Longitud (decimalgrader)
+1922-11-01 00:00:00;1922-12-31 23:59:59;63.0;59.9484;16.2219
+
+Datum;Tid (UTC);Snödjup;Kvalitet;;Tidsutsnitt:
+;;;;;Kvalitetskontrollerade historiska data (utom de senaste 3 mån)
+;;;;;Tidsperiod (fr.o.m.) = 1922-11-01 00:00:00 (UTC)
+;;;;;Tidsperiod (t.o.m.) = 1922-12-31 23:59:59 (UTC)
+;;;;;Samplingstid = Ej angivet
+;;;;;
+;;;;;Kvalitetskoderna:
+;;;;;Grön (G) = Kontrollerade och godkända värden.
+;;;;;Gul (Y) = Misstänkta eller aggregerade värden. Grovt kontrollerade arkivdata och okontrollerade realtidsdata (senaste 2 tim).
+;;;;;
+;;;;;Nätinformation:
+;;;;;SMHIs Stationsnät: Data samlas in och lagras i SMHIs databaser. Data kvalitetskontrolleras vilket innebär att felaktiga data korrigeras och att databortfall kompletteras utifrån expertbedömning där det är möjligt. De flesta stationerna övervakas, inspekteras och underhålls löpande av SMHI.
+;;;;;Övriga stationer: Data samlas in och lagras i SMHIs databaser. Datakvaliteten är för SMHI okänd då SMHI varken utför kvalitetskontroll på data eller inspektioner på stationerna.
+;;;;;
+;;;;;Möjliga orsaker till saknade data:
+;;;;;– stationen eller givaren har varit ur funktion.
+;;;;;– stationen har endast levererat värden med kvalitetskod Röd (R). Dessa levereras ej.

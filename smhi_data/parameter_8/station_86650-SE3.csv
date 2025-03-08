@@ -1,0 +1,36 @@
+﻿Stationsnamn;Stationsnummer;Stationsnät;Mäthöjd (meter över marken)
+Kolmårdssanatoriet;86650;SMHIs stationsnät;0.0
+
+Parameternamn;Beskrivning;Enhet
+Snödjup;momentanvärde, 1 gång/dygn, kl 06;meter
+
+Tidsperiod (fr.o.m);Tidsperiod (t.o.m);Höjd (meter över havet);Latitud (decimalgrader);Longitud (decimalgrader)
+1945-02-01 00:00:00;1948-01-31 23:59:59;90.0;58.6664;16.3301
+
+Datum;Tid (UTC);Snödjup;Kvalitet;;Tidsutsnitt:
+1947-01-18;06:00:00;0.00;G;;Kvalitetskontrollerade historiska data (utom de senaste 3 mån)
+1947-01-19;06:00:00;0.00;G;;Tidsperiod (fr.o.m.) = 1945-02-01 00:00:00 (UTC)
+1947-01-20;06:00:00;0.00;G;;Tidsperiod (t.o.m.) = 1948-01-31 23:59:59 (UTC)
+1947-01-21;06:00:00;0.00;G;;Samplingstid = Ej angivet
+1947-01-22;06:00:00;0.00;G;;
+1947-04-08;06:00:00;0.00;G;;Kvalitetskoderna:
+1947-04-09;06:00:00;0.00;G;;Grön (G) = Kontrollerade och godkända värden.
+1947-04-10;06:00:00;0.00;G;;Gul (Y) = Misstänkta eller aggregerade värden. Grovt kontrollerade arkivdata och okontrollerade realtidsdata (senaste 2 tim).
+1947-04-11;06:00:00;0.00;G;;
+1947-04-12;06:00:00;0.00;G;;Nätinformation:
+1947-04-13;06:00:00;0.00;G;;SMHIs Stationsnät: Data samlas in och lagras i SMHIs databaser. Data kvalitetskontrolleras vilket innebär att felaktiga data korrigeras och att databortfall kompletteras utifrån expertbedömning där det är möjligt. De flesta stationerna övervakas, inspekteras och underhålls löpande av SMHI.
+1947-04-14;06:00:00;0.00;G;;Övriga stationer: Data samlas in och lagras i SMHIs databaser. Datakvaliteten är för SMHI okänd då SMHI varken utför kvalitetskontroll på data eller inspektioner på stationerna.
+1947-04-15;06:00:00;0.00;G;;
+1947-04-16;06:00:00;0.00;G;;Möjliga orsaker till saknade data:
+1947-04-17;06:00:00;0.00;G;;– stationen eller givaren har varit ur funktion.
+1947-04-18;06:00:00;0.00;G;;– stationen har endast levererat värden med kvalitetskod Röd (R). Dessa levereras ej.
+1947-04-23;06:00:00;0.00;G
+1947-04-24;06:00:00;0.00;G
+1947-04-25;06:00:00;0.00;G
+1947-04-26;06:00:00;0.00;G
+1947-04-27;06:00:00;0.00;G
+1947-04-28;06:00:00;0.00;G
+1947-04-29;06:00:00;0.00;G
+1947-04-30;06:00:00;0.00;G
+1948-01-07;06:00:00;0.25;G
+1948-01-29;06:00:00;0.27;G

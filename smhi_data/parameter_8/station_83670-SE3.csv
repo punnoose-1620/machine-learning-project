@@ -1,0 +1,37 @@
+﻿Stationsnamn;Stationsnummer;Stationsnät;Mäthöjd (meter över marken)
+Klagstorp;83670;SMHIs stationsnät;0.0
+
+Parameternamn;Beskrivning;Enhet
+Snödjup;momentanvärde, 1 gång/dygn, kl 06;meter
+
+Tidsperiod (fr.o.m);Tidsperiod (t.o.m);Höjd (meter över havet);Latitud (decimalgrader);Longitud (decimalgrader)
+1932-10-01 00:00:00;1951-01-31 23:59:59;130.0;58.3331;13.8804
+
+Datum;Tid (UTC);Snödjup;Kvalitet;;Tidsutsnitt:
+1951-01-05;06:00:00;0.80;G;;Kvalitetskontrollerade historiska data (utom de senaste 3 mån)
+1951-01-06;06:00:00;0.80;G;;Tidsperiod (fr.o.m.) = 1932-10-01 00:00:00 (UTC)
+1951-01-07;06:00:00;0.80;G;;Tidsperiod (t.o.m.) = 1951-01-31 23:59:59 (UTC)
+1951-01-08;06:00:00;0.80;G;;Samplingstid = Ej angivet
+1951-01-09;06:00:00;0.80;G;;
+1951-01-10;06:00:00;0.80;G;;Kvalitetskoderna:
+1951-01-11;06:00:00;0.80;G;;Grön (G) = Kontrollerade och godkända värden.
+1951-01-12;06:00:00;0.80;G;;Gul (Y) = Misstänkta eller aggregerade värden. Grovt kontrollerade arkivdata och okontrollerade realtidsdata (senaste 2 tim).
+1951-01-13;06:00:00;0.80;G;;
+1951-01-14;06:00:00;0.80;G;;Nätinformation:
+1951-01-15;06:00:00;0.80;G;;SMHIs Stationsnät: Data samlas in och lagras i SMHIs databaser. Data kvalitetskontrolleras vilket innebär att felaktiga data korrigeras och att databortfall kompletteras utifrån expertbedömning där det är möjligt. De flesta stationerna övervakas, inspekteras och underhålls löpande av SMHI.
+1951-01-16;06:00:00;0.80;G;;Övriga stationer: Data samlas in och lagras i SMHIs databaser. Datakvaliteten är för SMHI okänd då SMHI varken utför kvalitetskontroll på data eller inspektioner på stationerna.
+1951-01-17;06:00:00;0.80;G;;
+1951-01-18;06:00:00;0.80;G;;Möjliga orsaker till saknade data:
+1951-01-19;06:00:00;0.80;G;;– stationen eller givaren har varit ur funktion.
+1951-01-20;06:00:00;0.80;G;;– stationen har endast levererat värden med kvalitetskod Röd (R). Dessa levereras ej.
+1951-01-21;06:00:00;0.80;G
+1951-01-22;06:00:00;0.80;G
+1951-01-23;06:00:00;0.80;G
+1951-01-24;06:00:00;0.80;G
+1951-01-25;06:00:00;0.80;G
+1951-01-26;06:00:00;0.80;G
+1951-01-27;06:00:00;0.80;G
+1951-01-28;06:00:00;0.80;G
+1951-01-29;06:00:00;0.80;G
+1951-01-30;06:00:00;0.80;G
+1951-01-31;06:00:00;0.50;G
