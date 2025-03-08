@@ -2,8 +2,8 @@ import numpy as np
 import pandas as pd
 import xgboost as xgb
 from dataVisualisation import *
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Input
+from tensorflow.keras.models import Sequential      # type: ignore
+from tensorflow.keras.layers import Dense, Input    # type: ignore
 from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
@@ -100,6 +100,7 @@ def rfTrainer(
     # Plot Results of the Model
     plotRfResults(
         model=model, 
+        X=X,
         y_test=y_test, 
         y_pred=y_pred, 
         )
@@ -165,7 +166,7 @@ def prTrainer(
     print(f"MSE: {mse:.4f}, MAE: {mae:.4f}, R² Score: {r2:.4f}")
 
     # Plot Results of the Model
-    plotRfResults(
+    plotPrResults(
         y_test=y_test, 
         y_pred=y_pred, 
         )

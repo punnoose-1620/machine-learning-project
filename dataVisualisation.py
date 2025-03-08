@@ -88,6 +88,7 @@ def mergePlots(sourceFolder, destinationFileName, horizontalFlag):
 
 def plotRfResults(
         model, 
+        X,
         y_test,
         y_pred
         ):
