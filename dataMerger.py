@@ -5,6 +5,8 @@ from dataMiner import *
 from constants import *
 
 franCount = 0
+loggedKeys = []
+datesForParams = {}
 
 def mergeSwedishWeatherData(startYear: int, startMonth: int, startDay: int):
     hydroData = getHydroParams(startYear, startMonth, startDay)
@@ -78,31 +80,49 @@ def readCsvFromHeaders(filepath, target_header):
     return df
 
 def processWeatherFileData(df: pd.DataFrame, columnsList: list, param: str):
-    dateTimeKey = ''
     processedData = {}
     global final_params
     for index, row in df.iterrows():
         tempData = {}
         processedKeys = str(list(row.to_dict().keys())[0]).split(';')                   # Keys of each entry
+        if processedKeys not in loggedKeys:
+            print(f'test keys : {processedKeys}')
+            loggedKeys.append(processedKeys)
         processedValues = str(row.to_dict()[list(row.to_dict().keys())[0]]).split(';')  # Values of each entry
-        valueTitle = final_params[0]
-        for x in range(len(processedKeys)):
-            tempKey = f'{str(processedKeys[x])[:-2]}00'
-            if tempKey in final_params:
-                valueTitle = tempKey
-            if x<len(processedValues):
-                tempData[tempKey] = processedValues[x]
-            else:
-                tempData[tempKey] = ''
-        value = tempData[valueTitle]
-        # value = {param : }
-        if('Från' in columnsList[0]):
-            dateTimeKey = f'{processedValues[0]}'
+        datumValue = processedValues[0]
+        parameterIndex = 2
+        if('Representativt' in processedKeys[2]):
+            parameterIndex = 3
+            tempData = {processedKeys[3] : processedValues[3]}
+        elif(len(datumValue.split(':'))<2 or 'Tid' in processedKeys[1]):
+            # datum has date and time
+            tempData = {processedKeys[2] : processedValues[2]}
         else:
-            dateTimeKey = f'{processedValues[0]} {processedValues[1]}'
-        dateTimeKey = f'{dateTimeKey[:-2]}00'
-        processedData[dateTimeKey] = value
+            # datum has only date
+            tempData = {processedKeys[1] : processedValues[1]}
+            parameterIndex = 1
+        testTimeValue = processedValues[1].split(':')
+        if(parameterIndex>1 and len(testTimeValue)==3):
+            datumValue = f'{processedValues[0]} {processedValues[1]}'
+        elif(parameterIndex>1 and len(testTimeValue)<=3):
+            datumValue = f'{processedValues[0]} 00:00:00'
+        if(processedKeys[parameterIndex] not in datesForParams.keys()):
+            datesForParams[processedKeys[parameterIndex]] = [datumValue]
+        else : 
+            datesForParams[processedKeys[parameterIndex]].append(datumValue)
+        processedData[datumValue] = tempData
     return processedData
+
+def logDatesCommonToParams():
+    dateParams = {}
+    for paramKey in loggedKeys:
+        dates = loggedKeys[paramKey]
+        for entry in dates:
+            if(entry not in dateParams.keys()):
+                dateParams[entry] = [paramKey]
+            else:
+                dateParams[entry].append(paramKey)
+    print(f"\nParams for each date : \n{json.dumps(dateParams, indent=4)}\n")
 
 def filterExistingWeatherData():
     """
@@ -130,21 +150,33 @@ def filterExistingWeatherData():
                     for item in filteredList:
                         if(item not in columnsList and item.strip()!=''):
                             columnsList.append(item)
-                    processedData = processWeatherFileData(df, filteredList, parameter)
-                    for key in processedData.keys():
-                        value = 0.0
-                        if(processedData[key]!=''):
-                            value = float(processedData[key])
-                        if(isinstance(value, str)):
-                            print(f'processed data test : ( {key} : {value} )')
-                        refKeys = finalData.keys()
-                        if key in refKeys:
-                            if parameter in finalData[key].keys():
-                                finalData[key][parameter] = (finalData[key][parameter]+value)/2
-                            else:
-                                finalData[key][parameter] = value
+                    processedData = processWeatherFileData(df, filteredList, parameter)         # Expected return { datetimeKey: { parameterKey : parameterValue } }
+                    # print(f"Processed Data for {parameter} : {json.dumps(processedData, indent=4)}")
+                    for dateKey in processedData.keys():        # Returns datetime values which are keys
+                        refDateKeys = finalData.keys()
+                        if(dateKey not in refDateKeys):
+                            finalData[dateKey] = processedData[dateKey]
                         else:
-                            finalData[key] = {parameter: value}
+                            paramKeys = processedData[dateKey].keys()
+                            refEntryData = finalData[dateKey]
+                            refEntryDataKeys = refEntryData.keys()
+                            for param in paramKeys:
+                                if(param not in refEntryDataKeys):      # Processed parameter doesn't exist in final data for this date
+                                    refEntryData[param] = processedData[dateKey][param]
+                                else:                                   # Processed parameter already exists in final data for this date
+                                    oldVal = 0.0
+                                    newVal = 0.0
+                                    if(refEntryData[param]!=''):
+                                        oldVal = float(refEntryData[param])
+                                    if(processedData[dateKey][param]!=''):
+                                        newVal = float(processedData[dateKey][param])
+                                    if(oldVal>0.0):
+                                        refEntryData[param] = (oldVal+newVal)/2         # If param already exists, take avg of old and new values
+                                    else:
+                                        refEntryData[param] = newVal
+                            finalData[dateKey] = refEntryData
+    logDatesCommonToParams()
+    print(f"\nDates and hours for each parameter : \n{json.dumps(datesForParams, indent=4)}\n")
     write_json_to_file(testJsonWeatherFile, finalData)
     print(f'\nFrån count : {franCount}')
     print(f'File count : {len(files)}')

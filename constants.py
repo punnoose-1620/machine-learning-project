@@ -6,6 +6,7 @@ b3 = (61.156689, 17.719862)
 electricityBillsFolder = './electricity'
 plotsFolder = './GraphPlots'
 mergedPlots = './GraphPlots/MergedPlots'
+finalMergedFile = './final_combined.csv'
 existingWeatherFolder = './smhi_data'
 mergedWeatherFolder = './smhi_data_2014-today'
 testJsonWeatherFile = './mergedWeatherTest.json'
