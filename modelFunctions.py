@@ -413,8 +413,8 @@ def AnnTrainer(
     df = convertDateColumn(df, dateKey, timeKey)
 
     # Split data into features (X) and target (y)
-    X = df.drop(columns=[targetKey])  
-    y = df[targetKey]
+    X = df.drop(columns=[targetKey], axis=1).values  
+    y = df[targetKey].values
 
     # Split into train and test sets (80% train, 20% test)
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=testSize, random_state=randomState)
@@ -428,26 +428,61 @@ def AnnTrainer(
     model = getAnnRegressionModel(X_train_scaled=X_train_scaled, optimizer=optimizer, lossFunction=lossFunction)
 
     # Wrap model for scikit-learn
-    regressor = KerasRegressor(
-        build_fn=model, 
-        epochs=epochs, 
-        batch_size=batchSize, 
-        verbose=1,
-        # random_state=randomState,
-        # optimizer=optimizer,
-        loss=lossFunction,
-        metrics='mae',
-        validation_split=0.1,
-        shuffle=True,
-        )
+    # regressor = KerasRegressor(
+    #     build_fn=model, 
+    #     epochs=epochs, 
+    #     batch_size=batchSize, 
+    #     verbose=1,
+    #     loss=lossFunction,
+    #     metrics='mae',
+    #     validation_split=0.1,
+    #     shuffle=True,
+    #     )
 
     print('\nBegin ANN Model Training....')
 
     # Cross-validation setup
     kfold = KFold(n_splits=nSplits, shuffle=True, random_state=randomState)
 
+    histories = []
+    mae_scores = []
+
+    for train_idx, val_idx in kfold.split(X_train_scaled):
+        X_train, X_val = X_train_scaled[train_idx], X_train_scaled[val_idx]
+        y_train_new, y_val_new = y_train[train_idx], y_train[val_idx]
+
+        model = getAnnRegressionModel(X_train_scaled=X_train_scaled, optimizer=optimizer, lossFunction=lossFunction)
+        history = model.fit(
+            X_train, y_train_new, 
+            epochs=epochs, 
+            batch_size=batchSize, 
+            validation_data=(X_val, y_val_new), 
+            verbose=1)
+
+        histories.append(history)  # Store history
+        val_mae = history.history['val_mae'][-1]  # Last epoch val MAE
+        mae_scores.append(val_mae)
+
+        # Predict on test data
+        y_pred = model.predict(X_test_scaled).flatten()
+
+        # Compute evaluation metrics
+        mse = mean_squared_error(y_test, y_pred)
+        mae = mean_absolute_error(y_test, y_pred)
+        r2 = r2_score(y_test, y_pred)
+
+        print(f"ANN Model Results :\nMSE: {mse:.4f}\nMAE: {mae:.4f}\nR² Score: {r2:.4f}\n")
+
+        # Plot Results of the Model
+        plotAnnResults(
+            y_test=y_test,
+            y_pred=y_pred,
+            history=history.history,
+            fold_split_number=len(histories)
+        )
+
     # Perform cross-validation (use 'neg_mean_squared_error' for MSE)
-    results = cross_val_score(regressor, X_test_scaled, y_test, cv=kfold, scoring='neg_mean_absolute_error')
+    # results = cross_val_score(regressor, X_test_scaled, y_test, cv=kfold, scoring='neg_mean_absolute_error')
     
     # Train the model
     # history = model.fit(
@@ -460,20 +495,20 @@ def AnnTrainer(
     #     )
 
     # Predict on test data
-    y_pred = model.predict(X_test_scaled).flatten()
+    # y_pred = model.predict(X_test_scaled).flatten()
 
     # Compute evaluation metrics
-    mse = mean_squared_error(y_test, y_pred)
-    mae = mean_absolute_error(y_test, y_pred)
-    r2 = r2_score(y_test, y_pred)
+    # mse = mean_squared_error(y_test, y_pred)
+    # mae = mean_absolute_error(y_test, y_pred)
+    # r2 = r2_score(y_test, y_pred)
 
     # Print evaluation results
     print(f"ANN Model Results :\nMSE: {mse:.4f}\nMAE: {mae:.4f}\nR² Score: {r2:.4f}\n")
-    print(f"Mean for each fold: {results}\nMean MAE: {results.mean()}")
+    # print(f"Mean for each fold: {results}\nMean MAE: {results.mean()}")
 
     # Plot Results of the Model
-    # plotAnnResults(
-    #     y_test=y_test,
-    #     y_pred=y_pred,
-    #     history=history.history
-    # )
+    plotAnnResults(
+        y_test=y_test,
+        y_pred=y_pred,
+        history=history.history
+    )

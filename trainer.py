@@ -61,28 +61,28 @@ warnings.filterwarnings("ignore")
 #     learningRate=LEARNING_RATE
 #     )
 
-xgbTrainer( 
-    filePath=finalMergedFile, 
-    dateKey=date_key, 
-    timeKey=time_key, 
-    targetKey=target_key, 
-    testSize=TEST_SIZE, 
-    randomState=RANDOM_STATE,
-    nEstimators=N_ESTIMATORS,
-    learningRate=LEARNING_RATE,
-    maxDepth=MAX_TREE_DEPTH,
-    crossValidations=CROSS_VALIDATIONS_COUNT
-    )
-
-# AnnTrainer(
+# xgbTrainer( 
 #     filePath=finalMergedFile, 
 #     dateKey=date_key, 
 #     timeKey=time_key, 
 #     targetKey=target_key, 
 #     testSize=TEST_SIZE, 
-#     randomState=RANDOM_STATE, 
-#     epochs=EPOCHS, 
-#     batchSize=BATCH_SIZE, 
-#     optimizer=OPTIMIZER, 
-#     lossFunction=LOSS_FUNCTION
+#     randomState=RANDOM_STATE,
+#     nEstimators=N_ESTIMATORS,
+#     learningRate=LEARNING_RATE,
+#     maxDepth=MAX_TREE_DEPTH,
+#     crossValidations=CROSS_VALIDATIONS_COUNT
 #     )
+
+AnnTrainer(
+    filePath=finalMergedFile, 
+    dateKey=date_key, 
+    timeKey=time_key, 
+    targetKey=target_key, 
+    testSize=TEST_SIZE, 
+    randomState=RANDOM_STATE, 
+    epochs=EPOCHS, 
+    batchSize=BATCH_SIZE, 
+    optimizer=OPTIMIZER, 
+    lossFunction=LOSS_FUNCTION
+    )
