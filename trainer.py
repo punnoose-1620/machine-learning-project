@@ -1,3 +1,4 @@
+import warnings
 from constants import *
 from modelFunctions import *
 
@@ -16,64 +17,72 @@ data = readCsv(finalMergedFile, target_key)
 
 # Specify Parameters
 
-N_ESTIMATORS = 250
+N_ESTIMATORS = 300
 RANDOM_STATE = 42
-LEARNING_RATE = 0.01
+LEARNING_RATE = 0.1
 TEST_SIZE = 0.3
 EPOCHS = 100
-BATCH_SIZE = 32
+BATCH_SIZE = 64
 OPTIMIZER = 'adam'
 LOSS_FUNCTION = 'mse'
-MAX_TREE_DEPTH = 10
-LEAF_SIZE = 5
+MAX_TREE_DEPTH = 5
+LEAF_SIZE = 10
+SAMPLE_SPLIT_SIZE = 10
 REGRESSION_DEGREE = 3
+N_ITERATIONS = 50
+CROSS_VALIDATIONS_COUNT = 25
 
-# Create Models
-
-rfModel = getRandomForestModel(nEstimators=N_ESTIMATORS, randomState=RANDOM_STATE, maxDepth=MAX_TREE_DEPTH, minSampleLeaf=LEAF_SIZE)
-prModel = getPolynomialRegressionModel(learningRate=LEARNING_RATE)
-xgbModel = getXgBoostRegressionModel(nEstimators=N_ESTIMATORS, learningRate=LEARNING_RATE, randomState=RANDOM_STATE, maxDepth=MAX_TREE_DEPTH)
+warnings.filterwarnings("ignore")
 
 # invokations for training
 
-rfTrainer(
-    model=rfModel, 
-    filePath=finalMergedFile, 
-    dateKey=date_key, 
-    timeKey=time_key,
-    targetKey=target_key, 
-    testSize=TEST_SIZE, 
-    randomState=RANDOM_STATE
-    )
-# print('\n\n')
-prTrainer(
-    model=prModel, 
-    filePath=finalMergedFile, 
-    dateKey=date_key, 
-    timeKey=time_key, 
-    targetKey=target_key, 
-    testSize=TEST_SIZE, 
-    randomState=RANDOM_STATE
-    )
-# print('\n\n')
-xgbTrainer(
-    model=xgbModel, 
-    filePath=finalMergedFile, 
-    dateKey=date_key, 
-    timeKey=time_key, 
-    targetKey=target_key, 
-    testSize=TEST_SIZE, 
-    randomState=RANDOM_STATE
-    )
-# print('\n\n')
-AnnTrainer(
+# rfTrainer(
+#     filePath=finalMergedFile, 
+#     dateKey=date_key, 
+#     timeKey=time_key,
+#     targetKey=target_key, 
+#     testSize=TEST_SIZE, 
+#     randomState=RANDOM_STATE,
+#     nEstimators=N_ESTIMATORS,
+#     maxDepth=MAX_TREE_DEPTH,
+#     minSampleLeaf=LEAF_SIZE, 
+#     minSampleSplit=SAMPLE_SPLIT_SIZE,
+#     nIterations=N_ITERATIONS,
+#     numberOfValidations=CROSS_VALIDATIONS_COUNT
+#     )
+
+# prTrainer(
+#     filePath=finalMergedFile, 
+#     dateKey=date_key, 
+#     timeKey=time_key, 
+#     targetKey=target_key, 
+#     testSize=TEST_SIZE, 
+#     randomState=RANDOM_STATE,
+#     learningRate=LEARNING_RATE
+#     )
+
+xgbTrainer( 
     filePath=finalMergedFile, 
     dateKey=date_key, 
     timeKey=time_key, 
     targetKey=target_key, 
     testSize=TEST_SIZE, 
-    randomState=RANDOM_STATE, 
-    epochs=EPOCHS, 
-    batchSize=BATCH_SIZE, 
-    optimizer=OPTIMIZER, 
-    lossFunction=LOSS_FUNCTION)
+    randomState=RANDOM_STATE,
+    nEstimators=N_ESTIMATORS,
+    learningRate=LEARNING_RATE,
+    maxDepth=MAX_TREE_DEPTH,
+    crossValidations=CROSS_VALIDATIONS_COUNT
+    )
+
+# AnnTrainer(
+#     filePath=finalMergedFile, 
+#     dateKey=date_key, 
+#     timeKey=time_key, 
+#     targetKey=target_key, 
+#     testSize=TEST_SIZE, 
+#     randomState=RANDOM_STATE, 
+#     epochs=EPOCHS, 
+#     batchSize=BATCH_SIZE, 
+#     optimizer=OPTIMIZER, 
+#     lossFunction=LOSS_FUNCTION
+#     )
