@@ -48,14 +48,31 @@ def convert_column_to_float_and_drop_invalid(df, column_name):
 
     return df_cleaned
 
-def convertDateColumn(df: pd.DataFrame, dateKey: str, timeKey: str):
+def convertDateColumn(df: pd.DataFrame, dateKey: str, timeKey: str=''):
 
-    df['hour'] = int(str(df[timeKey]).split(':')[0].strip().replace(' ',''))
-    df['month'] = int(str(df[dateKey]).split('-')[1].strip().replace(' ',''))
-    df['year'] = int(str(df[dateKey]).split('-')[-1][:4].strip().replace(' ',''))
+    if(timeKey!=''):
+        df['hour'] = int(str(df[timeKey]).split(':')[0].strip().replace(' ',''))
+        df['month'] = int(str(df[dateKey]).split('-')[1].strip().replace(' ',''))
+        df['year'] = int(str(df[dateKey]).split('-')[-1][:4].strip().replace(' ',''))
+    else:
+        spaceSplit = str(df[dateKey]).split(' ')
+        dateTemp = ''
+        timeTemp = ''
+        for item in spaceSplit:
+            if '-' in item:
+                dateTemp = item
+            if ':' in item and item[0].isdigit():
+                timeTemp = item[:7]
+        # print(f'spaceSplit({spaceSplit})\ndateTemp({dateTemp})\ntimeTemp({timeTemp})')
+        df['hour'] = int(timeTemp.split(':')[0].strip().replace(' ',''))
+        df['month'] = int(dateTemp.split('-')[1].strip().replace(' ',''))
+        df['year'] = int(dateTemp.split('-')[-1][:4].strip().replace(' ',''))
 
     # Drop original 'date' column (but not sorting the data)
-    df = df.drop(columns=[dateKey, timeKey])
+    if timeKey!='':
+        df = df.drop(columns=[dateKey, timeKey])
+    else:
+        df = df.drop(columns=[dateKey])
     return df
 
 def getRandomForestModel(nEstimators: int = 100, randomState: int = 42, maxDepth: int = 20, minSampleLeaf:int = 10):

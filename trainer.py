@@ -2,9 +2,9 @@ import warnings
 from constants import *
 from modelFunctions import *
 
-date_key = 'Date'
-time_key = 'Time'
-target_key = 'Price'
+date_key = 'timestamp'
+time_key = ''
+target_key = 'price'
 
 def readCsv(filePath: str, targetColumn: str):
     data = pd.read_csv(filePath)
@@ -36,43 +36,43 @@ warnings.filterwarnings("ignore")
 
 # invokations for training
 
-# rfTrainer(
-#     filePath=finalMergedFile, 
-#     dateKey=date_key, 
-#     timeKey=time_key,
-#     targetKey=target_key, 
-#     testSize=TEST_SIZE, 
-#     randomState=RANDOM_STATE,
-#     nEstimators=N_ESTIMATORS,
-#     maxDepth=MAX_TREE_DEPTH,
-#     minSampleLeaf=LEAF_SIZE, 
-#     minSampleSplit=SAMPLE_SPLIT_SIZE,
-#     nIterations=N_ITERATIONS,
-#     numberOfValidations=CROSS_VALIDATIONS_COUNT
-#     )
+rfTrainer(
+    filePath=finalMergedFile, 
+    dateKey=date_key, 
+    timeKey=time_key,
+    targetKey=target_key, 
+    testSize=TEST_SIZE, 
+    randomState=RANDOM_STATE,
+    nEstimators=N_ESTIMATORS,
+    maxDepth=MAX_TREE_DEPTH,
+    minSampleLeaf=LEAF_SIZE, 
+    minSampleSplit=SAMPLE_SPLIT_SIZE,
+    nIterations=N_ITERATIONS,
+    numberOfValidations=CROSS_VALIDATIONS_COUNT
+    )
 
-# prTrainer(
-#     filePath=finalMergedFile, 
-#     dateKey=date_key, 
-#     timeKey=time_key, 
-#     targetKey=target_key, 
-#     testSize=TEST_SIZE, 
-#     randomState=RANDOM_STATE,
-#     learningRate=LEARNING_RATE
-#     )
+prTrainer(
+    filePath=finalMergedFile, 
+    dateKey=date_key, 
+    timeKey=time_key, 
+    targetKey=target_key, 
+    testSize=TEST_SIZE, 
+    randomState=RANDOM_STATE,
+    learningRate=LEARNING_RATE
+    )
 
-# xgbTrainer( 
-#     filePath=finalMergedFile, 
-#     dateKey=date_key, 
-#     timeKey=time_key, 
-#     targetKey=target_key, 
-#     testSize=TEST_SIZE, 
-#     randomState=RANDOM_STATE,
-#     nEstimators=N_ESTIMATORS,
-#     learningRate=LEARNING_RATE,
-#     maxDepth=MAX_TREE_DEPTH,
-#     crossValidations=CROSS_VALIDATIONS_COUNT
-#     )
+xgbTrainer( 
+    filePath=finalMergedFile, 
+    dateKey=date_key, 
+    timeKey=time_key, 
+    targetKey=target_key, 
+    testSize=TEST_SIZE, 
+    randomState=RANDOM_STATE,
+    nEstimators=N_ESTIMATORS,
+    learningRate=LEARNING_RATE,
+    maxDepth=MAX_TREE_DEPTH,
+    crossValidations=CROSS_VALIDATIONS_COUNT
+    )
 
 AnnTrainer(
     filePath=finalMergedFile, 
