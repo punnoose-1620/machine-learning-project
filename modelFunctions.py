@@ -1,4 +1,5 @@
 import json
+import joblib
 import numpy as np
 import pandas as pd
 import xgboost as xgb
@@ -366,6 +367,7 @@ def xgbTrainer(
     grid_search.fit(X_train, y_train)
 
     best_model = grid_search.best_estimator_
+    joblib.dump(best_model, './ResultModels/XGBoost_Model.pkl')
 
     # Predict on test data
     y_pred = best_model.predict(X_test)
@@ -463,6 +465,8 @@ def AnnTrainer(
 
     histories = []
     mae_scores = []
+    best_model = None
+    best_val_mae = np.inf  # Initialize to a large value
 
     for train_idx, val_idx in kfold.split(X_train_scaled):
         X_train, X_val = X_train_scaled[train_idx], X_train_scaled[val_idx]
@@ -487,6 +491,11 @@ def AnnTrainer(
         mse = mean_squared_error(y_test, y_pred)
         mae = mean_absolute_error(y_test, y_pred)
         r2 = r2_score(y_test, y_pred)
+
+        if val_mae < best_val_mae:
+            best_val_mae = val_mae
+            best_model = model  # Save best model in memory
+            best_model.save("./ResultModels/ANN_Model.h5")  # Save to disk
 
         print(f"ANN Model Results :\nMSE: {mse:.4f}\nMAE: {mae:.4f}\nR² Score: {r2:.4f}\n")
 

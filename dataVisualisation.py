@@ -269,6 +269,34 @@ def plotAnnResults(y_test, y_pred, history, fold_split_number:int = 0):
     plt.legend()
     plt.savefig(os.path.join(plotsFolder, f"ANN_timeSeriesPredictions_{fold_split_number}.png"))  # Save plot
     plt.close()
+    
+def plot_predictions_over_time(X_test, y_test, y_pred, datetime_column_name, title="Predictions vs Actual"):
+    """
+    Plots y_test and y_pred over datetime from X_test.
+
+    Args:
+        X_test (pd.DataFrame): Test features containing a datetime column.
+        y_test (array-like): Actual target values.
+        y_pred (array-like): Predicted target values.
+        datetime_column_name (str): Name of the datetime column in X_test.
+        title (str): Plot title (optional).
+    """
+    # Extract datetime values
+    datetime_vals = pd.to_datetime(X_test[datetime_column_name], format='%Y-%m-%d %H:%M:%S').tail(len(y_pred))
+    y_test_trimmed = y_test[-len(y_pred):]  # Ensure y_test matches length
+
+    plt.figure(figsize=(12, 6))
+    plt.plot(datetime_vals, y_test_trimmed, label="Actual", color='blue')
+    plt.plot(datetime_vals, y_pred, label="Predicted", color='orange', linestyle='--')
+    plt.xlabel("Datetime")
+    plt.ylabel("Prices")
+    plt.title(title)
+    plt.legend()
+    plt.grid(True)
+    plt.tight_layout()
+    plt.savefig(os.path.join(plotsFolder, "Latest Week Predictions Test.png"))  # Save plot
+    plt.close()
+    # plt.show()
 
 # Merge All Data from All regions
 # finalDestination = os.path.join(mergedPlots,'ElectricityGraphs.png')
