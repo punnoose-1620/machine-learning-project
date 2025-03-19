@@ -36,7 +36,7 @@ We use the following Cross Validators:
 
 # [Trainer](./trainer.py)
 
-This file contains Hyper Parameters and invokes each model trainer function from [`modelFunctions.py](./modelFunctions.py).
+This file contains Hyper Parameters and invokes each model trainer function from [`modelFunctions.py`](./modelFunctions.py).
 Different function invokations can be commented to run each model individually. A good example would be:
 `python trainer.py > ./ModelLogs/AnnTrainingLog.txt`
 being used to log training results of ANN after commenting all other invokations on the [`trainer.py`](./trainer.py) file.
