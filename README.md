@@ -37,12 +37,12 @@ We use the following Cross Validators:
 # [Trainer](./trainer.py)
 
 This file contains Hyper Parameters and invokes each model trainer function from [`modelFunctions.py`](./modelFunctions.py).
-Different function invokations can be commented to run each model individually. A good example would be:
-`python trainer.py > ./ModelLogs/AnnTrainingLog.txt`
+Different function invokations can be commented to run each model individually. A good example would be:<br>
+`python trainer.py > ./ModelLogs/AnnTrainingLog.txt`<br>
 being used to log training results of ANN after commenting all other invokations on the [`trainer.py`](./trainer.py) file.
 
-To train all the models at once, you can run this function using the code:
-`python trainer.py > ./ModelLogs/TrainingResults.txt`
+To train all the models at once, you can run this function using the code:<br>
+`python trainer.py > ./ModelLogs/TrainingResults.txt`   
 
 # [Tester](./tester.py)
 This file is used to test the saved XGBoost Model but can be altered to test other model when saved.
