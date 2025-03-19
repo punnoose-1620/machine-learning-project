@@ -76,6 +76,21 @@ y_pred = load_model_and_predict(filename=modelPath, X_test=x_test, targetKey=tar
 # print(f"\nLength Check :\ny_test({len(y_test)}) : {y_test}\ny_pred({len(y_pred)}) : {y_pred}\n")
 plot_predictions_over_time(y_pred=y_pred, y_test=y_test, X_test=original_test, datetime_column_name=date_key)
 
+differences = [round(abs(y_t - y_p), ndigits=2) for y_t, y_p in zip(y_test, y_pred)]
+lowest = 250.0
+highest = 0.0
+mean = 0.0
+for value in differences:
+    if value<lowest:
+        lowest = value
+    if value>highest:
+        highest = value
+    mean = round((mean+value)/2, ndigits=2)
+
+print(f'\nLowest Difference : {lowest} SEK')
+print(f'Highest Difference : {highest} SEK')
+print(f'Average Difference : {mean} SEK\n')
+
 # Compute evaluation metrics
 mse = mean_squared_error(y_test, y_pred)
 mae = mean_absolute_error(y_test, y_pred)
